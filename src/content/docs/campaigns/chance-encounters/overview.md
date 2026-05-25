@@ -14,8 +14,6 @@ description: The Chance Encounters party, across the Frostveil and Storm That Re
 | Shah Doh | — | Paladin | 6–7 |
 | Gareth | — | Warlock | 6–7 |
 
-*(Player names filled in [[pcs/]] during Step 2.)*
-
 ---
 
 ## Arc 1: The Frostveil
