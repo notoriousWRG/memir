@@ -1,12 +1,16 @@
 ---
-title: "Artcoth's Gloves"
+title: "Gloves of the Tide"
 type: item
 attunement: false
 item_type: "wondrous"
 ---
 
-A pair of magic gloves found by [[artcoth]] in the beach wreckage during the White Gull's hard landing on Ariel's island. Pulled from the debris while the party was orienting themselves on the black sand shore.
+Found by [[artcoth]] in the beach wreckage during the White Gull's hard landing on [[ariels-island]]. Pulled from the debris while the party was orienting on the black sand shore.
 
-**Mechanics: TBD.** Source material does not specify what these gloves do. The 05-13 Next Session Plan notes that Artcoth should have an opportunity to use them in the same session he found them — whatever their mechanics, they're designed for an active reveal rather than a slow burn.
+## Properties
 
-Flag for DM confirmation before assigning properties.
+**Water Grip.** Advantage on Sleight of Hand and Thieves' Tools checks made while submerged or in active surf.
+
+**Tide Strike.** Once per day, immediately after landing a Sneak Attack, the target must make a Strength saving throw or lose their grip — dropping a held object, losing purchase on a surface, or being unable to grapple.
+
+*Source: Storm That Remembers — Phase 3 Landfall module.*
