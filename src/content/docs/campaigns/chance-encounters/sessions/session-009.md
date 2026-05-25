@@ -1,5 +1,5 @@
 ---
-title: "Session 9 — Haunted Real Estate"
+title: "Session 9 — New Year, New Home"
 type: session
 session_number: 9
 session_date: ""
@@ -8,12 +8,12 @@ party: chance-encounters
 pcs_present: [grimvald, coriac, artcoth, shah-doh, casus, gareth]
 ---
 
-*Source: "Haunted Realestate" Notion page.*
+*Source: "New Year, New Home" Notion page.*
 
-Two properties. Two very different kinds of wrong.
+The party claims their headquarters — the outcome of the Bellwether House investigation paying off, or another route, depending on what session 8 resolved.
 
-**Hobsworth House** is not a residence — it's a planar curiosity shop that happens to be structured like one. The "haunting" is navigational: rooms that don't connect the same way twice, the logic of the space belonging to somewhere else. Whatever Hobsworth is selling, the shop itself is part of the pitch.
+[[coriac]] receives a message in a bottle from the sea. An SOS of some kind — a signal from someone, or something, that found a way to reach him specifically. The contents and implications are not fully resolved this session.
 
-**Bellwether House** is genuinely haunted. The kind of haunting that tests the people moving through it rather than simply frightening them — something in the structure that reads intent, or history, or weight, and responds in kind. The party walks through it and the house forms opinions.
+[[lady-grimhook]] formalizes the Pendant of Stars offer. The terms around the [[pendant-of-stars]] are made explicit — what she wants, what the party receives, and what happens if the pendant ends up somewhere other than her hands.
 
-*[Outcomes, what was found or resolved at each property, and which (if either) became the party's headquarters to be confirmed from DM notes. This session may precede or overlap with the HQ acquisition in session 8 depending on DM's confirmed timeline.]*
+*[HQ location, bottle contents, and final Pendant terms to be confirmed from DM notes.]*
