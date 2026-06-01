@@ -26,14 +26,17 @@ Canon → Stories → Campaigns
 
 ```
 canon/
-  pantheon/, history/, races/, npcs/, locations/, items/, monsters/
+  pantheon/, history/, races/, npcs/, locations/, items/, monsters/, factions/
 stories/<story-name>/
   overview.md, npcs/, encounters/, locations/, hooks/
 campaigns/<party-name>/
-  overview.md, pcs/, sessions/, ledger/, overrides/, journal.md
-src/
-  content/config.ts     ← Zod schemas, one per entity type
+  overview.md, pcs/, sessions/, ledger/, overrides/, journal.md, _dashboard.md
+schema-reference.md     ← the frontmatter contract, one section per entity type
+Home.md                 ← vault home MOC
 ```
+
+Everything lives at the top level — the repo root *is* the Obsidian vault. `.obsidian/`
+holds vault config + entity templates; `.claude/` holds the skills.
 
 Overrides: `campaigns/<party>/overrides/<entity>.md` — frontmatter points at the canon entity + records changed facts.
 
@@ -47,7 +50,7 @@ Add frontmatter fields when their absence hurts, not before. The schema list for
 
 ### Location schema note
 
-Locations are **first-class entities** (BLeeM-influenced). They carry: `voice`, `tier`, `escalation_triggers`, `active_clocks`. Hollowmere isn't a backdrop — it's a character. Enforce this in the Zod schema.
+Locations are **first-class entities** (BLeeM-influenced). They carry: `voice`, `tier`, `escalation_triggers`, `active_clocks`. Hollowmere isn't a backdrop — it's a character. The full field contract lives in `schema-reference.md`.
 
 ### Consequence ledger
 
@@ -57,11 +60,22 @@ Each campaign ledger entry carries: `choice`, `cost`, `ripple`, `session`, `pcs_
 
 ## Tech stack
 
-- **Astro + Starlight** — rendered site. Content collections with Zod schemas. A missing required field fails the build; that's the point.
-- **Pagefind** — client-side search. Ships with Starlight, no custom work needed.
-- **SQLite index** — generated on each build from frontmatter. Lets you run `SELECT name, voice FROM npcs WHERE location='Hollowmere'` mid-session, and lets Claude do the same.
+The repo is an **Obsidian vault** of plain markdown — no build step, no rendered-site
+toolchain. (It was Astro + Starlight through v1; migrated to Obsidian-first in 2026-05.)
+
+- **Obsidian** — the view/edit surface. Native `[[slug]]` wikilinks, graph view, backlinks,
+  Properties for frontmatter. Recommended community plugins: **Dataview**, **Templater**,
+  **Obsidian Git** (see `SETUP.md`).
+- **Wikilinks** — body prose links with `[[slug]]` / `[[slug|display]]`. Slugs are kebab-case
+  file basenames and are **unique across the whole vault**, so links resolve by name regardless
+  of folder. Keep basenames unique.
+- **Dataview** — replaces the old SQLite index. Query frontmatter live, e.g.
+  `TABLE voice FROM "campaigns/chance-encounters/npcs" WHERE location = "ravencrest"`.
+  `campaigns/chance-encounters/_dashboard.md` is the worked example.
+- **`schema-reference.md`** — the frontmatter contract (no Zod to enforce it now). Entity
+  templates in `.obsidian/templates/` mirror it. Keep frontmatter cross-references (`location`,
+  `party`, `session`, `pcs_*`, `story`) as **bare slugs**; Dataview resolves them with `link()`.
 - **Git** — history + labeled snapshots (e.g. `end-campaign-1`).
-- **VS Code / Claude Code** — only edit surfaces. No in-app edit mode.
 
 ---
 
@@ -115,7 +129,9 @@ None of these need infrastructure yet. Note them when relevant, implement when a
 
 ## Working conventions
 
-- Build errors are signals, not annoyances. If a Zod schema fails, fix the content, not the schema.
+- There's no build to catch malformed frontmatter — match `schema-reference.md` and the
+  existing files in the same folder. New entities: use the templates in `.obsidian/templates/`.
+- When creating a note, give it a unique kebab-case basename so `[[slug]]` links stay unambiguous.
 - When in doubt about canon, ask. Don't infer.
-- Git commits at logical checkpoints (schema done, first story done, SQLite wired). Not after every file.
-- The rendered site is the source of truth for readability. Build and check before calling a content task done.
+- Git commits at logical checkpoints, not after every file.
+- Obsidian (reading view + graph) is the readability check before calling a content task done.

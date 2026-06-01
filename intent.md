@@ -22,6 +22,13 @@ Dependencies flow downward: campaigns reference stories; stories reference canon
 
 ## Data and tooling
 
+> **Migration note (2026-05):** The stack below describes v1. Once the system proved out, the
+> view/edit surface moved from Astro + Starlight to an **Obsidian-first vault** — the repo root
+> is the vault, content lives at the top level (`canon/ stories/ campaigns/`), wikilinks are
+> native, and **Dataview** replaces the planned SQLite index. Astro was removed. The data model,
+> three-layer architecture, and ledger philosophy below are unchanged. See `CLAUDE.md` and
+> `SETUP.md` for the current tooling.
+
 Plain markdown with YAML frontmatter. Frontmatter holds structured fields; the body holds prose. The same file is the database row and the narrative entry.
 
 The stack:
