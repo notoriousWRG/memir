@@ -61,6 +61,22 @@ Triggers are not scripts. They're decisions you've already made, waiting for the
 
 ---
 
+## Challenges — Stage Them, Don't Solve Them
+
+A challenge is not a lock you're hiding the one key to. Your job is to build the situation, not the solution. This is the Brennan Lee Mulligan / Matt Mercer principle: the DM creates the puzzle; the players solve it. You are not allowed to have decided the "right" way through, because deciding it makes every other approach feel wrong, and the table goes linear and quiet while they try to read your mind.
+
+Prep a challenge by setting three things and nothing more:
+
+- **The stage** — the obstacle, the materials at hand, what it wants, what's at stake. Make it concrete and physical enough that players can *do* things to it.
+- **The success trigger** — what state, once reached, means they're through. Not *how* they reach it — just what "solved" looks like.
+- **The fail / force trigger** — what happens if they try to break it, take from it, or barge past. This is usually where the consequence lives.
+
+Then leave the middle empty on purpose. Whatever the players try that satisfies the success trigger *works* — especially the approach you didn't see coming. If you find yourself saying "no, that's not how it's meant to be done," you prepped a solution instead of a challenge. Back up: is the success condition met? Then it worked.
+
+A good challenge has many doors and you haven't picked one. You hold the win and the fail; the players supply the path between them.
+
+---
+
 ## Creative Pain
 
 Choices cost. The consequence ledger records the cost. The ripple is the world's response.

@@ -9,19 +9,21 @@ party: chance-encounters
 Live board for running and prepping sessions. Tables auto-update from frontmatter (Dataview).
 Narrative state lives in [[overview]]; this is the operational layer.
 
-> **Up next — Session 19:** Round 2 of the Storm Draugr fight on [[ariels-island]], picking up
-> mid-combat from [[session-018]].
+> **Up next:** the inland expedition on [[ariels-island]] — the party moves into the interior at
+> first light from Group A's camp, picking up from the end of [[session-018]]. See [[planning]] for the full prep.
 
 ## Open threads for tonight
 
-Pulled from [[session-018]] (carry these in your head):
+The beach fight is resolved; the party pushes inland with [[ollo]] in tow. Carry these:
 
-- **Storm Draugr — Round 2.** 5 draugr on the board. Draugr A turned by [[coriac]] (may return); D & E at the waterline adjacent to Coriac — the pressure point.
-- **The missing captain.** No body found. [[grimvald]]'s Suggestion on him before the grounding is unacknowledged and unresolved — powder keg.
+- **The interior.** Spar Field → the Hollowed Hull (Group B's last camp) → toward the Circled Zone where [[ariel]] is bound and [[edrin-vael]] keeps her.
+- **The treeline captain.** Group A's old captain, sighted at the treeline — alive and watching, or the island's trick. (Decide: is he Edrin or distinct?)
+- **The crew that left.** Some survivors walked inland weeks ago and never came back.
+- **The surviving draugr** watch from offshore — present, not hostile.
+- **[[dessa]]** gave patterns, not truth; **[[ollo]]** is eager and naive; **[[marek]]** is the open one.
 - **[[ariel]]'s unfinished sentence** to [[coriac]] — still hanging.
-- **[[casus]]'s [[ovaltine-potion]]** — island is saturated with Ariel's presence; using it here reacts to *her* specifically.
-- **The missing anchor** — [[gareth]]'s problem; leaving the island needs a solution they don't have.
-- **[[elara-venn]] and [[wrenn]]** on the [[white-gull-captain|White Gull]] — crew-loyalty thread, off-map.
+- **The White Gull captain** still missing; [[grimvald]]'s Suggestion still unacknowledged — powder keg.
+- **[[elara-venn]] and [[wrenn]]** left on the beached ship — crew-loyalty clock ticking.
 
 See [[overview#Active Threads]] for the full standing thread list (Shalindra's pact, the Circle, Liriel's ring, the Pendant).
 

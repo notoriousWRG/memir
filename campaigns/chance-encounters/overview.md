@@ -5,14 +5,14 @@ description: The Chance Encounters party, across the Frostveil and Storm That Re
 
 ## Party Roster
 
-| Character | Player | Class | Level |
-|---|---|---|---|
-| Casus | — | Wizard | 6–7 |
-| Grimvald | — | Bard | 6–7 |
-| Coriac | — | Cleric (Nature) | 6–7 |
-| Artcoth ("Art") | — | Rogue | 6–7 |
-| Shah Doh | — | Paladin | 6–7 |
-| Gareth | — | Warlock | 6–7 |
+| Character       | Player       | Class           | Level |
+| --------------- | ------------ | --------------- | ----- |
+| Casus           | Chris        | Wizard          | 6     |
+| Grimvald        | Jesse        | Bard            | 6     |
+| Coriac          | Josh         | Cleric (Nature) | 7     |
+| Artcoth ("Art") | Craig (Pops) | Rogue           | 7     |
+| Shah Doh        | Corey        | Paladin         | 7     |
+| Gareth          | Zack         | Warlock         | 7     |
 
 ---
 
@@ -48,17 +48,18 @@ The storm came on deliberately. It intensified in phases — weather that starte
 
 The White Gull grounded on black sand. Ariel's presence saturates the island. She began a sentence to Coriac that she did not finish.
 
-Five Storm Draugr emerged from fog and surf.
+Five Storm Draugr emerged from fog and surf. The party won the beach but not cleanly — the draugr fought like the crew they'd been, and at the end covered each other's retreat: one waved another back to the water, and the one who held to cover him was struck down. The survivors who escaped now watch from offshore. Inland of the wrecks the party found the island's living survivors (Group A) — Marek, Ollo, and Dessa — and got fragments out of them: a crew that walked inland weeks ago and never returned, and their old captain reportedly seen at the treeline. The party chose to push into the interior. Ollo, the navigator's apprentice, asked to come and was allowed. They rested in Casus's conjured dome to wait for morning.
 
 ---
 
 ## Current State
 
 **Level:** 6–7  
-**Location:** Ariel's island, black sand beach  
-**Status:** Mid-combat — Storm Draugr fight in progress, end of Round 1 (Round 2 pending)  
-**Captain:** Missing; ambiguous — no body found  
-**Ship:** White Gull grounded; Elara Venn and Wrenn returned to assess damage
+**Location:** Ariel's island — Group A's camp, resting in Casus's dome; moving inland at first light  
+**Status:** Storm Draugr fight resolved (survivors watching from offshore); long rest taken; inland expedition prepped  
+**White Gull captain:** Missing; ambiguous — no body found  
+**Companions:** Ollo (Group A navigator's apprentice) now travelling with the party  
+**Ship:** White Gull grounded; Elara Venn and Wrenn left aboard to assess damage
 
 ---
 
@@ -66,8 +67,13 @@ Five Storm Draugr emerged from fog and surf.
 
 | Thread | Status | Notes |
 |---|---|---|
-| Storm Draugr fight | In progress — Round 2 | Coriac isolated at waterline; Casus and Gareth invisible |
-| The captain | Missing — no body | Ambiguous; the island may know where he is |
+| Storm Draugr fight | Resolved | Several dissolved; survivors broke off under a coordinated retreat and now watch from offshore — present, not hostile |
+| The inland expedition | Active — next | Party pushes into the interior at first light; the unknown of the island's center |
+| Group A survivors (Dessa, Marek, Ollo) | Met | Camp behind a rope-and-bone alarm; Marek open, Ollo eager, Dessa guarded — gave patterns, not truth |
+| Ollo travelling with party | Active | Navigator's apprentice joined the inland push; useful and naive |
+| Group A's old captain | New — unverified | Sighted from the treeline; alive and watching, or the island's trick. Open: is he Edrin Vael or distinct? |
+| The crew that left | New | Some Group A survivors walked inland weeks ago and never returned |
+| The White Gull captain | Missing — no body | Ambiguous; the island may know where he is |
 | Elara Venn + Wrenn | Off-map, on the ship | Crew loyalty thread; watching how this resolves |
 | Artcoth's gloves | Found — mechanics TBD | Pulled from beach wreckage |
 | Casus's Ovaltine potion | Held | Experimental latent-magic potion; island saturated with Ariel's presence — high-risk use |

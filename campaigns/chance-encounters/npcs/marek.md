@@ -20,3 +20,7 @@ Suspects the storm gathers ships connected to unfinished grief — not guilt, gr
 Saw the party's ship hit the beach. Watched who pulled who to safety. Has been doing the math on each of them since they walked up.
 
 Noticed [[gareth]] specifically — the way he looks at him is the way he looks at ships, trying to figure out what kind of wood, how old, what it's been through. He respects someone who has survived things in a way he can't quite articulate.
+
+## First contact (session 18)
+
+When the party reached the camp, Marek fed them stew before anyone explained why they'd come — food before anything else, no calculation in it. He was the easy one to talk to. Has not yet said his theory about grief out loud.

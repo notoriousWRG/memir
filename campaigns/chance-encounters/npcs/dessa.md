@@ -20,3 +20,7 @@ She wants to go inland and find what the island is holding. She believes somethi
 ## What she won't say yet
 
 She thinks the captain of their previous ship made a choice that got people killed. She's not ready to blame anyone by name. Any direct question about Edrin gets redirected — she gives real information about the storm patterns and draugr behavior instead. A second conversation, or a moment of real honesty from the party, unlocks the rest.
+
+## First contact (session 18)
+
+The party met her at the camp and pushed her for answers. She held the line — gave them the patterns of the place and not its truth — and when the pushing continued she finished her knot and retired to bed, leaving the party frustrated. She confirmed two things on the way out: some of their crew walked inland a few weeks ago and never came back, and their old captain has been sighted from the treeline (the camp doesn't agree on whether he's really there). The honest conversation that would open the rest hasn't happened yet.

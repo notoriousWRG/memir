@@ -20,3 +20,7 @@ Will share the map if he trusts the party. Will ask what they know first.
 ## What he wants
 
 Someone to tell him what's happening. He has theories but no confidence in them and has been too afraid to ask Dessa.
+
+## Travelling with the party (session 18)
+
+When the party met the camp, Ollo was eager — spilled his notes and theories to people who'd actually listen. When they decided to push inland, he **asked to come along** to chart the island and solve its mysteries, and the party agreed. He travels with them now: useful for his logs and his map, dangerously naive about what the interior costs. He left the relative safety of [[dessa]]'s camp to do it.

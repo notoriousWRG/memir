@@ -8,8 +8,10 @@ escalation_triggers:
   - "Tier 2 — Crisis: Casus uses the Ovaltine potion on the island; the captain surfaces (alive, wrong, or in Ariel's custody); Grimvald's Suggestion reaches the captain"
   - "Tier 3 — Catastrophe: Party tries to dominate or extract rather than listen; fog thickens; the wrecks shift; something large moves in the water off the reef"
 active_clocks:
-  - "Storm Draugr fight — Round 2 pending"
-  - "Captain missing — island may be holding him"
+  - "Inland expedition — party pushes into the interior at first light (session 18 end)"
+  - "Group A's old captain — sighted from the treeline; alive and watching, or the island playing tricks"
+  - "The crew that left — Group A survivors who walked inland weeks ago and never returned"
+  - "White Gull captain missing — island may be holding him"
   - "Ariel's unfinished sentence — she was about to speak"
 ---
 
@@ -21,7 +23,9 @@ The island responds to posture. Players who try to dominate, intimidate, or extr
 
 ## Key locations
 
-**The beach** — Black sand, wrecked ships, fog. The draugr come from the water, never from inland. The island absorbs them when they dissolve.
+**The beach** — Black sand, wrecked ships, fog. The draugr come from the water, never from inland. The island absorbs them when they dissolve. As of session 18 the beach fight is over; the surviving draugr watch from offshore rather than landing.
+
+**Group A's camp** — Inland of the wrecks, behind a crude alarm perimeter of rope and bone strung at ankle height. Home to the survivors [[dessa]], [[marek]], and [[ollo]]. A fire, organized scarcity, people who have been here long enough to stop being scared. Some of their crew walked inland weeks ago and never came back; their old captain is reportedly sighted at the treeline.
 
 **The Spar Field** — Just past the treeline. Masts and spars from multiple wrecks at different angles; moss grows in the direction of the island's center. Difficult terrain. Wind through the standing spars produces low, sustained tones — not music, not voices, but the threshold between them.
 
