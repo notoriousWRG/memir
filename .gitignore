@@ -8,3 +8,8 @@
 .obsidian/graph.json
 .trash/
 session_audio
+
+# Quartz player-site build artifacts
+site/node_modules
+site/public
+site/.quartz-cache
