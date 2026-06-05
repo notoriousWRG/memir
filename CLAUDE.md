@@ -76,6 +76,10 @@ toolchain. (It was Astro + Starlight through v1; migrated to Obsidian-first in 2
   templates in `.obsidian/templates/` mirror it. Keep frontmatter cross-references (`location`,
   `party`, `session`, `pcs_*`, `story`) as **bare slugs**; Dataview resolves them with `link()`.
 - **Git** — history + labeled snapshots (e.g. `end-campaign-1`).
+- **Session art** — `generate-session-art.py` (repo root) turns a session prep file into
+  Ideogram-generated scene/character/battlemap PNGs in the session's `art/` folder. Visual style
+  lives in **`art-style.md`** (frontmatter = the single source of truth for theming; edit there to
+  change the look). Needs `IDEOGRAM_API_KEY` (env or `.env`) and `requests` + `python-dotenv`.
 
 ---
 
