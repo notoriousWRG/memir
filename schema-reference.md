@@ -94,3 +94,14 @@ explicit direction.
 ### history-entry
 - `era` — string (which age this belongs to)
 - `period` — string (rough descriptor)
+
+## Player-site fields
+
+These fields apply to any entity type published to the player site. They sit alongside the
+type-specific fields above.
+
+- `publish` — boolean. `true` = included in the Quartz build; absent or `false` = excluded.
+  Only set this after applying the session-occurrence test and wrapping any hidden spans.
+
+No other player-site fields are needed at this time. The `%%...%%` comment notation is
+handled at the markup level, not via frontmatter.
