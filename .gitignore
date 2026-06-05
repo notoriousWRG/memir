@@ -3,3 +3,6 @@ dist/
 build/
 .env
 .astro/
+
+session_audio
+.obsidian
