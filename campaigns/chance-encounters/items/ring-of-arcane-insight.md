@@ -4,6 +4,7 @@ type: item
 rarity: rare
 attunement: true
 item_type: "ring"
+current_holder: lady-grimhook
 ---
 
 One of the six [[liriel-baenre]] Frostveil artifacts. Currently held by [[lady-grimhook]], taken from Eamon the Seer. Grimhook uses it to detect intent to betray in those she deals with.

@@ -1,8 +1,10 @@
 ---
 title: "Gloves of the Tide"
 type: item
+rarity: uncommon
 attunement: false
 item_type: "wondrous"
+current_holder: artcoth
 ---
 
 Found by [[artcoth]] in the beach wreckage during the White Gull's hard landing on [[ariels-island]]. Pulled from the debris while the party was orienting on the black sand shore.
