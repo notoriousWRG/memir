@@ -21,6 +21,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.ArticleTitle(),
     Component.ContentMeta(),
     Component.TagList(),
+    Component.PCStats(),
     Component.ConditionalRender({
       component: Component.PartyRoster(),
       condition: (page) => page.fileData.slug === "index",
