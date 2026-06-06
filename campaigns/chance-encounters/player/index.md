@@ -3,22 +3,19 @@ title: "Chance Encounters — Party Records"
 publish: true
 ---
 
-Six strangers, assembled by circumstance. Their campaign spans two arcs, an underdark pact, a ship they didn't plan to keep, and a storm that had opinions about where they were going.
+Six strangers, assembled by circumstance. Two arcs, an underdark pact, a ship they didn't plan to keep, and a storm that had opinions about where they were going.
 
-These records document the party of *Chance Encounters* — who they are, what they've done, and what it's cost.
+## Where the Party Stands
 
-## The Chronicle
+The party is on Ariel's island, rested and moving inland at first light. The storm draugr fight on the beach is behind them — some dissolved, the survivors pulling back offshore, watching. The White Gull is grounded on black sand; Elara Venn and Wrenn stayed aboard to assess the damage. The captain is missing. No body was found.
 
-[[party-story]] — the full narrative from the tunnels beneath the Ironspine to the interior of Ariel's island.
+Ollo — the navigator's apprentice, one of the island's survivors — is travelling with them.
 
-## The Party
+## The Story So Far
 
-- [[pcs/artcoth|Artcoth]] — Half-elf. Former Circle operative. Coordinates when everything goes wrong.
-- [[pcs/casus|Casus]] — Human wizard. Appeared in the dark. Stayed.
-- [[pcs/coriac|Coriac]] — Elf cleric of Thor. Spent his first century at sea. Took a lightning strike so the ship wouldn't.
-- [[pcs/gareth|Gareth]] — Human warlock. Believes his patron is Odin.
-- [[pcs/grimvald|Grimvald]] — Half-elf bard. Started at the bottom of a barrel. Still figuring out what that means.
-- [[pcs/shah-doh|Shah Doh]] — Half-orc paladin. Left everything on a dream's word. Has not stopped moving since.
+The full chronicle: [[party-story|The Party Chronicle]] — from the tunnels beneath the Ironspine to the interior of Ariel's island.
+
+*Most recently:* the party crossed the Spar Field, settled a debt with a Threshold Warden, and passed into the island's interior. The cursed sword stayed on the scales.
 
 ## People They've Met
 
