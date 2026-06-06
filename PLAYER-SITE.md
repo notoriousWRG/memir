@@ -9,13 +9,13 @@ default.
 
 ```bash
 cd site
-npx quartz build -d .. --serve
+npx quartz build -d ../campaigns/chance-encounters/player --serve
 ```
 
 Then open `http://localhost:8080/memir/`. The `/memir` prefix comes from the `baseUrl` in
 `quartz.config.ts` — the root URL will 404; the site lives one level down.
 
-The build reads from the vault root (`..`) and applies all the same filters as the live site.
+The build reads from the player folder only — DM files are outside the build root entirely.
 
 ## Publish gate — `publish: true`
 

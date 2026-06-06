@@ -33,7 +33,7 @@ jobs:
         run: cd site && npm ci
 
       - name: Build
-        run: cd site && npx quartz build -d ..
+        run: cd site && npx quartz build -d ../campaigns/chance-encounters/player
 
       - uses: actions/upload-pages-artifact@v3
         with:

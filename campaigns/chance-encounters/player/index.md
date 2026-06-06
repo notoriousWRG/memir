@@ -13,12 +13,12 @@ These records document the party of *Chance Encounters* — who they are, what t
 
 ## The Party
 
-- [[campaigns/chance-encounters/player/pcs/artcoth|Artcoth]] — Half-elf. Former Circle operative. Coordinates when everything goes wrong.
-- [[campaigns/chance-encounters/player/pcs/casus|Casus]] — Human wizard. Appeared in the dark. Stayed.
-- [[campaigns/chance-encounters/player/pcs/coriac|Coriac]] — Elf cleric of Thor. Spent his first century at sea. Took a lightning strike so the ship wouldn't.
-- [[campaigns/chance-encounters/player/pcs/gareth|Gareth]] — Human warlock. Believes his patron is Odin.
-- [[campaigns/chance-encounters/player/pcs/grimvald|Grimvald]] — Half-elf bard. Started at the bottom of a barrel. Still figuring out what that means.
-- [[campaigns/chance-encounters/player/pcs/shah-doh|Shah Doh]] — Half-orc paladin. Left everything on a dream's word. Has not stopped moving since.
+- [[pcs/artcoth|Artcoth]] — Half-elf. Former Circle operative. Coordinates when everything goes wrong.
+- [[pcs/casus|Casus]] — Human wizard. Appeared in the dark. Stayed.
+- [[pcs/coriac|Coriac]] — Elf cleric of Thor. Spent his first century at sea. Took a lightning strike so the ship wouldn't.
+- [[pcs/gareth|Gareth]] — Human warlock. Believes his patron is Odin.
+- [[pcs/grimvald|Grimvald]] — Half-elf bard. Started at the bottom of a barrel. Still figuring out what that means.
+- [[pcs/shah-doh|Shah Doh]] — Half-orc paladin. Left everything on a dream's word. Has not stopped moving since.
 
 ## People They've Met
 

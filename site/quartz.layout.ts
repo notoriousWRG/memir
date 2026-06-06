@@ -32,16 +32,25 @@ export const defaultContentPageLayout: PageLayout = {
           grow: true,
         },
         { Component: Component.Darkmode() },
-        { Component: Component.ReaderMode() },
       ],
     }),
-    Component.Explorer(),
+    Component.Explorer({
+      title: "Party Records",
+      folderDefaultState: "open",
+      mapFn: (node) => {
+        if (node.name === "pcs") node.displayName = "The Party"
+        return node
+      },
+      sortFn: (a, b) => {
+        // Folders before files, then alphabetical
+        const aIsFolder = !a.file
+        const bIsFolder = !b.file
+        if (aIsFolder !== bIsFolder) return aIsFolder ? -1 : 1
+        return a.displayName.localeCompare(b.displayName)
+      },
+    }),
   ],
-  right: [
-    Component.Graph(),
-    Component.DesktopOnly(Component.TableOfContents()),
-    Component.Backlinks(),
-  ],
+  right: [Component.DesktopOnly(Component.TableOfContents())],
 }
 
 // components for pages that display lists of pages  (e.g. tags or folders)
