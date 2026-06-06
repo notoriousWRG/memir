@@ -2,6 +2,8 @@
 title: "{{title}}"
 type: pc
 player: ""
-class_level: ""
+class: ""
+level: 
+xp: 
 pc_race: ""
 ---

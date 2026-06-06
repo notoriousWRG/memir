@@ -66,7 +66,9 @@ First-class entity (BLeeM-influenced) — locations have turns.
 
 ### pc
 - `player` — string (real-world player name)
-- `class_level` — string, e.g. "Rogue 5 / Wizard 2"
+- `class` — string, e.g. "Rogue 5 / Wizard 2"
+- `level` — integer, current character level
+- `xp` — integer, total earned XP
 - `pc_race` — string (kept separate from npc `race`)
 
 ### ledger-entry

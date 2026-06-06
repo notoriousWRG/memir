@@ -2,8 +2,10 @@
 title: "Coriac"
 type: pc
 player: "Josh Smith"
+class: "Cleric (Nature)"
+level: 7
+xp: 23900
 pc_race: "Elf"
-class_level: "Cleric (Nature) 6–7"
 ---
 
 Sea-faring elf. Spent his first century at sea — sailing, fishing, dock work. Devoted to [[thor]]. Served as Boatswain on the *Fair Wind* before the Chance Encounters arc began. Wields [[mjolnirs-fury]] — a warhammer carried since his early devotion to Thor, which crystallized into something more during the storm crossing to [[ariels-island]] when he took a direct lightning strike to protect the ship. Also carries the [[forge-shard]], an unfinished blessing from Thor's temple that completes itself through a specific roleplay act on the island.

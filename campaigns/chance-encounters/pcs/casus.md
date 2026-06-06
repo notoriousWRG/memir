@@ -2,8 +2,10 @@
 title: "Casus"
 type: pc
 player: "Chris Morrison"
+class: "Wizard"
+level: 6
+xp: 21600
 pc_race: "Human"
-class_level: "Wizard 6–7"
 ---
 
 Fell into adventuring unexpectedly — not a typical career path. Curious, tactically minded, increasingly entangled in ancient magical legacies he didn't go looking for.

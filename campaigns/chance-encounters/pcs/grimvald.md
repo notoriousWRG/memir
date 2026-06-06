@@ -2,8 +2,10 @@
 title: "Grimvald"
 type: pc
 player: "Jesse"
+class: "Bard / Warlock"
+level: 6
+xp: 20550
 pc_race: "Half-Elf"
-class_level: "Bard / Warlock 6–7"
 ---
 
 A performer who chased greatness and found something he didn't expect at the bottom of a rune-bound barrel at the Echo of Mead. The voices started that night — smooth, coaxing, promising he was born for greatness. He thought it was madness or ego. Then the duergar took him.

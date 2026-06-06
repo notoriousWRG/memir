@@ -2,8 +2,10 @@
 title: "Shah Doh"
 type: pc
 player: "Corey"
+class: "Paladin"
+level: 7
+xp: 23550
 pc_race: "Half-Orc"
-class_level: "Paladin 6–7"
 ---
 
 Half-Orc paladin from the village of Drog, raised in the tradition of Gruumsh, carrying a name he never fully understood. Shah's mother has always been cagey about his father — she knows that if Shah learns the truth, he won't stay on the half-orc path her family built. On his 30th nameday, Shah had a vivid dream: a figure told him his faith didn't belong to Gruumsh and that he needed to leave Drog to find where it did. He left.

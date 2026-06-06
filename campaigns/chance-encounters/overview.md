@@ -5,14 +5,14 @@ description: The Chance Encounters party, across the Frostveil and Storm That Re
 
 ## Party Roster
 
-| Character       | Player       | Class           | Level |
-| --------------- | ------------ | --------------- | ----- |
-| Casus           | Chris        | Wizard          | 6     |
-| Grimvald        | Jesse        | Bard            | 6     |
-| Coriac          | Josh         | Cleric (Nature) | 7     |
-| Artcoth ("Art") | Craig (Pops) | Rogue           | 7     |
-| Shah Doh        | Corey        | Paladin         | 7     |
-| Gareth          | Zack         | Warlock         | 7     |
+| Character       | Player       | Class           | Level | XP     |
+| --------------- | ------------ | --------------- | ----- | ------ |
+| Casus           | Chris        | Wizard          | 6     | 21,600 |
+| Grimvald        | Jesse        | Bard            | 6     | 20,550 |
+| Coriac          | Josh         | Cleric (Nature) | 7     | 23,900 |
+| Artcoth ("Art") | Craig (Pops) | Rogue           | 7     | 23,600 |
+| Shah Doh        | Corey        | Paladin         | 7     | 23,550 |
+| Gareth          | Zack         | Warlock         | 7     | 23,700 |
 
 ---
 

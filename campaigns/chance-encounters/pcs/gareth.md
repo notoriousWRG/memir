@@ -2,8 +2,10 @@
 title: "Gareth"
 type: pc
 player: "Zack Smith"
+class: "Warlock"
+level: 7
+xp: 23700
 pc_race: "Human"
-class_level: "Warlock 6–7"
 ---
 
 Warlock who believes his patron is Odin. It is not. His patron is Feanoro, a corrupted seer once in service of Odin who fell to [[nidhogg]]'s influence while delving too deep into Yggdrasil's roots. Feanoro approached Gareth in his moment of desperation — separated from his parents, surrounded by cloaked men in Odin's temple — and posed as a divine messenger. Gareth didn't know the difference. He still doesn't.

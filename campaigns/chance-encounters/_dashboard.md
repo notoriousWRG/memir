@@ -33,7 +33,9 @@ See [[overview#Active Threads]] for the full standing thread list (Shalindra's p
 TABLE WITHOUT ID
   link(file.link) AS PC,
   player AS Player,
-  class_level AS Class,
+  class AS Class,
+  level AS Level,
+  xp AS XP,
   pc_race AS Race
 FROM "campaigns/chance-encounters/pcs"
 SORT file.name ASC

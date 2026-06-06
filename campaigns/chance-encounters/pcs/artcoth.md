@@ -2,8 +2,10 @@
 title: "Artcoth"
 type: pc
 player: "Craig Smith"
+class: "Rogue"
+level: 7
+xp: 23600
 pc_race: "Half-Elf"
-class_level: "Rogue 6–7"
 ---
 
 Pragmatic, coordinating, motivated by money. Travels with [[gareth]] — ally, co-conspirator, or both. Former associate of the Circle — an organization that operates thieves' guilds under legitimate trading fronts as cover for artifact collection and worse. Artcoth's connection to the Circle is old and complicated; they tested him again in Ravencrest, and he chose differently than they expected.
