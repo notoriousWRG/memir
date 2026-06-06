@@ -5,6 +5,7 @@ role: "Navigator's apprentice — Group A survivors"
 voice: "Asks clarifying questions before answering yours: 'When you say the storm — do you mean the crossing, or do you mean... it?'"
 attitude: friendly
 location: "ariels-island"
+publish: true
 ---
 
 Twenty at most, still carrying the look of someone who hasn't fully accepted they're not going home soon. Smart, observant, quietly desperate. Attached himself to [[dessa]] because she doesn't treat uncertainty like a personal failure.
@@ -15,7 +16,7 @@ Glances at Dessa before answering anything sensitive, even if she's not part of 
 
 Has been logging patterns — wreck positions, crew compositions, when the draugr come and when they don't. Has a crude map showing wreck positions and patterns in draugr appearances (always from the water, never from inland), with a circle drawn around one area marked *"don't go here yet."* He doesn't know what's there. He just knows the island feels different in that direction.
 
-Will share the map if he trusts the party. Will ask what they know first.
+%%Will share the map if he trusts the party. Will ask what they know first.%%
 
 ## What he wants
 

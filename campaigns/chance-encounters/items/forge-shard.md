@@ -5,6 +5,7 @@ rarity: uncommon
 attunement: false
 item_type: "wondrous"
 current_holder: coriac
+publish: true
 ---
 
 A rough piece of dark metal, palm-sized, worked smooth on one face from [[coriac]]'s own hammering. No markings. Warm to the touch at all times. It doesn't look like a magic item. That's also the point.
@@ -19,6 +20,7 @@ The shard is warm to the touch at all times. In the presence of significant stor
 
 It does not grant mechanical benefit yet.
 
+%%
 ## Resolution Condition
 
 The shard completes itself through a roleplay act on Ariel's island — not a skill check. When Coriac does something that defines his relationship to Ariel (speaks for her, refuses to bind her, mediates between her and [[edrin-vael]] at cost to himself), the item finishes. What it becomes should reflect the specific act.
@@ -26,3 +28,4 @@ The shard completes itself through a roleplay act on Ariel's island — not a sk
 ## DM Note
 
 Hold this. The anticipation of an unfinished item is its own table energy. Don't rush the resolution. The island arc is where it pays off.
+%%
