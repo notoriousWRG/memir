@@ -1,6 +1,9 @@
 ---
 title: "Casus"
 type: pc
+class: "Wizard"
+level: 6
+xp: 21600
 publish: true
 ---
 

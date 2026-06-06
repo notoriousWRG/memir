@@ -1,6 +1,9 @@
 ---
 title: "Coriac"
 type: pc
+class: "Cleric (Nature)"
+level: 7
+xp: 23900
 publish: true
 ---
 

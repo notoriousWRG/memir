@@ -1,6 +1,9 @@
 ---
 title: "Shah Doh"
 type: pc
+class: "Paladin"
+level: 7
+xp: 23550
 publish: true
 ---
 

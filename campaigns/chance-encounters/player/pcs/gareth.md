@@ -1,6 +1,9 @@
 ---
 title: "Gareth"
 type: pc
+class: "Warlock"
+level: 7
+xp: 23700
 publish: true
 ---
 
