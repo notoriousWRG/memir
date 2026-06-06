@@ -1,3 +1,63 @@
 @use "./base.scss";
 
-// put your custom CSS here!
+// ── Storm & Bronze fantasy layer ────────────────────────────────────────────
+
+// Cinzel heading treatment with a bronze underline rule
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--headerFont);
+  letter-spacing: 0.03em;
+}
+
+h1 {
+  border-bottom: 2px solid var(--tertiary);
+  padding-bottom: 0.25rem;
+}
+
+h2 {
+  border-bottom: 1px solid color-mix(in srgb, var(--tertiary) 50%, transparent);
+  padding-bottom: 0.15rem;
+}
+
+// Tide-green links, bronze on hover
+a {
+  color: var(--secondary);
+  text-decoration: none;
+  transition: color 0.15s ease;
+
+  &:hover {
+    color: var(--tertiary);
+  }
+}
+
+// Content card — subtle border + shadow to lift content off the storm-slate
+.center {
+  border: 1px solid var(--lightgray);
+  border-radius: 4px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
+}
+
+// Blockquote as a scroll / in-world aside
+blockquote {
+  border-left: 3px solid var(--tertiary);
+  background: color-mix(in srgb, var(--tertiary) 8%, var(--light));
+  border-radius: 0 4px 4px 0;
+  padding: 0.6rem 1rem;
+  font-style: italic;
+  color: var(--darkgray);
+}
+
+// Tag chips — bronze tint
+.tag-link {
+  background: color-mix(in srgb, var(--tertiary) 15%, transparent);
+  border: 1px solid color-mix(in srgb, var(--tertiary) 40%, transparent);
+  color: var(--tertiary);
+  border-radius: 3px;
+  padding: 0.1rem 0.4rem;
+  font-size: 0.8em;
+  letter-spacing: 0.04em;
+
+  &:hover {
+    background: color-mix(in srgb, var(--tertiary) 25%, transparent);
+    color: var(--tertiary);
+  }
+}
