@@ -16,11 +16,3 @@ Ollo — the navigator's apprentice, one of the island's survivors — is travel
 The full chronicle: [[party-story|The Party Chronicle]] — from the tunnels beneath the Ironspine to the interior of Ariel's island.
 
 *Most recently:* the party crossed the Spar Field, settled a debt with a Threshold Warden, and passed into the island's interior. The cursed sword stayed on the scales.
-
-## People They've Met
-
-*Coming in the next update.*
-
-## What They Carry
-
-*Coming in the next update.*

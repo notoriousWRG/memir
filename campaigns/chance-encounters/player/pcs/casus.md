@@ -11,7 +11,7 @@ Human wizard. Curious, tactically minded, increasingly entangled in magical lega
 
 ## The Liriel Thread
 
-Casus is tied to [[liriel-baenre]] in some way — by blood, by something older, or both. The Ring of Arcane Insight connects to her. That thread hasn't resolved yet.
+Casus is tied to Liriel in some way — by blood, by something older, or both. The Ring of Arcane Insight connects to her. That thread hasn't resolved yet.
 
 ## The Obsidian Cypher
 

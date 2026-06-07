@@ -27,7 +27,7 @@ Whether the pact with Shalindra was fulfilled to her satisfaction was never aske
 
 Downtime in Ravencrest. Ovaltine's shop produced a rift — small, not sustained, but a threshold crossed, with the party present. Grimhook visited and the Pendant of Stars terms were formalized into a contract with specific stakes. Before the voyage, the party acquired a headquarters: two properties competed — a planar curiosity shop with rooms that didn't connect the same way twice, and a genuinely haunted house that had opinions about who moved through it. The party made their choice.
 
-Coriac received a message in a bottle. An SOS that found him specifically — sent by Tjorvi, the White Gull's record-keeper, from somewhere ahead of them.
+Coriac received a message in a bottle. An SOS that found him specifically — sent by [[tjorvi|Tjorvi]], the White Gull's record-keeper, from somewhere ahead of them.
 
 The White Gull was acquired through Grimhook's contract. Its captain was not a simple contractor — his relationship to the sea, the crew, and this particular voyage carried texture the party would need to understand. On the crossing, the storm came on deliberately. It intensified in phases — weather that began as bad and became something with intention, something directing them rather than obstructing them. Grimvald had a moment in the early crossing that held the crew together when morale was close to breaking. He cast Suggestion on the captain. The captain pressed on against his own stated condition without knowing why.
 
@@ -37,7 +37,7 @@ The White Gull grounded on black sand. The captain was missing — no body.
 
 Items from the storm crossing: [[artcoths-gloves]] from the beach wreckage, [[shield-of-storms-mercy]], [[stormglass-shard]], [[storm-notation]], [[wardens-bone]].
 
-Five [[storm-draugr]] emerged from the fog and the surf.
+Five storm draugr emerged from the fog and the surf.
 
 The fight on the beach was won and it felt like nothing. They had fought like the sailors they'd been — footing, leverage, the waterline as territory. Toward the end, with their numbers thinning, they did something undead aren't supposed to do: coordinated a retreat. One gestured another back toward the water. The one who gave the signal stayed a beat longer to cover the escape. He was struck down where he stood. The ones who got away surfaced offshore and watched. The party walked off the sand carrying a victory nobody wanted.
 
@@ -65,7 +65,7 @@ The Hollowed Hull rose from the treeline: a ship's skeleton half-consumed by the
 
 The song stopped mid-phrase.
 
-Tjorvi came to the hatch — gaunt, one eye swollen, still visibly drunk. Inside: Onund on a dais of stacked crates dressed in layered clothes worn like regalia, spreading his hands for arriving petitioners. A sailcloth partition at the back of the hull breathing in a draft that had no business being there. Artcoth moved through the space: no one else on this side of the sail, the draft coming through the partition rather than the doors. In the hoard chest: junk, but among it a small cord with a knotted sigil that had held up better than everything around it. He pocketed it.
+Tjorvi came to the hatch — gaunt, one eye swollen, still visibly drunk. Inside: [[onund|Önund]] on a dais of stacked crates dressed in layered clothes worn like regalia, spreading his hands for arriving petitioners. A sailcloth partition at the back of the hull breathing in a draft that had no business being there. Artcoth moved through the space: no one else on this side of the sail, the draft coming through the partition rather than the doors. In the hoard chest: junk, but among it a small cord with a knotted sigil that had held up better than everything around it. He pocketed it.
 
 Casus made his adventuring rope glow faint blue and coiled it slowly. Onund's hand shot out and grabbed Tjorvi's chest. His mouth moved: *"The court recognizes this."* Casus raised a firebird from the fire with a cantrip — it came out into the room and dissipated. He said: *"Tradition."* Onund sat back down with the weight of someone who had been waiting a long time for something worth looking at. *"My wizard. You have blessed us. You may ask what you came to ask."*
 

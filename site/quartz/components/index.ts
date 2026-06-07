@@ -25,6 +25,8 @@ import Flex from "./Flex"
 import ConditionalRender from "./ConditionalRender"
 import PartyRoster from "./PartyRoster"
 import PCStats from "./PCStats"
+import NpcGallery from "./NpcGallery"
+import ItemGallery from "./ItemGallery"
 
 export {
   ArticleTitle,
@@ -54,4 +56,6 @@ export {
   ConditionalRender,
   PartyRoster,
   PCStats,
+  NpcGallery,
+  ItemGallery,
 }
