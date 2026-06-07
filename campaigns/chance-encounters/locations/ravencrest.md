@@ -13,6 +13,8 @@ Port city. The party spent downtime here between the Frostveil arc and the Storm
 
 **[[ovaltine-jenkins]]** runs Ovaltine's Oddities here — small but well-stocked magic item shop. The party has a deal: one scroll for right of first refusal on interesting items.
 
+**[[bellwether-house]]** sits at the edge of the Old Quarter — the party's headquarters, won by recovering the estate's deed for the city guilds and cleansed of the haunting that emptied it. [[ovaltine-jenkins]] has relocated Ovaltine's Oddities there and keeps the house while the party is away; [[amelia]], the resident ghost-child, keeps it warm.
+
 **Salt Wreck Four** operates in Ravencrest — [[quickhand]] and [[tide-tongue]] are members. Quickhand knows who wanted the Stormglass delivery intercepted. Tide Tongue was the first to frame the gathering storm in mythic terms.
 
 ## Ongoing threads
