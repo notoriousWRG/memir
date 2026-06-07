@@ -3,7 +3,7 @@ title: "Edrin Vael"
 type: npc
 role: "The missing captain"
 attitude: wary
-publish: true
+publish: false
 ---
 
 Coriac's old captain — the same crew now wrecked and stranded across this island. Coriac served under him. They were each other's closest conversational and spiritual peers before their paths diverged. He believed storms could be reasoned with, not merely endured.
