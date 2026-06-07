@@ -9,7 +9,7 @@ publish: true
 
 Human wizard. Curious, tactically minded, increasingly entangled in magical legacies he didn't go looking for. He arrived in the duergar city's library during the Frostveil arc — having reached that point by a route that was never fully accounted for — and has been with the party since.
 
-**Carries:** [[obsidian-cypher|The Obsidian Cypher]]
+**Carries:** [[obsidian-cypher|The Obsidian Cypher]], [[ovaltine-potion|Resonant Catalyst]]
 
 ## The Obsidian Cypher
 

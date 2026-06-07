@@ -35,7 +35,7 @@ Phase 3 of the storm carried the White Gull toward Ariel's island. Coriac steppe
 
 The White Gull grounded on black sand. The captain was missing — no body.
 
-Items from the storm crossing: [[artcoths-gloves]] from the beach wreckage, [[shield-of-storms-mercy]], [[stormglass-shard]], [[storm-notation]], [[wardens-bone]].
+Items from the storm crossing: [[artcoths-gloves]] from the beach wreckage and [[stormglass-shard]].
 
 Five storm draugr emerged from the fog and the surf.
 
