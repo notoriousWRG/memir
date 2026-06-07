@@ -8,7 +8,7 @@ current_holder: coriac
 publish: true
 ---
 
-A rough piece of dark metal, palm-sized, worked smooth on one face from [[coriac]]'s own hammering. No markings. Warm to the touch at all times. It doesn't look like a magic item — and that's also the point.
+A rough piece of dark metal, palm-sized, worked smooth on one face from [[coriac]]'s own hammering. No markings. Warm to the touch at all times. It doesn't look like a magic item — and that's also the point. **Currently carried by [[coriac]].**
 
 Coriac received the metal from [[thor]]'s temple and worked it himself at a sacred forge: sustained prayer through labor rather than a ritual with a stated outcome. By the end it was charged. But with what, and toward what, was left open. Thor did not finish it.
 

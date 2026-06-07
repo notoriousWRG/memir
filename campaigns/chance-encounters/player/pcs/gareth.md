@@ -9,7 +9,7 @@ publish: true
 
 Human warlock. He believes his patron is Odin. He travels with [[artcoth]] — an alliance with history behind it.
 
-He carries [[sword-of-shadow-and-flame]], a blade given to him by his patron, and [[stormglass-shard]].
+**Carries:** [[sword-of-shadow-and-flame|Sword of Shadow and Flame]]
 
 ## The Patron
 

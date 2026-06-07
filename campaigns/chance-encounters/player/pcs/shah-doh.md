@@ -9,7 +9,7 @@ publish: true
 
 Half-orc paladin. From the village of Drog, raised in the tradition of Gruumsh. On his 30th nameday, a figure appeared in a dream and told him his faith didn't belong to Gruumsh and that he needed to leave to find where it did. He left.
 
-He carries [[shield-of-storms-mercy]].
+**Carries:** [[baldrs-gleaming-chain|Baldr's Gleaming Chain]]
 
 ## The Charm Incident
 

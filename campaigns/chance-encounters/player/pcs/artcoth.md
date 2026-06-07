@@ -11,6 +11,8 @@ Half-elf rogue. Pragmatic, money-motivated, and the one who coordinates when cha
 
 He travels with [[gareth]], an alliance with the weight of shared history behind it.
 
+**Carries:** [[artcoths-gloves|Artcoth's Gloves]], [[knotted-sigil-cord|Knotted Sigil Cord]]
+
 ## The Circle
 
 Artcoth's connection to the Circle — the organization that runs thieves' guilds under legitimate trading fronts as cover for artifact collection — is old and complicated. In Ravencrest, they tested him again: a man named Cole hired the party to steal a ruby ring from [[lady-grimhook]]. The party worked the job, then sided with Grimhook instead.

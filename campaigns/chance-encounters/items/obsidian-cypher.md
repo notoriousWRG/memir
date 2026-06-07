@@ -17,6 +17,16 @@ Thlgrin Deepforge was a dwarven archmage of Svartalfheim — renowned, then para
 
 Cornered by his enemies, Thlgrin activated the stasis function, cast the cube into an underground chasm, and disappeared inside it. Centuries later, dwarven miners found it embedded in rock. It passed through many hands before arriving in the party's possession.
 
+## What Casus found (library research)
+
+Three records uncovered in the library near where the Cypher was originally found:
+
+**"The Black Relic of the Deep"** — a miner's account describing the cube's discovery in the South Hollow Caverns. Mentions Durm Steelvein ranting about "shackles in the dark" before throwing himself into a chasm. Notes it was sealed in the citadel and passed to the Arcanum Forge scholars. States it is "believed to bear the mark of the exiled Archmage Thalgrin Deepforge, though none can claim certainty as to its origin or purpose."
+
+**Arcanum archive fragment** — a scholar's note after experimenting: "Heart, Shield, Fist... An alignment of light and steel... curious, yet fleeting. The resulting magic healed my wounded apprentice's hand, but at what cost? The cube—no, the Cipher—sang as it drew power. I dare not try further." This is the first in-world confirmation of the rune sequences.
+
+**History of Thalgrin Deepforge** — fragmented legends, clearly embellished. Key claims: "once the brightest runesmith of Svartalfheim"; "Banished for his arrogance, retreated into the darkest reaches of the earth"; "Rumors speak of a vault—a pocket realm forged by his hand, guarded by riddles and traps only he could solve"; "Legends claim he defied death itself, sealing his soul within his greatest creation." Party now knows the pocket-dimension opening sequence is real.
+
 ## The Runes
 
 Six faces, each bound to an imprisoned entity whose life force powers the effect:

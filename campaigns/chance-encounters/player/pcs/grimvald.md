@@ -13,6 +13,8 @@ Then the duergar took him.
 
 The party cut the ritual short and pulled him out alive. That's how he got here.
 
+**Carries:** nothing currently identified
+
 ## The Patron
 
 The voices from the barrel are the source of his warlock abilities. What they are and what they want is still an open question — at the table and off it.
@@ -24,8 +26,6 @@ On the crossing to Ariel's island, Grimvald cast Suggestion on the captain. The 
 ## The Crossing
 
 Grimvald had a moment early in the storm crossing that held the crew together when morale was close to breaking. One more mile. The crew held.
-
-He carries [[storm-notation]].
 
 ## The Spar Field
 

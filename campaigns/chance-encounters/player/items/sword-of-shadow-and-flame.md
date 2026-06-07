@@ -8,7 +8,7 @@ current_holder: ""
 publish: true
 ---
 
-A longsword that carries darkness in its blade even in bright light. Speak its command word and fire erupts along the edge, running the full length of the steel.
+A longsword that carries darkness in its blade even in bright light. Speak its command word and fire erupts along the edge, running the full length of the steel. **Currently carried by [[gareth]].**
 
 It was given to [[gareth]] by Feanaro — the seer who urges him toward power — as encouragement to keep reaching for it. The gift is a claim: *this is what you are now.* Whether Gareth agrees has been the open question ever since. The blade grows stronger on kills, and the strength it offers pulls back: a leash dressed as a gift.
 
@@ -18,6 +18,6 @@ It was given to [[gareth]] by Feanaro — the seer who urges him toward power �
 
 **A blade that takes.** It gathers charge through kills, and spending that charge risks pulling its wielder toward aggression, then toward the kill, then toward striking the nearest living thing regardless of who it is. The version Gareth was handed is not the version it is meant to become — and unmaking that requires a road that runs through Odin, not Feanaro.
 
-## Set aside
+## The Spar Field
 
-At the Spar Field, when the Threshold Warden's scales would not come level, [[casus]] placed this sword on the empty pan to balance them. The party passed into the interior. The cursed sword stayed on the scales.
+At the Threshold Warden's scales, [[casus]] placed a cursed blade from the underdark — a draugr weapon, not this sword — on the empty pan to balance them. The Sword of Shadow and Flame remains with Gareth. The draugr blade stayed on the scales.

@@ -8,7 +8,7 @@ xp: 23900
 pc_race: "Elf"
 ---
 
-Sea-faring elf. Spent his first century at sea — sailing, fishing, dock work. Devoted to [[thor]]. Served as Boatswain on the *Fair Wind* before the Chance Encounters arc began. Wields [[mjolnirs-fury]] — a warhammer carried since his early devotion to Thor, which crystallized into something more during the storm crossing to [[ariels-island]] when he took a direct lightning strike to protect the ship. Also carries the [[forge-shard]], an unfinished blessing from Thor's temple that completes itself through a specific roleplay act on the island.
+Sea-faring elf. Spent his first century at sea — sailing, fishing, dock work. Devoted to [[thor]]. Served as Boatswain on the *Fair Wind* before the Chance Encounters arc began. Wields [[mjolnirs-fury]] — a warhammer taken from a dead paladin of Thor in the underdark after the party avenged that paladin's death. Thor's blessing transferred with it. During the storm crossing to [[ariels-island]] Coriac took a direct lightning strike to protect the ship; that act crystallized the blessing into recognition, and a rune of protection seared into the handle where he held it. Also carries the [[forge-shard]], an unfinished blessing from Thor's temple that completes itself through a specific roleplay act on the island. And [[charlie-bones]], an undead rat taken from a necromantic sorcerer in the underdark.
 
 ## Plot threads
 

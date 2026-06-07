@@ -16,7 +16,11 @@ The party tried to steal from him. He caught them with an alarm ward. They made 
 
 ## Ovaltine's Oddities
 
-Small but cozy shop filled with magic items, potions, scrolls, books, and curiosities. Security is whimsical but effective — animated objects, wards, and the alarm system that caught the party. His shop pet is [[charlie-bones]].
+Small but cozy shop filled with magic items, potions, scrolls, books, and curiosities. Security is whimsical but effective — animated objects, wards, and the alarm system that caught the party.
+
+## Current status
+
+Ovaltine has been enlisted as a partner and is setting up shop at the party's headquarters in the Bellwether estate. He is there now, working on custom modifications to the house as requested by [[artcoth]].
 
 ## Approach to the party
 

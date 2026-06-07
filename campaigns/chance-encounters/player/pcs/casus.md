@@ -9,9 +9,7 @@ publish: true
 
 Human wizard. Curious, tactically minded, increasingly entangled in magical legacies he didn't go looking for. He arrived in the duergar city's library during the Frostveil arc — having reached that point by a route that was never fully accounted for — and has been with the party since.
 
-## The Liriel Thread
-
-Casus is tied to Liriel in some way — by blood, by something older, or both. The Ring of Arcane Insight connects to her. That thread hasn't resolved yet.
+**Carries:** [[obsidian-cypher|The Obsidian Cypher]]
 
 ## The Obsidian Cypher
 
@@ -23,7 +21,7 @@ He also carries an experimental latent-magic potion made by [[ovaltine-jenkins]]
 
 ## The Spar Field
 
-At the Threshold Warden, Casus asked politely and then tried to walk around it. The Warden threw him across the field — Dex save, landed behind Coriac, took ten damage. Misty Stepped behind it, investigated, confirmed it was immune to charm, and stood down before casting. In the end, Gareth read the puzzle and Casus placed a cursed sword from an earlier arc on the scales to bring them level.
+At the Threshold Warden, Casus asked politely and then tried to walk around it. The Warden threw him across the field — Dex save, landed behind Coriac, took ten damage. Misty Stepped behind it, investigated, confirmed it was immune to charm, and stood down before casting. In the end, Gareth read the puzzle and Casus placed a cursed blade from an earlier arc on the scales to bring them level.
 
 ## The Hollowed Hull
 

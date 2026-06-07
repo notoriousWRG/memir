@@ -9,7 +9,9 @@ publish: true
 
 Sea-faring elf. Spent his first century at sea — sailing, fishing, dock work. Devoted to [[thor]]. Served as Boatswain on the *Fair Wind* before Chance Encounters began.
 
-He carries [[mjolnirs-fury]], a warhammer he's held since his early devotion to Thor, which became something more during the storm crossing to Ariel's island when he stepped into a lightning strike to protect the ship. He also carries the [[forge-shard]] and [[wardens-bone]].
+**Carries:** [[mjolnirs-fury|Mjölnir's Fury]], [[forge-shard|The Forge Shard]], [[charlie-bones|Charlie Bones]]
+
+He found [[mjolnirs-fury]] in the underdark — on the body of a dead paladin of Thor, cut down before the party arrived. They avenged the paladin's death, and the hammer came to Coriac with that blessing already in it. During the storm crossing to [[ariels-island]], he stepped into a direct lightning strike to protect the ship. The blessing crystallized. After, a rune of protection had seared itself into the handle where he held it. *The storm did not break him. It recognized him.*
 
 ## Ariel and the Unfinished Sentence
 

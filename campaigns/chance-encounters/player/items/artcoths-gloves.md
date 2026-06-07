@@ -8,7 +8,7 @@ current_holder: artcoth
 publish: true
 ---
 
-Found by [[artcoth]] in the beach wreckage during the White Gull's hard landing on Ariel's island — pulled from the debris while the party was still orienting on the black sand.
+Found by [[artcoth]] in the beach wreckage during the White Gull's hard landing on Ariel's island — pulled from the debris while the party was still orienting on the black sand. **Currently carried by [[artcoth]].**
 
 ## Properties
 
