@@ -7,12 +7,12 @@ Six strangers, assembled by circumstance. Two arcs, an underdark pact, a ship th
 
 ## Where the Party Stands
 
-The party is on Ariel's island, rested and moving inland at first light. The storm draugr fight on the beach is behind them — some dissolved, the survivors pulling back offshore, watching. The White Gull is grounded on black sand; Elara Venn and Wrenn stayed aboard to assess the damage. The captain is missing. No body was found.
+The party is in the Hollowed Hull — a ship's skeleton half-swallowed by the forest, deep in the island's interior. They crossed the Spar Field and passed the Threshold Warden's scales; the cursed sword stayed on them. They found Tjorvi and Önund holding their strange court in the wreck, returned the bottle, and healed Tjorvi's eye. The cold back room behind the sailcloth partition holds four former crewmates frozen mid-reach — everything they took is gone, the island collected it. The party took a short rest there.
 
-Ollo — the navigator's apprentice, one of the island's survivors — is travelling with them.
+The captain is somewhere deeper inland. The sailcloth partition is at their backs.
 
 ## The Story So Far
 
 The full chronicle: [[party-story|The Party Chronicle]] — from the tunnels beneath the Ironspine to the interior of Ariel's island.
 
-*Most recently:* the party crossed the Spar Field, settled a debt with a Threshold Warden, and passed into the island's interior. The cursed sword stayed on the scales.
+*Most recently:* the party found the Hollowed Hull, returned Tjorvi's bottle, and discovered what happened to the crew who went looking for things to take.

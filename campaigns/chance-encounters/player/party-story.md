@@ -47,8 +47,6 @@ The party chose the interior. [[ollo]] asked to come and they let him. They rest
 
 ---
 
-## Arc 2 — Into the Interior
-
 The party broke camp at first light and moved inland. Ollo navigated with his charts, noting that a previous route was marked partway in — different ink, handwriting growing smaller and faster before it stopped. He had never made it to the Spar Field. He saw it for the first time alongside the rest of them.
 
 The standing spars produced a low chord — deliberate, patterned, a measuring instrument grown old. Grimvald read it: the field was enchantment tuned to assess the party's posture toward the island. Shah Doh pulled a spar free before anyone understood what they were standing in. A corresponding note dropped from the chord. The field was now unbalanced.
