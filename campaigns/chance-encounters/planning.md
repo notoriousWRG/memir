@@ -33,13 +33,13 @@ What happens if they stall: Elara and Wrenn act without the party. The captain i
 
 | Clock | Advance trigger | Stage | Max outcome |
 |---|---|---|---|
-| White Gull captain's window | Each long rest on the island; each scene no one looks for him | 4 / 4 🔴 | He's absorbed — the island has him and won't give him back the same way |
-| Elara + Wrenn decision | Each in-world day the party spends inland with no contact | 3 / 3 🔴 | They act alone — signal the coast or try to leave |
+| White Gull captain's window | — | 4 / 4 🔴 FIRED | **Decided:** He walked to the Circled Zone on purpose. The tragedy. His scene plays at S20 open. |
+| Elara + Wrenn decision | — | 3 / 3 🔴 FIRED | **Decided:** Loyal to the captain; searching for him, trying to ready the ship. Elara becomes new captain of the White Gull at S20 close. |
 | Ariel's communication | Coriac misses an opening or acts in a way that closes the space | 1 / 3 | She withdraws. The sentence goes unfinished. She doesn't offer again this arc. |
-| The treeline captain ([[edrin-vael]], scry-shadow) | Each time the party moves through the interior without engaging the sightings | 2 / 3 ⚠️ | He reveals himself on his terms — or dissolves into "the island playing tricks" |
-| Inland descent | Crossing each interior threshold toward the Circled Zone | 2 / 3 | They reach Ariel and Edrin |
+| The treeline captain ([[edrin-vael]], scry-shadow) | Party moves through the interior | 2 / 3 → fires S20 Scene 2 ⚠️ | Shadow fires Scene 2; his body surfaces Scene 3 at the Circled Zone |
+| Inland descent | Crossing each interior threshold toward the Circled Zone | 2 / 3 → fires S20 Scene 3 | They reach Ariel and Edrin |
 
-🔴 **Two clocks have maxed.** Decide what the White Gull captain looks like now, and what Elara + Wrenn did overnight, before next session — both fire at session open.
+🔴 **Both fired clocks are decided.** See [[session-020-prep]] for scene design.
 
 ---
 
@@ -61,15 +61,21 @@ What happens if they stall: Elara and Wrenn act without the party. The captain i
 
 | If... | Then... |
 |---|---|
-| Session opens | Two clocks fired — decide: what did Elara + Wrenn do overnight? What does the absorbed captain look like? |
-| Party moves toward the Circled Zone | Edrin's scry-shadow appears again — closer, holds longer. He's tracking them. |
-| Someone tries to free the Stilled (beyond naming) | TBD — naming failed; what works? Decide before this gets tried |
-| Ollo pushes toward the circle on his map | It sits near the Circled Zone / Edrin. He doesn't know why; the island feels different that way |
+| ~~Session opens~~ | ~~Two clocks fired — decide: what did Elara + Wrenn do overnight? What does the absorbed captain look like?~~ **Both decided. See S20 prep.** |
+| Party moves toward the Circled Zone | Edrin's scry-shadow appears — closer, holds longer, mouths Coriac's name. Fires S20 Scene 2. |
+| Someone tries to free the Stilled (beyond naming) | Arc is closed. They pass when Edrin's bind breaks — time catches up, they go at peace. Cannot be freed before that. |
+| Ollo pushes toward the circle on his map | It sits at the Circled Zone. He marked it "don't go here yet." He goes anyway. He stops writing. |
 | Coriac actively reaches toward Ariel (engaging, not commanding) | She finishes the sentence: **"The storm follows you."** Layered — chaos trails the crew / he carries Thor's name / she chose him because he channels the storm without owning it |
-| Party reaches the Circled Zone | Ariel bound in the stone frame; Edrin is near and does not yet know she reached Coriac voluntarily |
+| Party reaches the Circled Zone | The captain is there — he walked. Ariel in the stone frame. Edrin near, not yet visible. |
+| The captain turns toward the frame and calls for the storm | Ariel receives him — not out of wrath, as a force of nature. The clearing stills. Edrin steps forward. |
+| Edrin is confronted with the fact that Ariel chose Coriac voluntarily | His justification cracks. He gets there himself if pressed without being attacked. Freedom clock tick. |
+| Freedom clock reaches 4/4 | Bind breaks. Stone frame shatters. Ariel speaks. Simultaneously: the Stilled in the Hollowed Hull pass at peace — time catches up with them. Onund and Tjorvi are with them. |
+| Coriac does the defining act in the Reckoning | Forge Shard completes. What it becomes reflects the specific act. Hold until earned; decide in the moment. |
+| Edrin is dropped in combat | Bind snaps violently — Ariel surges free uncontrolled for 1 round (Surge, all creatures). Then she stills. |
+| Edrin is talked down / spared | Exile. His line: *"Tell the crew. Their captain is dead. It's better that they think this."* He walks into the interior and does not come back. |
 | Casus uses the Ovaltine potion on the island | Ariel interacts with it directly. Reaction proportional to intent. |
-| The White Gull captain surfaces | Cold, quiet, doing his own accounting — especially if he pieces together Grimvald's Suggestion |
-| Artcoth puts on the gloves and tries to use them | Pick one ability (water/storm/memory) and commit — decide before this fires |
+| Artcoth uses the gloves | See [[artcoths-gloves]] — Water Grip / Tide Strike. Mechanics resolved. |
+| Grimvald's Suggestion surfaces (captain or otherwise) | The captain asks who knows. He doesn't explode — he accounts. "I told you what I needed and you went around it." He closes the chapter. The cost lives with the table. |
 
 ---
 
@@ -84,27 +90,28 @@ What happens if they stall: Elara and Wrenn act without the party. The captain i
 
 | Thread | Status | Notes |
 |---|---|---|
-| Inland expedition | Active — Hollowed Hull cleared, Circled Zone next | Short rest taken; moving at next session open |
-| Onund + Tjorvi | Met, account given | Coriac made a promise; do they ask to come along? |
-| The Stilled | Witnessed, unresolved | 4 figures in the Hull back room; naming failed; mechanism unknown |
-| The cord with sigil | Held by Artcoth | From their ship; gifted by Tjorvi; pending Identify |
-| Elara Venn + Wrenn | Clock maxed 🔴 | Off-map on the beach; decide what they did before next session |
-| White Gull captain | Clock maxed 🔴 | Absorbed — island has him; decide what that looks like |
-| Ariel's unfinished sentence | Live | Clock active; Coriac hasn't actively reached yet |
-| The treeline captain (Edrin) | Clock 2/3 ⚠️ | Scry-shadow confirmed; body is at the frame; the Reckoning is close |
-| Coriac's old crew & captain | Relational spine | Reunion done; Tjorvi's account given; Edrin still ahead |
-| Grimvald's Suggestion on the captain | Powder keg — unacknowledged | If/when captain surfaces and pieces it together |
-| Artcoth's gloves | Held | Mechanics TBD — decide one ability before they're used |
+| Inland expedition | S20 — Circled Zone | Short rest done; the Reckoning is the destination |
+| Onund + Tjorvi | Decided — they stay | Cannot leave their mates. Tjorvi: "Someone should know them until the end." Onund doesn't argue. |
+| The Stilled | Closed — passes at S20 | When Edrin's bind breaks, time catches up. They pass at peace. Onund and Tjorvi with them. |
+| The cord with sigil | Resolved | See [[knotted-sigil-cord]] — Sailor's Luck (1/day reroll a 1) + Break the Knot (one use, reaction). Tjorvi's gift. |
+| Elara Venn + Wrenn | Decided — S20 close | Searching for the captain; tried to ready the ship. **Elara becomes new captain of the White Gull** at S20 close. |
+| White Gull captain | Decided — S20 Scene 3 | Walked to the Circled Zone on purpose. The tragedy. Calls for the storm; Ariel receives him. Grimvald/Suggestion surfaces here or doesn't. |
+| Ariel's unfinished sentence | Live — S20 | Answer decided: **"The storm follows you."** Fires when Coriac reaches actively (freedom clock tick 4). |
+| The treeline captain (Edrin) | S20 — fires Scene 2/3 | Shadow fires Scene 2 (mouths Coriac's name). Body at the Circled Zone; steps forward after captain's scene. |
+| Coriac's old crew & captain | Reckoning in S20 | Captain's goodbye at the frame. Edrin is the confrontation. Both threads close this session. |
+| Grimvald's Suggestion on the captain | Powder keg — S20 | The captain asks "Did you know?" His accounting happens whether it surfaces or not. The cost of silence is the table carries it. |
+| Artcoth's gloves | Resolved | See [[artcoths-gloves]] — Water Grip / Tide Strike. |
 | Casus's Ovaltine potion | Held | High-risk on this island; held |
-| The anchor | Gone | No way off yet |
-| The Forge Shard (Coriac) | Held | Resolves through roleplay on this island |
-| Ollo's arc | Shifting | Saw the Stilled; hasn't written; his trajectory is no longer certain |
+| The anchor | Gone | No way off yet — S21 problem |
+| The Forge Shard (Coriac) | Resolves S20 | Completes through Coriac's defining act in the Reckoning. What it becomes reflects the specific act. Hold until earned. |
+| Ariel/Coriac bond | Established S20 | The Reckoning's likely outcome — willing anchor between Coriac and Ariel. Mechanic needs design before S21. See Open DM Questions. |
+| Ollo's arc | Watch — S20 end | Charted the island; witnessed the Reckoning. Does he leave with the party or stay? Decide at S20 close. |
 | Storm Draugr | Resolved | Watching offshore |
-| Group A survivors | Met | Dessa + Marek at camp on the beach |
+| Group A survivors | On the beach | Dessa + Marek at camp; Elara's news scene happens here at S20 close |
 | Gareth / Feanaro | Background | Sword corruption track live |
 | Circle / Coal — Ruby Ring | Background | Party betrayed the job; Circle aware |
 | Shalindra's pact | Background | Never closed; not pressing |
-| Grimhook commission | Background — pressure building | Party left her waiting on the Pendant of Stars contract (soulbinding sigil on Artcoth); she will not be idle |
+| Grimhook commission | Pressure building — S21 | Pendant of Stars commission; soulbinding sigil on Artcoth. She has been waiting while the party was on the island. Decide what she's done before S21 prep. |
 
 ---
 
@@ -113,13 +120,17 @@ What happens if they stall: Elara and Wrenn act without the party. The captain i
 - ~~Is the treeline captain Edrin, or distinct?~~ **Answered.**
 - ~~What happened to the crew that left?~~ **Answered:** Group B — clown survivors + [[the-stilled]].
 - ~~What does Ariel say to Coriac?~~ **Answered:** "The storm follows you."
-- What is the cord with sigil? (Artcoth asked for Identify — decide before next session)
-- What do Artcoth's gloves do? One ability, water/storm/memory-flavored — decide before they're used.
-- What did Elara + Wrenn do overnight? (Clock maxed)
-- What does the absorbed White Gull captain look like? (Clock maxed)
-- Can the Stilled be freed, and how? Naming failed.
-- Do Onund or Tjorvi ask to come with the party?
-- What's Ollo's trajectory after seeing the Stilled?
+- ~~What is the cord with sigil?~~ **Answered:** See [[knotted-sigil-cord]].
+- ~~What do Artcoth's gloves do?~~ **Answered:** See [[artcoths-gloves]].
+- ~~What did Elara + Wrenn do overnight?~~ **Answered:** Loyal; searching for captain; Elara becomes new captain at S20 close.
+- ~~What does the absorbed White Gull captain look like?~~ **Answered:** The tragedy — walked there on purpose; Ariel receives him.
+- ~~Can the Stilled be freed?~~ **Answered:** Arc closed. They pass at peace when Edrin's bind breaks.
+- ~~Do Onund or Tjorvi ask to come with the party?~~ **Answered:** They stay — cannot leave their mates.
+- What does the Forge Shard become? Decided by Coriac's specific act in the Reckoning — hold until it's earned, then decide.
+- **Ariel/Coriac bond mechanic** — the Reckoning establishes a willing anchor. Needs mechanical design before S21. Thematic direction: passive (storm-sense) → active (communion once per storm) → shared will. She can ask; he can refuse; refusing costs the bond.
+- **Edrin's ending** — most likely dropped. If talked down: exile (line is in prep doc). Third option: he dissolves into the interior — was holding on through the bind and without it has nothing left.
+- **Ollo after the Reckoning** — charted the island; witnessed everything. Does he leave with the party, or does he stay with Dessa and Marek?
+- **Grimhook** — what has she done while the party was on the island? Agents sent? Sigil pulled? Moved on the Watchtower? Decide before S21 prep.
 
 ---
 
@@ -128,32 +139,30 @@ What happens if they stall: Elara and Wrenn act without the party. The captain i
 *Scratch space — add anything here during or between sessions.*
 
 ### Before Next Session
-- **🔴 Decide Elara + Wrenn** — clock maxed; they act at session open. Signal the coast? Try to leave? Stay but fractured?
-- **🔴 Decide the White Gull captain** — clock maxed; he's absorbed. What does that look like when the party finds him?
-- **Decide the cord with sigil** — Artcoth asked Casus to Identify it offline. What does it do or mean?
-- **Decide Artcoth's gloves** — one ability, water/storm/memory domain, before they come out at the table.
-- **Decide the Stilled** — naming failed; is there a path to freeing them, or is that arc closed?
-- **Decide Onund/Tjorvi** — do they ask to come? Stay? Tjorvi is sobered and Coriac promised.
+*All pre-S20 decisions are made. See [[session-020-prep]] for the full runnable doc.*
+
+- **Decide the Forge Shard resolution** — what does Coriac's specific act look like and what does the shard become? Don't announce at the table until it's earned.
+- **Decide Edrin's ending** — dropped (likely), talked down (exile line in prep), or dissolves into the interior.
+- **Decide Ollo's next step** — does he leave the island with the party or stay?
+- **Decide Grimhook** — what has she done while the party was at sea? This is S21 prep but worth having an answer ready.
 
 ### Island Climax Design
-*The island shouldn't drag. The Reckoning is the destination — design for a clean close.*
+*Decided. The Reckoning is designed. This is the record.*
 
-**Rough shape:**
-1. They reach the Circled Zone. The captain is there — absorbed, altered. What does Edrin's version of him look like? Is he a pawn, a mirror, a warning?
-2. Edrin in the flesh — the confrontation the whole arc has been building toward. His claim is that he controlled Ariel to protect the crew; Coriac is the proof that he failed. That's the wound.
-3. The boss fight: **Edrin forces Ariel to fight against her will.** The party has to break his hold on her without destroying her — the win condition isn't killing Ariel, it's freeing her. Mechanically and narratively, that's different from a standard fight.
-4. The break — Coriac reaches toward Ariel during the fight (the thing Edrin could never do). She finishes the sentence. That's the detonator.
+**What was decided:**
+1. The captain walked to the Circled Zone on purpose — tied to the storm by trauma, not faith. He's done. He calls for the storm; Ariel receives him gently. His goodbye plays first (Suggestion reckoning, "Elara will know what to do").
+2. Edrin steps forward after. His argument: control as protection. His crack: Coriac is proof the thing he called impossible isn't. He gets there himself if pressed.
+3. **Freedom clock** — 4 stages; Ariel attacks under compulsion while the party works the triggers. Attacking Edrin tightens the bind. Reaching Ariel/cracking Edrin's justification/Coriac standing in it advances the clock.
+4. At 4/4: the frame shatters. Ariel speaks. The Stilled pass at peace in the Hollowed Hull. Edrin exits (dropped or exiled).
+5. Aftermath: the island lets them go. Elara becomes captain. The bond between Coriac and Ariel is established.
 
-**Questions to answer before session-prep:**
-- What does the absorbed captain look like? Is he recoverable, or is he the tragedy?
-- How does Edrin's binding on Ariel work mechanically — what does "fighting against her will" look like at the table? (Phases? Edrin as the real target while Ariel deals damage? A separate freedom clock?)
-- What does Ariel free look like — does she have an active form in the fight once released, or does she simply stop?
-- What's the aftermath? The island without Edrin's hold — does it let them leave?
+Two kinds of storm relationship run through the night: Coriac by faith, the captain by trauma. The captain is what the wrong relationship with the storm costs. Coriac's arc is the other path.
 
 ### Grimhook — Off-island pressure
-The party left [[lady-grimhook]] waiting on the [[pendant-of-stars]] commission. She has a soulbinding sigil on [[artcoth]]. She is not idle. Decide before the island ends: has she sent agents to find the party, started pulling on the sigil, or moved on the Watchtower herself?
+The party left [[lady-grimhook]] waiting on the [[pendant-of-stars]] commission. She has a soulbinding sigil on [[artcoth]]. She is not idle. Decide before S21 prep: has she sent agents to find the party, started pulling on the sigil, or moved on the Watchtower herself?
 
-**Next Session**
-- Where we left off: party short-rested in the Hollowed Hull after Tjorvi's account and the Stilled; two clocks have fired.
-- Most urgent thread: the move to the Circled Zone — Ariel, Edrin, and the Reckoning. Coriac hasn't reached toward Ariel yet.
-- Open question to start from: what did Elara and Wrenn do overnight?
+**Next Session (S20)**
+- Where we open: short rest done in the Hollowed Hull; Onund and Tjorvi stay with their mates; party moves into the interior.
+- The spine: interior crossing → captain's scene at the Circled Zone → Edrin steps forward → Reckoning (freedom clock) → Ariel speaks → return to beach → Elara.
+- Watch for: whether Grimvald's Suggestion surfaces during the captain's scene. The captain is asking. Don't let it get dodged silently.
+- Runnable doc: [[session-020-prep]]
