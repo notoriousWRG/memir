@@ -101,6 +101,14 @@ toolchain. (It was Astro + Starlight through v1; migrated to Obsidian-first in 2
 
 ---
 
+## Branch strategy
+
+`main` is canon. `party/<name>` branches are campaign branches — they track an active party's sessions, ledger, overrides, and in-play state.
+
+**Lore flows canon → campaign, not the reverse.** Party branches are never merged into `main`. Occasionally a story element or NPC established in play earns promotion to canon, but that is a deliberate manual act (cherry-pick or copy + edit), not a branch merge. When in doubt, assume the flow is one-way.
+
+---
+
 ## Guardrails
 
 **Don't add schemas ahead of need.** Add a field when its absence causes a real problem, not when you can imagine it might.
