@@ -23,7 +23,7 @@ That path closed. What comes instead is unwritten.
 
 ## The Captain's Letter
 
-On the crossing to Ariel's island, Artcoth returned a stolen letter to the captain. That act built the party's most honest relationship with him. The captain is now missing, no body found, and the weight of that sits specifically on Artcoth.
+On the crossing to Ariel's island, Artcoth returned a stolen letter to the captain. That act built the party's most honest relationship with him. The captain is now missing, no body found, and the weight of that sat specifically on Artcoth — until the Circled Zone, where the captain reappeared on his own terms, confirmed Elara was alive through Artcoth, and walked into the stone frame to let the storm take him.
 
 ## The Gloves
 

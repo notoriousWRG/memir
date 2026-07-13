@@ -88,3 +88,17 @@ Artcoth showed Tjorvi the cord from the hoard. Tjorvi held it, confirmed: *"This
 The names were written in the hull wall. It didn't help.
 
 The party took a short rest in the Hollowed Hull. The sailcloth partition is at their backs. The interior is ahead.
+
+They moved on from the Hollowed Hull, deeper into the interior. A shape flickered at the path's edge — the same watching presence from before — and Artcoth put a shot at it before it was gone, too fast to tell if it landed.
+
+The trees opened onto the Circled Zone: warmer air, the smell of ozone, and at the center a stone frame holding [[ariel]] — bound, present, waiting. At the far treeline stood the White Gull's captain.
+
+They called to him. He came without hesitation and asked the question plainly: had they known about the Suggestion? [[grimvald]] told him the truth. He took it without anger — an accounting, not an eruption. *"You knew what I said. If the sea resists, I yield. You heard me say it."* He confirmed with [[artcoth]] that [[elara-venn|Elara]] was alive and said he was glad the Gull would have a captain. Then he turned toward the frame.
+
+[[casus]] tried to reach him and couldn't in time. Ariel received the captain — not wrath, not compulsion, but the way a tide comes in: patient, certain. He looked back once. The wind took him.
+
+The clearing went still. Then Ariel spoke — for the first time since the crossing, and for the first time of her own will. To Coriac: *"The storm follows you."* She had been trying to say it since the vision on the crossing.
+
+Edrin Vael stepped out from the trees — Coriac's old captain, the one the survivors had glimpsed and doubted for weeks. Not a scry-shadow this time. Present.
+
+Coriac moved to meet him — present, not commanding — and the stone frame shuddered as something in the air pulled taut. The night ended there, on the edge of whatever comes next.

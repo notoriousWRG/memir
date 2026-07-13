@@ -21,7 +21,7 @@ The voices from the barrel are the source of his warlock abilities. What they ar
 
 ## The Suggestion
 
-On the crossing to Ariel's island, Grimvald cast Suggestion on the captain. The captain pressed on against his own stated condition without knowing why. That has not been reckoned with yet.
+On the crossing to Ariel's island, Grimvald cast Suggestion on the captain. The captain pressed on against his own stated condition without knowing why. In the Circled Zone, Grimvald told him the truth. The captain took it without anger — an accounting, not an eruption — and closed the chapter himself before walking into the stone frame and letting the storm take him.
 
 ## The Crossing
 

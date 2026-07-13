@@ -7,12 +7,10 @@ Six strangers, assembled by circumstance. Two arcs, an underdark pact, a ship th
 
 ## Where the Party Stands
 
-The party is in the Hollowed Hull — a ship's skeleton half-swallowed by the forest, deep in the island's interior. They crossed the Spar Field and passed the Threshold Warden's scales; the cursed sword stayed on them. They found Tjorvi and Önund holding their strange court in the wreck, returned the bottle, and healed Tjorvi's eye. The cold back room behind the sailcloth partition holds four former crewmates frozen mid-reach — everything they took is gone, the island collected it. The party took a short rest there.
-
-The captain is somewhere deeper inland. The sailcloth partition is at their backs.
+The party stands in the Circled Zone, the heart of the island — warm air, the smell of ozone, a stone frame at the center holding [[ariel]] captive. The White Gull's captain walked into that frame on his own terms and was taken by the storm, patient and certain, before the party could stop him. In the stillness after, Ariel spoke — for the first time since the crossing, unprompted, to [[coriac]]: *"The storm follows you."* Before anyone could ask what she meant, [[edrin-vael|Edrin Vael]] — Coriac's old captain, the one glimpsed and doubted at the treeline for weeks — stepped out of the trees, no longer a shadow. The night ended there.
 
 ## The Story So Far
 
 The full chronicle: [[party-story|The Party Chronicle]] — from the tunnels beneath the Ironspine to the interior of Ariel's island.
 
-*Most recently:* the party found the Hollowed Hull, returned Tjorvi's bottle, and discovered what happened to the crew who went looking for things to take.
+*Most recently:* the captain gave himself to Ariel, the party heard her speak for the first time, and Edrin Vael stepped out of the trees in the flesh as the night ended.

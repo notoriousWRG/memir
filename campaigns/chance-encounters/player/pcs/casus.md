@@ -28,3 +28,7 @@ At the Threshold Warden, Casus asked politely and then tried to walk around it. 
 Made his adventuring rope glow faint blue with prestidigitation while Onund watched. Raised a small firebird from the embers with Control Flames. Said *"tradition"* when asked, and meant it as sincerely as anything. When the moment came to present the mission, he knelt and called Coriac forward. Went through the sailcloth partition with Artcoth and Gareth when Tjorvi said not to.
 
 The four frozen crew members: same divine saturation as the rest of the island, but concentrated. Holding them, not killing them. He couldn't tell if they were aware.
+
+## The Circled Zone
+
+Tried to stop the captain from reaching the stone frame — Misty Stepped in, couldn't hold him, watched him go. Asked the ether afterward whether attacking Ariel directly would serve the party. The answer that came back was ill news. He made sure everyone heard it before anything else happened.

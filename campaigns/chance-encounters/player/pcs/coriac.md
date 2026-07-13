@@ -17,7 +17,7 @@ He found [[mjolnirs-fury]] in the underdark — on the body of a dead paladin of
 
 During the storm crossing, Coriac took the lightning strike. [[ariel]] pulled him into a vision — a vast female form, crackling eyes, storm built into flesh. He reached out his hand and invited her to speak. She was shocked: no mortal had done this before. She moved toward speech. The vision ended before she could finish.
 
-She has not finished what she was about to say.
+In the Circled Zone, she finally did — unprompted, the first words she's spoken of her own will. *"The storm follows you."* What she means by it isn't settled yet.
 
 Inland, deeper into the island, his Religion check felt her before he named her — the presence beneath the storm, woven into the ground. Not hostile to him. The [[forge-shard]] warmed.
 
