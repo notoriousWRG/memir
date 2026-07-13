@@ -128,9 +128,9 @@ He's not hostile. He's accounting.
 - If **Grimvald confesses the Suggestion** → he holds it without eruption. He was right. *"I told you what I needed and you went around it."* He doesn't forgive it here. He doesn't need to. He says what he needs to say to whoever was square with him and closes the chapter.
 - If **no one confesses** → *"Then I went willingly. That's the story, I suppose."* He doesn't believe it. He accepts it. The cost of silence is that it lives with the table.
 
-To Artcoth, when the time is right: acknowledgment — quiet, direct. The letter. *"That one was clean."*
+To Artcoth, when the time is right: acknowledgment — quiet, direct. "Venn....?"
 
-Before he finishes: *"Elara will know what to do. She always did."*
+"That's good. She'll make a good captain."
 
 ---
 
@@ -164,17 +164,39 @@ Then Edrin Vael steps out from the trees."
 
 **Read-aloud (Edrin steps forward):** "He is nothing like the scry-shadow suggested. Not a ghost — a man who has decided. He looks at the party as obstacles, and then past them to Coriac, and his expression changes: not anger. Not contempt. Recognition. 'You came. I wondered if you had the faith for it.'"
 
-**Loaded:** Edrin wants the frame of this conversation before Coriac sets one. He has a justification he has lived inside for years. He needs Coriac to hear it — because Coriac is the one person whose hearing would make it mean something.
+**Loaded:** Edrin is not here to win an argument. He's here to be absolved. He has been alone with this justification since the grounding — no peers, no one capable of understanding what he did or why. Coriac is the first. He wants Coriac specifically to tell him he was right: that binding Ariel was protection, not cruelty, and that anyone who understood the storm's power would have done the same.
 
-**Edrin's argument** (if the party talks before fighting):
+*The opening is yours — tie in the old lore here. Let him make the approach before the argument.*
 
-His binding of Ariel was protection. The mage died because power without constraint destroys. He will not let that happen again.
+**After the opening — Edrin's case:**
 
-Then the crack: Coriac is here. Intact. Reaching a storm-spirit without binding her. Doing the thing Edrin told himself was impossible.
+Once the old-lore thread is closed, he turns to the reason he came.
 
-*"She reached you voluntarily. I felt it through the bind. Do you understand what that means? She is capable of choice. And I have been treating her as if she isn't."*
+He recounts Halvard — not as a cautionary tale, but with grief. Halvard was brilliant. Probably someone Edrin admired. He'd found a way to commune with Ariel, believed it was a conversation between equals. He was wrong. When she moved through him it wasn't malice — she didn't know what she was doing. That's what ungoverned power does. It doesn't intend harm. It simply causes it.
 
-He arrives at this himself if pressed without being attacked. If the party only fights him, he defends and never gets there. The Reckoning that matters is the one where he hears it.
+*"I read what he wrote before the end. His own notes. He knew it was going wrong and he kept reaching. I did what his notes said someone should have done before it reached that point."*
+
+The bind, in Edrin's telling, is the only thing that worked. It kept her from doing it again. To someone else. Possibly to Coriac.
+
+Then the ask — the thing he actually came for:
+
+*"You carry the name. You know what the storm does to those who can't hold it. Tell me Halvard had to die before someone acted. Tell me I was wrong to do the one thing that stopped it."*
+
+He wants Coriac to say: yes. You were right. Protection is love. Control is care.
+
+**The crack:**
+
+Coriac's presence is already the counter-argument — he reached Ariel without binding her and she came willingly. Edrin felt it through the bind the moment it happened on the crossing. He told himself it was the connection finding a channel.
+
+When the voluntary contact is named — by Coriac, by someone else, or by Edrin feeling it land in the silence:
+
+*"She reached you. Voluntarily."*
+
+Not an accusation. A man watching a proof collapse.
+
+*"I felt it through the bind when it happened. I told myself it was the connection finding a channel. That's what I told myself."*
+
+He arrives at this himself if the party engages rather than attacks. If they only fight him, he defends and never gets there. The Reckoning that matters is the one where he hears it — and came in wanting to be told the opposite.
 
 ---
 

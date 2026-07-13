@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>The Circled Zone — Session 20</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  background: #050508;
+  color: #c8b8a2;
+  font-family: Georgia, serif;
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+#map-wrap { position: relative; flex-shrink: 0; }
+#map { display: block; }
+#lightning {
+  position: absolute; top: 0; left: 0; width: 720px; height: 720px;
+  pointer-events: none; opacity: 0;
+  background: radial-gradient(ellipse at 50% 45%, rgba(200,220,255,0.5), transparent 65%);
+  transition: opacity 0.04s;
+}
+#sidebar {
+  width: 278px; min-width: 278px;
+  padding: 14px 12px;
+  background: #0c0c16;
+  border-left: 1px solid #1e1e2e;
+  overflow-y: auto;
+  display: flex; flex-direction: column; gap: 12px;
+}
+.s-title { font-size: 13px; letter-spacing: 2px; text-transform: uppercase; color: #7aaad8; }
+.s-sub { font-size: 10px; color: #444460; letter-spacing: 1px; margin-top: 2px; }
+.s-head {
+  font-size: 9px; letter-spacing: 1.5px; text-transform: uppercase; color: #4a5a6a;
+  border-bottom: 1px solid #181828; padding-bottom: 4px; margin-bottom: 7px;
+}
+.clock-row { display: flex; gap: 4px; margin: 6px 0 5px; }
+.clk {
+  flex: 1; height: 26px; border: 1px solid #2a3040; background: #0a0e14;
+  border-radius: 3px; cursor: pointer; display: flex; align-items: center;
+  justify-content: center; font-size: 13px; color: #2a3a4a;
+  transition: background 0.2s, border-color 0.2s; user-select: none;
+}
+.clk.on { background: #0e2038; border-color: #3a6a9a; color: #7ab0e0; }
+.clk.final.on { background: #0e2e1a; border-color: #3a8a5a; color: #6ab880; }
+.clk:hover { border-color: #4a6a8a; }
+.triggers { list-style: none; display: flex; flex-direction: column; gap: 1px; }
+.triggers li {
+  font-size: 10px; color: #6a7a8a; padding: 4px 0 4px 18px;
+  border-bottom: 1px solid #10101a; position: relative; line-height: 1.4;
+}
+.triggers li .n { position: absolute; left: 0; color: #3a5a78; font-weight: bold; }
+.triggers li.done { color: #2e4a2e; text-decoration: line-through; }
+.warn-box {
+  font-size: 10px; padding: 6px 8px; background: #120810;
+  border: 1px solid #2a1030; border-radius: 3px; color: #7a5a8a; line-height: 1.5;
+  margin-bottom: 5px;
+}
+.action {
+  padding: 5px 8px; background: #0a0e14; border: 1px solid #1a2030;
+  border-radius: 3px; display: flex; flex-direction: column; gap: 2px;
+}
+.action .aname { font-size: 9px; font-weight: bold; letter-spacing: 1px; text-transform: uppercase; color: #7a90a0; }
+.action .astat { font-size: 10px; color: #4a5a68; line-height: 1.4; }
+.tbtn {
+  display: block; width: 100%; padding: 5px 8px;
+  background: #0a0e14; border: 1px solid #1e2a38; color: #5a7a9a;
+  font-size: 10px; text-align: left; cursor: pointer; border-radius: 3px;
+  font-family: Georgia, serif; letter-spacing: 0.5px;
+  transition: background 0.15s, border-color 0.15s;
+}
+.tbtn.on { background: #0e2030; border-color: #3a6090; color: #80b0e0; }
+.tbtn:hover { border-color: #4a6a8a; }
+/* Lair effects */
+.lair-block {
+  padding: 6px 8px; background: #0a0e14; border: 1px solid #1a2030;
+  border-radius: 3px; margin-bottom: 4px;
+}
+.lair-name { font-size: 9px; font-weight: bold; letter-spacing: 1px; text-transform: uppercase; color: #7a90a0; margin-bottom: 2px; }
+.lair-stat { font-size: 10px; color: #4a5a68; line-height: 1.4; }
+.lair-note { font-size: 9px; color: #3a4a5a; margin-top: 3px; }
+.ctrl-row { display: flex; align-items: center; gap: 4px; margin-top: 6px; }
+.ctrl-display {
+  flex: 1; text-align: center; font-size: 12px; font-weight: bold;
+  background: #070a0e; border: 1px solid #1a2030; border-radius: 3px; padding: 3px 0;
+}
+#wind-display { color: #d0c860; border-color: #2a2800; background: #08100a; }
+#fog-display { color: #8090a8; }
+.smbtn {
+  padding: 3px 7px; background: #0a1018; border: 1px solid #1e2a38;
+  color: #5a7a9a; font-size: 10px; cursor: pointer; border-radius: 3px;
+  font-family: Georgia, serif; white-space: nowrap;
+}
+.smbtn:hover { background: #0e1a28; border-color: #3a6090; }
+.leg { display: grid; grid-template-columns: 12px 1fr; gap: 4px 8px; align-items: center; font-size: 10px; color: #5a6a7a; }
+.sw { width: 12px; height: 12px; border-radius: 2px; }
+.scale-bar { font-size: 9px; color: #3a4a5a; letter-spacing: 0.5px; }
+</style>
+</head>
+<body>
+
+<div id="map-wrap">
+  <canvas id="map" width="720" height="720"></canvas>
+  <div id="lightning"></div>
+</div>
+
+<aside id="sidebar">
+  <div>
+    <div class="s-title">The Circled Zone</div>
+    <div class="s-sub">Session 20 · The Reckoning · 1 sq = 5 ft</div>
+  </div>
+
+  <div>
+    <div class="s-head">Freedom Clock</div>
+    <div class="clock-row">
+      <div class="clk" id="c1" onclick="tick(1)">◇</div>
+      <div class="clk" id="c2" onclick="tick(2)">◇</div>
+      <div class="clk" id="c3" onclick="tick(3)">◇</div>
+      <div class="clk final" id="c4" onclick="tick(4)">◇</div>
+    </div>
+    <ul class="triggers">
+      <li id="t1"><span class="n">1</span>Name what Edrin is doing — control as protection</li>
+      <li id="t2"><span class="n">2</span>Coriac reaches toward Ariel — stands in the storm</li>
+      <li id="t3"><span class="n">3</span>Edrin confronted: Ariel chose Coriac <em>voluntarily</em></li>
+      <li id="t4"><span class="n">4</span>Coriac stands fully — she finishes the sentence</li>
+    </ul>
+  </div>
+
+  <div>
+    <div class="s-head">Ariel's Compelled Actions</div>
+    <div class="warn-box">Attacking Edrin tightens the bind — her next action targets the attacker.</div>
+    <div style="display:flex;flex-direction:column;gap:3px;">
+      <div class="action"><div class="aname">Stormstrike</div><div class="astat">+7 to hit · 3d8 lightning · one target</div></div>
+      <div class="action"><div class="aname">Surge</div><div class="astat">15-ft radius · DC 14 Con · 2d8 ⚡ + 10 ft push · ½ on save</div></div>
+      <div class="action"><div class="aname">Overflow</div><div class="astat">DC 13 Wis · Frightened to end of next turn · she is not aiming this</div></div>
+    </div>
+  </div>
+
+  <div>
+    <div class="s-head">Stone Frame</div>
+    <div style="display:flex;flex-direction:column;gap:3px;">
+      <div style="display:flex;gap:4px;">
+        <div class="action" style="flex:1;"><div class="aname">AC</div><div class="astat" style="font-size:12px;color:#8898a8;">17</div></div>
+        <div class="action" style="flex:1;"><div class="aname">HP</div><div class="astat" style="font-size:12px;color:#8898a8;">30</div></div>
+        <div class="action" style="flex:1;"><div class="aname">Threshold</div><div class="astat" style="font-size:12px;color:#8898a8;">20</div></div>
+      </div>
+      <div class="warn-box" style="margin-bottom:0; border-color:#1a2030; background:#0a0e14; color:#4a5a68;">
+        Attacks below 20 damage do nothing. Immune to lightning. Destroying it = Edrin drops (violent bind snap).
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <div class="s-head">Lair Effects</div>
+
+    <div class="lair-block">
+      <div class="lair-name">Wind Current</div>
+      <div class="lair-stat">Init 20 · DC 12 Str or pushed 10 ft in wind direction</div>
+      <div class="ctrl-row">
+        <button class="smbtn" onclick="rotateWind(-1)">◀</button>
+        <div class="ctrl-display" id="wind-display">E</div>
+        <button class="smbtn" onclick="rotateWind(1)">▶</button>
+      </div>
+      <div class="lair-note">Rotate each round or call it situationally</div>
+    </div>
+
+    <div class="lair-block">
+      <div class="lair-name">Fog Pressure</div>
+      <div class="lair-stat">Advances 5 ft when no trigger hits · retreats on trigger</div>
+      <div class="ctrl-row">
+        <button class="smbtn" onclick="retreatFog()">◀ retreat</button>
+        <div class="ctrl-display" id="fog-display">+0 ft</div>
+        <button class="smbtn" onclick="advanceFog()">advance ▶</button>
+      </div>
+      <div class="lair-note" id="fog-note">Normal · clearing open</div>
+    </div>
+
+    <div class="lair-block">
+      <div class="lair-name">Ground Arcs <span style="color:#2a4a60;font-size:9px;">(auto · clock ≥ 2)</span></div>
+      <div class="lair-stat">DC 13 Dex · 2d6 ⚡ at start of turn if in arc · 1 / 2 / 3 arcs at stages 2 / 3 / 4</div>
+    </div>
+
+    <div class="lair-block" style="border-color:#141420;">
+      <div class="lair-name">Threshold Crackle</div>
+      <div class="lair-stat">Entering from fog: disadvantage on first save vs Ariel that turn</div>
+    </div>
+  </div>
+
+  <div>
+    <div class="s-head">Overlays</div>
+    <button class="tbtn" id="btn-surge" onclick="toggleSurge()">⊙ Surge Radius (15 ft)</button>
+    <button class="tbtn" id="btn-coords" onclick="toggleCoords()" style="margin-top:3px;">⊞ Grid Coordinates</button>
+  </div>
+
+  <div>
+    <div class="s-head">Key Positions</div>
+    <div class="leg">
+      <div class="sw" style="background:#d4a840;"></div><span>Captain — NW treeline (scene open)</span>
+      <div class="sw" style="background:#c03838;"></div><span>Edrin — NE trees (emerges scene 4)</span>
+      <div class="sw" style="background:#4a90b8;"></div><span>Ariel / Stone Frame</span>
+      <div class="sw" style="background:#4a7a48;"></div><span>Party entry (south path)</span>
+    </div>
+  </div>
+
+  <div>
+    <button class="tbtn" onclick="resetAll()" style="border-color:#2a1a28; color:#6a4a68;">↺ Reset All</button>
+    <div class="scale-bar" style="margin-top:8px;">Grid: 30 × 30 · 150 ft × 150 ft</div>
+  </div>
+</aside>
+
+<script>
+// ── Constants ────────────────────────────────────────────────────────────────
+const CELL = 24, COLS = 30, ROWS = 30, W = 720, H = 720;
+const MCX = 15, MCY = 14; // clearing center in cells
+
+// Wind direction names and canvas angles (0=East, clockwise positive, y-down)
+const WIND_NAMES   = ['N','NE','E','SE','S','SW','W','NW'];
+const WIND_ANGLES  = [-Math.PI/2, -Math.PI/4, 0, Math.PI/4,
+                       Math.PI/2, 3*Math.PI/4, Math.PI, -3*Math.PI/4];
+
+// Ground arc definitions: canvas angle + rng seed
+// Arc 1 NNE (-60°), Arc 2 SSW (112°), Arc 3 SSE (75°, toward party entry)
+const ARC_DEFS = [
+  { a: -1.047, seed: 501 },
+  { a:  1.954, seed: 502 },
+  { a:  1.309, seed: 503 },
+];
+
+// ── State ────────────────────────────────────────────────────────────────────
+let clockStage  = 0;
+let windDir     = 2;  // E
+let fogLevel    = 0;  // cells advanced (0–3)
+let showSurge   = false;
+let showCoords  = false;
+let lightning   = 0;
+let nextLightning = 3500 + Math.random() * 4000;
+
+// ── Seeded RNG ───────────────────────────────────────────────────────────────
+function seeded(seed) {
+  let s = seed >>> 0;
+  return function() {
+    s = Math.imul(s ^ (s >>> 15), s | 1);
+    s ^= s + Math.imul(s ^ (s >>> 7), s | 61);
+    return ((s ^ (s >>> 14)) >>> 0) / 4294967296;
+  };
+}
+
+// ── Terrain ──────────────────────────────────────────────────────────────────
+// 0=forest 1=fog 2=clearing 3=path
+const terrain = (() => {
+  const g = [];
+  for (let r = 0; r < ROWS; r++) {
+    g[r] = [];
+    for (let c = 0; c < COLS; c++) {
+      const d = Math.hypot(c - MCX + 0.5, r - MCY + 0.5);
+      g[r][c] = d < 8.8 ? 2 : d < 10.8 ? 1 : 0;
+    }
+  }
+  for (let r = 20; r < ROWS; r++)
+    for (let c = 14; c <= 16; c++) g[r][c] = 3;
+  return g;
+})();
+
+// ── Trees (seeded, lean away from center) ────────────────────────────────────
+const trees = (() => {
+  const rng = seeded(7331), out = [];
+  const cx0 = (MCX + 0.5) * CELL, cy0 = (MCY + 0.5) * CELL;
+  for (let r = 0; r < ROWS; r++) {
+    for (let c = 0; c < COLS; c++) {
+      if (terrain[r][c] !== 0) continue;
+      const n = rng() < 0.55 ? 2 : 1;
+      for (let i = 0; i < n; i++) {
+        const px = (c + 0.1 + rng() * 0.8) * CELL;
+        const py = (r + 0.1 + rng() * 0.8) * CELL;
+        const dx = px - cx0, dy = py - cy0;
+        const dist = Math.hypot(dx, dy) || 1;
+        const lean = Math.min(CELL * 1.2, (CELL * CELL * 0.9) / dist);
+        out.push({ x: px + (dx/dist)*lean*0.35, y: py + (dy/dist)*lean*0.35, r: 6 + rng()*9, hue: rng() });
+      }
+    }
+  }
+  return out;
+})();
+
+// ── Fog particles ────────────────────────────────────────────────────────────
+const fogParts = (() => {
+  const rng = seeded(999), cx0 = (MCX+0.5)*CELL, cy0 = (MCY+0.5)*CELL;
+  return Array.from({ length: 70 }, () => {
+    const a = rng() * Math.PI * 2, d = (9.2 + rng() * 2.2) * CELL;
+    return { x: cx0 + Math.cos(a)*d, y: cy0 + Math.sin(a)*d,
+             size: 22 + rng()*36, opacity: 0.06 + rng()*0.12,
+             speed: 0.0005 + rng()*0.001, phase: rng()*Math.PI*2 };
+  });
+})();
+
+// ── Canvas ───────────────────────────────────────────────────────────────────
+const canvas = document.getElementById('map');
+const ctx    = canvas.getContext('2d');
+
+function cellNoise(c, r) {
+  return (Math.sin(c * 127.1 + r * 311.7) * 0.5 + 0.5) * 0.18;
+}
+
+// ── Draw: ground ─────────────────────────────────────────────────────────────
+function drawGround() {
+  for (let r = 0; r < ROWS; r++) {
+    for (let c = 0; c < COLS; c++) {
+      const t = terrain[r][c], n = cellNoise(c, r);
+      let col;
+      if (t === 0) { const v = Math.floor(n*18); col = `rgb(${12+v},${19+v},${10+v})`; }
+      else if (t === 1) { const v = Math.floor(n*10); col = `rgb(${18+v},${20+v},${26+v})`; }
+      else if (t === 2) {
+        const d = Math.hypot(c-MCX+0.5, r-MCY+0.5) / 8.8;
+        const warm = Math.max(0, 1-d*d) * 14, base = 26 + Math.floor(n*12);
+        col = `rgb(${Math.floor(base+warm)},${Math.floor(base-2+warm*0.5)},${Math.floor(base-8)})`;
+      } else { const v = Math.floor(n*12); col = `rgb(${34+v},${26+v},${18+v})`; }
+      ctx.fillStyle = col;
+      ctx.fillRect(c*CELL, r*CELL, CELL, CELL);
+    }
+  }
+}
+
+// ── Draw: ambient glow ───────────────────────────────────────────────────────
+function drawGlow(t) {
+  const pulse = 0.75 + 0.25*Math.sin(t*0.0012);
+  const cx0 = (MCX+0.5)*CELL, cy0 = (MCY+0.5)*CELL;
+  const grd = ctx.createRadialGradient(cx0,cy0,0, cx0,cy0, 10*CELL);
+  grd.addColorStop(0, `rgba(70,110,200,${0.14*pulse})`);
+  grd.addColorStop(0.5, `rgba(50,80,160,${0.06*pulse})`);
+  grd.addColorStop(1, 'rgba(0,0,0,0)');
+  ctx.fillStyle = grd; ctx.fillRect(0,0,W,H);
+}
+
+// ── Draw: fog particles ───────────────────────────────────────────────────────
+function drawFog(t) {
+  const push = fogLevel * CELL; // fog particles drift inward
+  fogParts.forEach(p => {
+    const cx0 = (MCX+0.5)*CELL, cy0 = (MCY+0.5)*CELL;
+    const dx = p.x - cx0, dy = p.y - cy0, dist = Math.hypot(dx, dy) || 1;
+    // Shift particles toward center based on fog pressure
+    const px2 = p.x - (dx/dist) * push * 0.7 + Math.sin(t*p.speed*1000+p.phase)*CELL*0.6;
+    const py2 = p.y - (dy/dist) * push * 0.7 + Math.cos(t*p.speed*800+p.phase+1)*CELL*0.4;
+    const grd = ctx.createRadialGradient(px2,py2,0, px2,py2, p.size);
+    grd.addColorStop(0, `rgba(170,180,200,${p.opacity})`);
+    grd.addColorStop(1, 'rgba(170,180,200,0)');
+    ctx.fillStyle = grd;
+    ctx.beginPath(); ctx.arc(px2,py2,p.size,0,Math.PI*2); ctx.fill();
+  });
+}
+
+// ── Draw: fog pressure overlay ───────────────────────────────────────────────
+function drawFogPressure(t) {
+  if (fogLevel <= 0) return;
+  const cx0 = (MCX+0.5)*CELL, cy0 = (MCY+0.5)*CELL;
+  const outerR = 8.8 * CELL;
+  const innerR = outerR - fogLevel * CELL;
+
+  ctx.save();
+  // Dark fog ring advancing inward
+  ctx.beginPath();
+  ctx.arc(cx0, cy0, outerR, 0, Math.PI*2, false);
+  ctx.arc(cx0, cy0, innerR, 0, Math.PI*2, true);
+  ctx.fillStyle = 'rgba(16,20,32,0.60)';
+  ctx.fill('evenodd');
+
+  // Threshold crackle sparks at the inner boundary (animated)
+  const srng = seeded(888 + Math.floor(t / 280));
+  ctx.strokeStyle = 'rgba(145,160,190,0.40)';
+  ctx.lineWidth = 0.9;
+  for (let i = 0; i < 28; i++) {
+    const a = (i / 28) * Math.PI * 2 + (srng() - 0.5) * 0.4;
+    const r1 = innerR - 4 + srng() * 8;
+    const r2 = innerR + 5 + srng() * 7;
+    ctx.beginPath();
+    ctx.moveTo(cx0 + Math.cos(a)*r1, cy0 + Math.sin(a)*r1);
+    ctx.lineTo(cx0 + Math.cos(a)*r2, cy0 + Math.sin(a)*r2);
+    ctx.stroke();
+  }
+  ctx.restore();
+}
+
+// ── Draw: trees ──────────────────────────────────────────────────────────────
+function drawTrees() {
+  trees.forEach(tr => {
+    ctx.save(); ctx.globalAlpha = 0.25; ctx.fillStyle = '#000';
+    ctx.beginPath(); ctx.ellipse(tr.x+2, tr.y+3, tr.r*0.65, tr.r*0.35, 0, 0, Math.PI*2); ctx.fill();
+    ctx.restore();
+    const dark = tr.hue < 0.5 ? '#172010' : '#1a2612';
+    const mid  = tr.hue < 0.5 ? '#1d2a14' : '#203016';
+    const hi   = tr.hue < 0.5 ? '#283a1a' : '#2c4018';
+    for (let i = 2; i >= 0; i--) {
+      ctx.fillStyle = [dark,mid,hi][i];
+      ctx.beginPath(); ctx.arc(tr.x-i*0.8, tr.y-i*1.2, tr.r-i*0.4, 0, Math.PI*2); ctx.fill();
+    }
+    ctx.globalAlpha = 0.5; ctx.fillStyle = '#304820';
+    ctx.beginPath(); ctx.arc(tr.x-tr.r*0.25, tr.y-tr.r*0.3, tr.r*0.38, 0, Math.PI*2); ctx.fill();
+    ctx.globalAlpha = 1;
+  });
+}
+
+// ── Draw: wind band ──────────────────────────────────────────────────────────
+function drawWindBand(t) {
+  const cx0 = (MCX+0.5)*CELL, cy0 = (MCY+0.5)*CELL;
+  const CR = 8.8 * CELL;  // clearing radius
+  const BHW = CELL;       // band half-width in wind direction (= 5ft each side)
+  const wa = WIND_ANGLES[windDir];
+
+  ctx.save();
+  ctx.translate(cx0, cy0);
+  ctx.rotate(wa);
+
+  // Clip to clearing circle
+  ctx.beginPath(); ctx.arc(0, 0, CR, 0, Math.PI*2); ctx.clip();
+
+  // Band fill: narrow strip, wind direction is +X after rotation
+  // Band spans: X from -BHW to +BHW, Y from -CR to +CR
+  ctx.fillStyle = 'rgba(210,195,60,0.10)';
+  ctx.fillRect(-BHW, -CR, BHW*2, CR*2);
+
+  // Dashed edge lines
+  ctx.strokeStyle = 'rgba(210,195,60,0.32)';
+  ctx.lineWidth = 1; ctx.setLineDash([5,4]);
+  ctx.beginPath();
+  ctx.moveTo(-BHW,-CR); ctx.lineTo(-BHW, CR);
+  ctx.moveTo( BHW,-CR); ctx.lineTo( BHW, CR);
+  ctx.stroke(); ctx.setLineDash([]);
+
+  // Flowing chevrons drifting in +X direction (wind direction)
+  const drift = (t * 0.018) % (CELL * 2.8);
+  const rows = [-CR*0.55, -CR*0.18, CR*0.18, CR*0.55];
+  ctx.strokeStyle = 'rgba(210,195,60,0.50)';
+  ctx.lineWidth = 1.1;
+  rows.forEach(ry => {
+    for (let rx = -CR + drift; rx < CR; rx += CELL * 2.8) {
+      ctx.beginPath();
+      ctx.moveTo(rx - 6, ry - 5); ctx.lineTo(rx + 6, ry); ctx.lineTo(rx - 6, ry + 5);
+      ctx.stroke();
+    }
+  });
+
+  ctx.restore();
+
+  // Wind direction label at clearing edge (in original coords)
+  ctx.save();
+  const labelR = CR - CELL * 0.6;
+  ctx.fillStyle = 'rgba(210,195,60,0.72)';
+  ctx.font = 'bold 9px monospace'; ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+  ctx.fillText('→ ' + WIND_NAMES[windDir],
+    cx0 + Math.cos(wa) * labelR,
+    cy0 + Math.sin(wa) * labelR);
+  ctx.textBaseline = 'alphabetic';
+  ctx.restore();
+}
+
+// ── Draw: ground arcs ────────────────────────────────────────────────────────
+function drawGroundArcs(t) {
+  if (clockStage < 2) return;
+  const cx0 = (MCX+0.5)*CELL, cy0 = (MCY+0.5)*CELL;
+  const startR = 3.5 * CELL;  // just outside frame
+  const endR   = 8.5 * CELL;  // to clearing edge
+  const count  = Math.min(clockStage - 1, 3); // 1/2/3 arcs at stages 2/3/4
+
+  for (let i = 0; i < count; i++) {
+    const { a, seed } = ARC_DEFS[i];
+    const sx = cx0 + Math.cos(a) * startR, sy = cy0 + Math.sin(a) * startR;
+    const ex = cx0 + Math.cos(a) * endR,   ey = cy0 + Math.sin(a) * endR;
+
+    // Danger zone underlay (wide orange glow)
+    ctx.save();
+    ctx.lineCap = 'round';
+    ctx.strokeStyle = 'rgba(255,185,70,0.10)';
+    ctx.lineWidth = CELL * 2.0;
+    ctx.beginPath(); ctx.moveTo(sx,sy); ctx.lineTo(ex,ey); ctx.stroke();
+    ctx.strokeStyle = 'rgba(255,210,100,0.13)';
+    ctx.lineWidth = CELL * 1.0;
+    ctx.beginPath(); ctx.moveTo(sx,sy); ctx.lineTo(ex,ey); ctx.stroke();
+    ctx.restore();
+
+    // Animated lightning path (shape changes every 500ms)
+    const rng1 = seeded(seed + Math.floor(t / 500));
+    const rng2 = seeded(seed + Math.floor(t / 500) + 77);
+    const steps = 10;
+    const dx = (ex-sx)/steps, dy = (ey-sy)/steps;
+    const jitter = clockStage >= 4 ? CELL * 0.55 : CELL * 0.28;
+
+    // Outer glow
+    ctx.save();
+    ctx.strokeStyle = `rgba(90,140,255,${clockStage >= 4 ? 0.55 : 0.35})`;
+    ctx.lineWidth = 3.5; ctx.lineCap = 'round';
+    ctx.shadowColor = '#5080ff'; ctx.shadowBlur = 10;
+    ctx.beginPath(); ctx.moveTo(sx, sy);
+    for (let j = 1; j < steps; j++)
+      ctx.lineTo(sx + dx*j + (rng1()-0.5)*jitter, sy + dy*j + (rng1()-0.5)*jitter);
+    ctx.lineTo(ex, ey); ctx.stroke();
+
+    // Bright core
+    ctx.strokeStyle = `rgba(215,235,255,${clockStage >= 4 ? 0.95 : 0.78})`;
+    ctx.lineWidth = 0.9; ctx.shadowBlur = 5;
+    ctx.beginPath(); ctx.moveTo(sx, sy);
+    for (let j = 1; j < steps; j++)
+      ctx.lineTo(sx + dx*j + (rng2()-0.5)*jitter*0.45, sy + dy*j + (rng2()-0.5)*jitter*0.45);
+    ctx.lineTo(ex, ey); ctx.stroke();
+    ctx.restore();
+
+    // DC label perpendicular to arc at midpoint
+    const mx = (sx+ex)/2, my = (sy+ey)/2;
+    const pa = a + Math.PI/2; // perpendicular angle
+    const offset = 14;
+    ctx.save();
+    ctx.fillStyle = 'rgba(255,210,100,0.65)';
+    ctx.font = '8px monospace'; ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+    ctx.fillText('DC13 · 2d6', mx + Math.cos(pa)*offset, my + Math.sin(pa)*offset);
+    ctx.textBaseline = 'alphabetic';
+    ctx.restore();
+  }
+}
+
+// ── Draw: grid ───────────────────────────────────────────────────────────────
+function drawGrid() {
+  for (let i = 0; i <= COLS; i++) {
+    const maj = i%5===0;
+    ctx.strokeStyle = maj ? 'rgba(255,255,255,0.07)' : 'rgba(255,255,255,0.03)';
+    ctx.lineWidth = maj ? 0.7 : 0.4;
+    ctx.beginPath(); ctx.moveTo(i*CELL,0); ctx.lineTo(i*CELL,H); ctx.stroke();
+  }
+  for (let i = 0; i <= ROWS; i++) {
+    const maj = i%5===0;
+    ctx.strokeStyle = maj ? 'rgba(255,255,255,0.07)' : 'rgba(255,255,255,0.03)';
+    ctx.lineWidth = maj ? 0.7 : 0.4;
+    ctx.beginPath(); ctx.moveTo(0,i*CELL); ctx.lineTo(W,i*CELL); ctx.stroke();
+  }
+}
+
+// ── Draw: coords ─────────────────────────────────────────────────────────────
+function drawCoords() {
+  if (!showCoords) return;
+  ctx.fillStyle = 'rgba(100,120,140,0.45)'; ctx.font = '7px monospace'; ctx.textAlign = 'center';
+  for (let r = 0; r < ROWS; r++)
+    for (let c = 0; c < COLS; c++)
+      ctx.fillText(String.fromCharCode(65+c)+(r+1), c*CELL+CELL/2, r*CELL+CELL/2+3);
+}
+
+// ── Draw: surge overlay ──────────────────────────────────────────────────────
+function drawSurge() {
+  if (!showSurge) return;
+  const cx0 = (MCX+0.5)*CELL, cy0 = (MCY+0.5)*CELL, r = 3*CELL;
+  ctx.save();
+  ctx.fillStyle = 'rgba(255,120,40,0.07)';
+  ctx.beginPath(); ctx.arc(cx0,cy0,r,0,Math.PI*2); ctx.fill();
+  ctx.strokeStyle = 'rgba(255,140,50,0.65)'; ctx.lineWidth = 1.5;
+  ctx.setLineDash([5,4]); ctx.beginPath(); ctx.arc(cx0,cy0,r,0,Math.PI*2); ctx.stroke(); ctx.setLineDash([]);
+  ctx.fillStyle = 'rgba(255,150,60,0.75)'; ctx.font = '9px monospace'; ctx.textAlign = 'center';
+  ctx.fillText('SURGE  15 ft', cx0, cy0-r-5);
+  ctx.restore();
+}
+
+// ── Draw: stone frame ────────────────────────────────────────────────────────
+function drawFrame(t) {
+  const cx0 = (MCX+0.5)*CELL, cy0 = (MCY+0.5)*CELL;
+  const frameW = 4.4*CELL, pillarW = 1.0*CELL, frameH = 4.0*CELL, lintH = 0.7*CELL;
+  const fx = cx0 - frameW/2, fy = cy0 - frameH/2;
+  const pulse = clockStage >= 4 ? 2.0 : 0.8 + 0.2*Math.sin(t*0.0014);
+  const cracked = clockStage >= 3;
+  const sR = cracked ? 52 : 44, sG = 46, sB = cracked ? 58 : 68;
+
+  ctx.save();
+  // Pillars
+  ctx.fillStyle = `rgb(${sR},${sG},${sB})`;
+  ctx.fillRect(fx, fy, pillarW, frameH);
+  ctx.fillRect(fx+frameW-pillarW, fy, pillarW, frameH);
+  // Lintel
+  ctx.fillRect(fx, fy, frameW, lintH);
+  // Arch curve
+  ctx.beginPath();
+  const archR = (frameW - 2*pillarW)/2;
+  ctx.moveTo(fx+pillarW, fy+lintH);
+  ctx.arc(fx+frameW/2, fy+lintH, archR, Math.PI, 0, false);
+  ctx.lineTo(fx+frameW-pillarW, fy+lintH);
+  ctx.lineTo(fx+pillarW, fy+lintH);
+  ctx.fillStyle = `rgb(${sR+6},${sG+6},${sB+8})`; ctx.fill();
+  // Highlights
+  ctx.strokeStyle = `rgba(${sR+20},${sG+20},${sB+30},0.6)`; ctx.lineWidth = 0.8;
+  ctx.strokeRect(fx,fy,pillarW,frameH); ctx.strokeRect(fx+frameW-pillarW,fy,pillarW,frameH);
+  ctx.strokeRect(fx,fy,frameW,lintH);
+  // Mortise lines
+  ctx.strokeStyle = 'rgba(0,0,0,0.3)'; ctx.lineWidth = 0.5;
+  for (let i = 1; i < 4; i++) {
+    const ly = fy + i*(frameH/4);
+    ctx.beginPath(); ctx.moveTo(fx,ly); ctx.lineTo(fx+pillarW,ly); ctx.stroke();
+    ctx.beginPath(); ctx.moveTo(fx+frameW-pillarW,ly); ctx.lineTo(fx+frameW,ly); ctx.stroke();
+  }
+  // Inner glow (Ariel)
+  const iX = fx+pillarW, iW = frameW-2*pillarW, iY = fy+lintH, iH = frameH-lintH;
+  ctx.fillStyle = '#060810'; ctx.fillRect(iX,iY,iW,iH);
+  const grd = ctx.createRadialGradient(iX+iW/2, iY+iH*0.35, 0, iX+iW/2, iY+iH*0.35, iW*0.9);
+  grd.addColorStop(0, `rgba(140,180,255,${0.72*pulse})`);
+  grd.addColorStop(0.35, `rgba(90,130,220,${0.4*pulse})`);
+  grd.addColorStop(0.7, `rgba(40,60,150,${0.18*pulse})`);
+  grd.addColorStop(1, 'rgba(10,20,80,0)');
+  ctx.fillStyle = grd; ctx.fillRect(iX,iY,iW,iH);
+  // Spill glow
+  const sg = ctx.createRadialGradient(cx0,cy0+frameH*0.5,0, cx0,cy0, frameH*1.2);
+  sg.addColorStop(0, `rgba(80,110,200,${0.10*pulse})`); sg.addColorStop(1,'rgba(0,0,0,0)');
+  ctx.fillStyle = sg; ctx.beginPath(); ctx.arc(cx0,cy0,frameH*1.5,0,Math.PI*2); ctx.fill();
+  // Interior lightning
+  const freq = clockStage>=3 ? 1200 : clockStage>=2 ? 1800 : 2800;
+  if (t%freq < 90) {
+    ctx.strokeStyle = 'rgba(210,230,255,0.55)'; ctx.lineWidth = 0.6;
+    const rng = seeded(Math.floor(t/freq)*7);
+    ctx.beginPath();
+    let lx = iX+iW*(0.25+rng()*0.5), ly = iY+3;
+    ctx.moveTo(lx,ly);
+    while (ly < iY+iH-4) { ly += 8+rng()*10; lx = iX+iW*0.1+rng()*iW*0.8; ctx.lineTo(lx,Math.min(ly,iY+iH-4)); }
+    ctx.stroke();
+  }
+  drawCracks(fx,fy,frameW,frameH);
+  // Stage 4 shatter
+  if (clockStage >= 4) {
+    ctx.globalAlpha = 0.6; ctx.strokeStyle = '#c0d0e8'; ctx.lineWidth = 0.8;
+    const sr = seeded(42);
+    for (let i = 0; i < 16; i++) {
+      const aa = (i/16)*Math.PI*2, len = (1.5+sr())*CELL;
+      ctx.beginPath(); ctx.moveTo(cx0,cy0); ctx.lineTo(cx0+Math.cos(aa)*len,cy0+Math.sin(aa)*len); ctx.stroke();
+    }
+    ctx.globalAlpha = 1;
+  }
+  ctx.restore();
+}
+
+function drawCracks(fx,fy,fw,fh) {
+  if (clockStage===0) return;
+  ctx.save();
+  ctx.strokeStyle = clockStage>=3 ? '#c09090' : '#8898a8';
+  ctx.lineWidth = clockStage>=3 ? 1.0 : 0.7;
+  crackLine(fx+0.7*CELL, fy+1.5*CELL, -0.15*CELL, 1.6*CELL, 1);
+  if (clockStage>=2) { crackLine(fx+1.4*CELL,fy+0.5*CELL,1.2*CELL,0.3*CELL,1); crackLine(fx+0.5*CELL,fy+2.5*CELL,0.4*CELL,1.2*CELL,1); }
+  if (clockStage>=3) {
+    ctx.lineWidth=1.4; crackLine(fx+fw-0.8*CELL,fy+1.0*CELL,0.2*CELL,2.8*CELL,2); crackLine(fx+1.6*CELL,fy+0.2*CELL,1.6*CELL,0.6*CELL,1);
+    ctx.lineWidth=0.7; crackLine(fx+0.3*CELL,fy+0.8*CELL,0.6*CELL,2.4*CELL,2);
+  }
+  ctx.restore();
+}
+
+function crackLine(x,y,dx,dy,branches) {
+  const rng = seeded(Math.floor(x+y*1000+dx*10000));
+  let cx0=x, cy0=y; ctx.beginPath(); ctx.moveTo(cx0,cy0);
+  for (let i=0;i<7;i++) { const j=(rng()-0.5)*5; cx0+=dx/7+j; cy0+=dy/7+j*0.4; ctx.lineTo(cx0,cy0); }
+  ctx.stroke();
+  if (branches>0) crackLine(x+dx*(0.4+rng()*0.3), y+dy*(0.4+rng()*0.3), dx*0.45*(rng()-0.2), dy*0.45+(rng()-0.5)*8, branches-1);
+}
+
+// ── Draw: markers ────────────────────────────────────────────────────────────
+function drawMarkers() {
+  ctx.save(); ctx.fillStyle='rgba(70,140,70,0.75)'; ctx.font='9px monospace'; ctx.textAlign='center';
+  ctx.fillText('▲ PARTY ENTRY', 15.5*CELL, 29.4*CELL); ctx.restore();
+  marker(6.5*CELL, 12.5*CELL, '#d4a840', 'C', 'captain');
+  marker(23.5*CELL, 9.5*CELL, '#c03838', 'E', 'edrin');
+}
+
+function marker(x,y,color,label,name) {
+  ctx.save();
+  const grd = ctx.createRadialGradient(x,y,0,x,y,18);
+  grd.addColorStop(0,color+'44'); grd.addColorStop(1,'transparent');
+  ctx.fillStyle=grd; ctx.beginPath(); ctx.arc(x,y,18,0,Math.PI*2); ctx.fill();
+  ctx.fillStyle=color; ctx.beginPath(); ctx.arc(x,y,8,0,Math.PI*2); ctx.fill();
+  ctx.fillStyle='#0a0a0a'; ctx.font='bold 9px sans-serif'; ctx.textAlign='center';
+  ctx.fillText(label,x,y+3);
+  ctx.fillStyle=color+'cc'; ctx.font='8px monospace';
+  ctx.textAlign=label==='E'?'right':'left';
+  ctx.fillText(name, x+(label==='E'?-12:12), y+3);
+  ctx.restore();
+}
+
+// ── Draw: scale ──────────────────────────────────────────────────────────────
+function drawScale() {
+  ctx.save();
+  ctx.fillStyle='rgba(100,110,120,0.6)'; ctx.font='9px monospace'; ctx.textAlign='left';
+  ctx.fillText('0',11,H-12); ctx.fillText('25 ft',11+5*CELL,H-12);
+  ctx.strokeStyle='rgba(100,110,120,0.6)'; ctx.lineWidth=1;
+  for (let i=0;i<=5;i++) { ctx.beginPath(); ctx.moveTo(19+i*CELL,H-19); ctx.lineTo(19+i*CELL,H-14); ctx.stroke(); }
+  ctx.beginPath(); ctx.moveTo(19,H-16); ctx.lineTo(19+5*CELL,H-16); ctx.stroke();
+  ctx.restore();
+}
+
+// ── Interaction ──────────────────────────────────────────────────────────────
+function tick(n) {
+  clockStage = clockStage >= n ? n-1 : n;
+  for (let i=1;i<=4;i++) {
+    const cl = document.getElementById('c'+i), tr = document.getElementById('t'+i), on = i<=clockStage;
+    cl.classList.toggle('on',on); cl.textContent = on ? '◆' : '◇'; tr.classList.toggle('done',on);
+  }
+  document.getElementById('c4').classList.add('final');
+}
+
+function rotateWind(d) {
+  windDir = ((windDir + d) + 8) % 8;
+  document.getElementById('wind-display').textContent = WIND_NAMES[windDir];
+}
+
+function advanceFog() {
+  fogLevel = Math.min(fogLevel + 1, 3);
+  updateFogUI();
+}
+
+function retreatFog() {
+  fogLevel = Math.max(fogLevel - 1, 0);
+  updateFogUI();
+}
+
+function updateFogUI() {
+  document.getElementById('fog-display').textContent = `+${fogLevel * 5} ft`;
+  const notes = [
+    'Normal · clearing open',
+    '+5 ft · edges closing',
+    '+10 ft · mid-clearing squeeze',
+    '+15 ft · CRITICAL · near the frame',
+  ];
+  document.getElementById('fog-note').textContent = notes[fogLevel];
+  document.getElementById('fog-note').style.color = fogLevel >= 3 ? '#8a4a3a' : fogLevel >= 2 ? '#6a5a3a' : '#3a4a5a';
+}
+
+function toggleSurge() {
+  showSurge = !showSurge; document.getElementById('btn-surge').classList.toggle('on', showSurge);
+}
+
+function toggleCoords() {
+  showCoords = !showCoords; document.getElementById('btn-coords').classList.toggle('on', showCoords);
+}
+
+function resetAll() {
+  clockStage = 0; windDir = 2; fogLevel = 0;
+  for (let i=1;i<=4;i++) {
+    document.getElementById('c'+i).classList.remove('on');
+    document.getElementById('c'+i).textContent = '◇';
+    document.getElementById('t'+i).classList.remove('done');
+  }
+  document.getElementById('c4').classList.add('final');
+  document.getElementById('wind-display').textContent = 'E';
+  updateFogUI();
+}
+
+// ── Render loop ──────────────────────────────────────────────────────────────
+function render(ts) {
+  ctx.fillStyle = '#070809'; ctx.fillRect(0,0,W,H);
+
+  drawGround();
+  drawGlow(ts);
+  drawFog(ts);
+  drawFogPressure(ts);
+  drawTrees();
+  drawWindBand(ts);
+  drawGroundArcs(ts);
+  drawGrid();
+  drawCoords();
+  drawSurge();
+  drawFrame(ts);
+  drawMarkers();
+  drawScale();
+
+  // Ambient lightning flash
+  nextLightning -= 16;
+  if (nextLightning <= 0) {
+    lightning = 6 + Math.floor(Math.random()*6);
+    const iv = 2500 + Math.random()*5000;
+    nextLightning = clockStage>=3 ? iv*0.45 : clockStage>=1 ? iv*0.70 : iv;
+  }
+  const lel = document.getElementById('lightning');
+  if (lightning > 0) { lel.style.opacity = (lightning/12).toFixed(2); lightning--; }
+  else lel.style.opacity = '0';
+
+  requestAnimationFrame(render);
+}
+
+requestAnimationFrame(render);
+</script>
+</body>
+</html>

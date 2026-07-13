@@ -2,7 +2,7 @@
 title: "Ariel"
 type: npc
 role: "Bound storm-spirit"
-voice: "Has not yet spoken — communicates through sensation: lightning that doesn't strike, winds that guide, storms that quiet when acknowledged"
+voice: "Communicates through sensation: lightning that doesn't strike, winds that guide, storms that quiet when acknowledged. Spoke once voluntarily (S20): 'The storm follows you.'"
 attitude: neutral
 location: "ariels-island"
 publish: true
@@ -24,22 +24,25 @@ Does not want escape. Wants terms — relationship without domination. Fears rec
 
 During the storm crossing, [[coriac]] took a lightning strike voluntarily to protect the ship. Ariel pulled him into a vision: a vast female form, crackling eyes, storm built into flesh. Coriac reached out his hand and invited her to speak. She moved toward speech. The vision ended before she could finish.
 
-**She has not finished what she was about to say.**
+**She finished it, voluntarily, at the Circled Zone (S20) — before any clock work, before Edrin arrived. To Coriac: *"The storm follows you."* First words spoken of her own will since the bind.**
+
+Receiving the White Gull captain into the frame was her first free act since the bind — not wrath, not compulsion. A tide coming in, patient and certain.
 
 %%This is a live promise to the table. The next contact should be player-initiated or earned through posture — not handed. When she does speak, it should answer a question Coriac has been carrying, not one he just asked.%%
 
 %%
-### What she says (decided — adjust if the table earns something truer)
+### What she says — PLAYED S20
 
-The default, settled in prep for session 19: **"The storm follows you."** An observation — the thing she sees most clearly in him. It lands only if Coriac reaches *actively*, the way he did in the lightning strike: engaging the storm, not commanding it. Played in layers as he stays open:
+Delivered at the Circled Zone before Edrin arrived. Coriac drew her toward him in the way that mattered — present without commanding — and she spoke unprompted.
 
-1. *Literal / wry* — chaos and trouble trail this crew; the weather has been hunting them since the crossing. (Almost amused — a small relief that she can say even this.)
-2. *Divine* — he carries Thor's name well, and the god comes with it. The storm follows because part of one already walks with him.
-3. *Personal (platonic)* — she reached *him*, of all the mortals here, because he **engages the storm without trying to own it.** He channels; he does not command. That is the opposite of [[edrin-vael]], and it is why she chose him and not her captor.
+**"The storm follows you."**
 
-**What it answers:** the question Coriac has carried — whether his bond to storms is truly his, or just Thor's borrowed weather, or luck. Her answer: it's a relationship, and he's been having it correctly. If he asks for guidance: *"Do not bind it. Do not flee it. Stand in it"* — which is also her own plea about her captivity, said sideways.
+Layers available if the table stays open:
+1. *Literal / wry* — chaos and trouble trail this crew; the weather has been hunting them since the crossing.
+2. *Divine* — he carries Thor's name well, and the god comes with it.
+3. *Personal (platonic)* — she reached him because he engages the storm without trying to own it. He channels; he does not command. The opposite of [[edrin-vael]].
 
-This is the primary line; it can change if play surfaces a question worth answering more. Full run notes in `sessions/session-019-prep.md` §9.
+The bind is still live. The sentence is delivered. What remains: whether Coriac stands fully in it (freedom clock trigger 4).
 %%
 
 %%
