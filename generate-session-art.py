@@ -1,21 +1,26 @@
 #!/usr/bin/env python3
-"""generate-session-art.py — Ideogram art for a Memir session prep file.
+"""generate-session-art.py — Ideogram art for Memir sessions.
 
-Reads a session prep markdown file, proposes a focused set of artwork —
-big-moment scenes, reveal/new characters, and a top-down battlemap per scene —
-lets you de-select interactively, then generates PNGs via the Ideogram v3 API
-into the session's `art/` folder.
+Pre-session (default): reads a session prep file and proposes scene art
+and character-in-context reveals for tonight.
 
-Visual style is read from `art-style.md` at the vault root (single source of
-truth). The Ideogram API key comes from $IDEOGRAM_API_KEY or a repo-root `.env`.
+Post-session (--post): reads a completed session record and proposes art
+for memorable moments — action freeze-frames and, when a genuine group
+moment happened, a party shot.
+
+Visual style and character reference images (PC portraits) live in
+`art-style.md` at the vault root. Character refs are attached to every
+generated image for visual consistency across the campaign.
 
 Usage:
-    python generate-session-art.py campaigns/chance-encounters/sessions/session-019-prep.md
-    python generate-session-art.py <prep.md> --scene spar-field   # only matching item(s)
-    python generate-session-art.py <prep.md> --yes                # skip the de-select menu
-    python generate-session-art.py <prep.md> --dry-run            # print plan, no API calls
+    python generate-session-art.py campaigns/.../session-020-prep.md
+    python generate-session-art.py campaigns/.../session-020.md --post
+    python generate-session-art.py <file> --scene circled-zone
+    python generate-session-art.py <file> --only scene
+    python generate-session-art.py <file> --yes        # skip deselect
+    python generate-session-art.py <file> --dry-run    # no API calls
 
-Dependencies beyond the standard library: requests, python-dotenv.
+Dependencies: requests, python-dotenv.
 """
 
 from __future__ import annotations
@@ -32,38 +37,66 @@ from dotenv import load_dotenv
 import os
 
 API_URL = "https://api.ideogram.ai/v1/ideogram-v3/generate"
-# style_type must be one of: AUTO, GENERAL, REALISTIC, DESIGN (FICTION exists in the
-# docs but is rejected by the generate endpoint). GENERAL lets the prompt text drive
-# the painterly look without forcing photoreal (REALISTIC) or graphic (DESIGN) output.
 STYLE_TYPE = "GENERAL"
 
-# Built-in fallback style, used only if art-style.md is missing or incomplete.
+# Rough estimates — verify at ideogram.ai/pricing before a large run
+COST_ESTIMATE = {"FLASH": 0.02, "TURBO": 0.04, "DEFAULT": 0.06, "QUALITY": 0.08}
+
 FALLBACK_STYLE = {
-    "base_style": "painterly digital painting, dark atmospheric fantasy, moody, textured brushwork",
-    "scene_style": "cinematic wide composition, dramatic directional light, fog and weather",
-    "character_style": "three-quarter portrait, weathered realism, expressive face, simple backdrop",
-    "battlemap_style": (
-        "high-fidelity photorealistic top-down tabletop battle map, richly detailed natural "
-        "textures, strict 90-degree overhead view, distinct terrain zones, faint square grid"
+    "base_style": (
+        "painterly digital painting, dark atmospheric Norse fantasy, moody and weathered, "
+        "textured visible brushwork, muted cold palette with warm firelight accents"
     ),
-    "battlemap_style_type": "REALISTIC",
-    "battlemap_reference_images": "",
-    "negative": "no text, no words, no UI, no watermark, no border, no labels",
+    "scene_style": (
+        "cinematic wide composition, dramatic directional light, "
+        "depth of fog and weather, a sense of something watching"
+    ),
+    "character_style": (
+        "wide action shot showing the full body mid-motion within their environment, "
+        "character caught mid-gesture or mid-reaction, props and setting integral to the frame, "
+        "strong single directional light source, expressive body language over facial expression "
+        "— not a portrait, not facing the camera directly, never standing still"
+    ),
+    "character_reference_images": "",
+    "negative": (
+        "no text, no words, no letters, no numbers, no UI, no watermark, "
+        "no signature, no border, no labels, no frame"
+    ),
 }
 
 MIME = {".png": "image/png", ".jpg": "image/jpeg", ".jpeg": "image/jpeg", ".webp": "image/webp"}
 
-CATEGORY_ASPECT = {"scene": "16x9", "char": "3x4", "map": "16x9"}
-CATEGORY_LABEL = {"scene": "Scenes", "char": "Characters", "map": "Battlemaps"}
+CATEGORY_ASPECT = {"scene": "16x9", "char": "4x3", "party": "16x9"}
+CATEGORY_LABEL = {"scene": "Scenes", "char": "Characters", "party": "Party Moments"}
+
+PARTY_THRESHOLD = 4  # min distinct PCs mentioned in a section to propose a party shot
+
+DRAMATIC_WORDS = frozenset([
+    "fell", "struck", "revealed", "chose", "broke", "wept", "laughed",
+    "confronted", "embraced", "shattered", "defeated", "died", "promised",
+    "failed", "succeeded", "saved", "lost", "freed", "bound", "called",
+    "reached", "stood", "knelt", "smiled", "finally", "silent", "alone",
+    "together", "last", "first time", "turned away", "stepped forward",
+])
+
+# Used to find the most physically active sentence in a prose block
+ACTION_VERBS = frozenset([
+    "threw", "throw", "struck", "strike", "cast", "step", "stepped", "reach", "reached",
+    "grabbed", "grab", "pulled", "pull", "spun", "spin", "lunged", "lunge", "drew", "draw",
+    "raised", "raise", "fell", "leap", "leapt", "caught", "catch", "blocked", "block",
+    "charged", "charge", "slammed", "slam", "pushed", "push", "knelt", "kneel", "bowed",
+    "bow", "erupted", "shattered", "swept", "dove", "ran", "run", "turned", "flinched",
+    "recoiled", "sprinted", "leaned", "lean", "extended", "extend", "fired", "fire",
+    "snapped", "snap", "rushed", "rush", "pivoted", "pivot", "surged", "surge",
+])
 
 
 # ─────────────────────────────────────────────────────────────────────────────
-# Small markdown / frontmatter helpers (no PyYAML dependency)
+# Markdown / frontmatter helpers
 # ─────────────────────────────────────────────────────────────────────────────
 
 def split_frontmatter(text: str) -> tuple[dict[str, str], str]:
-    """Return (frontmatter_dict, body). Only simple `key: value` scalar lines are
-    parsed; list lines and nested structures are ignored (we don't need them)."""
+    """Return (frontmatter_dict, body). Parses simple `key: value` scalar lines only."""
     if not text.startswith("---"):
         return {}, text
     end = text.find("\n---", 3)
@@ -82,6 +115,25 @@ def split_frontmatter(text: str) -> tuple[dict[str, str], str]:
         if val:
             fm[key.strip()] = val
     return fm, body
+
+
+def frontmatter_list(raw_fm: str, key: str) -> list[str]:
+    """Extract a YAML list field like `pcs_present: [a, b, c]` from raw frontmatter text."""
+    m = re.search(rf"^{re.escape(key)}\s*:\s*\[([^\]]*)\]", raw_fm, flags=re.M)
+    if m:
+        return [v.strip() for v in m.group(1).split(",") if v.strip()]
+    lines: list[str] = []
+    in_key = False
+    for line in raw_fm.splitlines():
+        if re.match(rf"^{re.escape(key)}\s*:", line):
+            in_key = True
+            continue
+        if in_key:
+            if line.startswith("  -") or line.startswith("- "):
+                lines.append(line.lstrip("- ").strip())
+            elif line and not line.startswith(" "):
+                break
+    return lines
 
 
 def kebab(text: str) -> str:
@@ -107,8 +159,7 @@ def first_paragraph(body: str) -> str:
 
 
 def section(body: str, header_pattern: str) -> str:
-    """Return the text under the first heading matching `header_pattern`, up to the
-    next heading of the same-or-higher level."""
+    """Return the text under the first heading matching `header_pattern`."""
     lines = body.splitlines()
     out: list[str] = []
     capturing = False
@@ -128,8 +179,24 @@ def section(body: str, header_pattern: str) -> str:
     return "\n".join(out).strip()
 
 
+def action_snippet(text: str, context: int = 2) -> str:
+    """Return the most physically active sentence plus `context` surrounding sentences."""
+    sentences = re.split(r"(?<=[.!?])\s+", text.strip())
+    if len(sentences) <= context + 1:
+        return " ".join(sentences)
+    best_idx, best_score = 0, -1
+    for i, s in enumerate(sentences):
+        s_low = s.lower()
+        score = sum(1 for v in ACTION_VERBS if re.search(rf"\b{re.escape(v)}\b", s_low))
+        if score > best_score:
+            best_score, best_idx = score, i
+    start = max(0, best_idx - 1)
+    end = min(len(sentences), best_idx + context)
+    return " ".join(sentences[start:end])
+
+
 # ─────────────────────────────────────────────────────────────────────────────
-# Vault model
+# Vault helpers
 # ─────────────────────────────────────────────────────────────────────────────
 
 def find_vault_root(start: Path) -> Path:
@@ -160,8 +227,7 @@ def is_new_entity(path: Path, vault: Path) -> bool:
         return False
     if not out:
         return False
-    code = out[:2]
-    return "?" in code or "A" in code
+    return "?" in out[:2] or "A" in out[:2]
 
 
 def load_style(vault: Path) -> dict[str, str]:
@@ -175,20 +241,28 @@ def load_style(vault: Path) -> dict[str, str]:
     return style
 
 
+def load_char_refs(vault: Path, style: dict[str, str]) -> list[Path]:
+    """Load PC portrait paths from the character_reference_images config."""
+    refs = [vault / p.strip()
+            for p in style.get("character_reference_images", "").split(",") if p.strip()]
+    return [p for p in refs if p.exists()]
+
+
 # ─────────────────────────────────────────────────────────────────────────────
-# Plan items
+# Art item
 # ─────────────────────────────────────────────────────────────────────────────
 
 @dataclass
 class ArtItem:
-    category: str          # scene | char | map
+    category: str          # scene | char | party
     slug: str
     title: str
     prompt: str
+    why: str = ""
     new: bool = False
     aspect: str = field(default="1x1")
     style_type: str = STYLE_TYPE
-    style_refs: list = field(default_factory=list)  # vault-relative reference image paths
+    style_refs: list = field(default_factory=list)
 
     def filename(self, session_no: str) -> str:
         return f"session-{session_no}-{self.category}-{self.slug}.png"
@@ -206,46 +280,39 @@ def wikilinks_in(text: str) -> list[str]:
     return seen
 
 
+# ─────────────────────────────────────────────────────────────────────────────
+# Pre-session plan (reads prep file)
+# ─────────────────────────────────────────────────────────────────────────────
+
 def parse_scenes(body: str) -> list[dict]:
-    """Each scene: short title, read-aloud text, and the location slug linked under it."""
+    """Extract scenes from the prep file. Each scene: title, read-aloud, location slug."""
     scenes: list[dict] = []
-    headers = list(re.finditer(r"^###\s+Scene\s+\d+\s+—\s+(.+)$", body, flags=re.M))
+    headers = list(re.finditer(r"^###\s+Scene\s+(\d+)\s+—\s+(.+)$", body, flags=re.M))
     for i, h in enumerate(headers):
         start = h.end()
         end = headers[i + 1].start() if i + 1 < len(headers) else len(body)
         block = body[start:end]
-        title = h.group(1).split("·")[0].strip()
-        ra = re.search(r"\*\*Read-aloud:\*\*\s*(.+)", block)
+        scene_num = int(h.group(1))
+        title = h.group(2).split("·")[0].strip()
+        ra = re.search(r"\*\*Read-aloud[^:]*:\*\*\s*(.+)", block)
         read_aloud = strip_wikilinks(ra.group(1).strip()) if ra else ""
-        bl = re.search(r"\*\*Battlemap layout:\*\*\s*(.+)", block)
-        layout = strip_wikilinks(bl.group(1).strip()) if bl else ""
         loc = wikilinks_in(block)
+        is_climax = bool(re.search(r"CLIMAX", block, flags=re.I))
         scenes.append({
             "title": title,
+            "num": scene_num,
             "read_aloud": read_aloud,
-            "layout": layout,
             "location": loc[0] if loc else None,
+            "is_climax": is_climax,
+            "is_last": False,
         })
+    if scenes:
+        scenes[-1]["is_last"] = True
     return scenes
 
 
-def location_blocking(loc_slug: str | None, scene_title: str,
-                      index: dict[str, Path]) -> str:
-    """Pull tactical blocking for a scene from the linked location file: the matching
-    sub-location paragraph if present, else the location's opening description."""
-    if not loc_slug or loc_slug not in index:
-        return ""
-    fm, lbody = split_frontmatter(index[loc_slug].read_text(encoding="utf-8"))
-    key_locs = section(lbody, r"key locations")
-    short = re.sub(r"^the\s+", "", scene_title, flags=re.I).strip()
-    if key_locs:
-        for para in re.split(r"\n(?=\*\*)", key_locs):
-            if short.lower() in para.lower():
-                return strip_wikilinks(" ".join(para.splitlines()))
-    return first_paragraph(lbody)
-
-
-def build_plan(prep_path: Path, vault: Path, style: dict[str, str]) -> tuple[str, list[ArtItem]]:
+def build_pre_plan(prep_path: Path, vault: Path, style: dict[str, str],
+                   char_refs: list[Path]) -> tuple[str, list[ArtItem]]:
     text = prep_path.read_text(encoding="utf-8")
     fm, body = split_frontmatter(text)
     session_no = str(fm.get("session_number", "000")).zfill(3)
@@ -254,55 +321,27 @@ def build_plan(prep_path: Path, vault: Path, style: dict[str, str]) -> tuple[str
     neg = style["negative"]
     items: list[ArtItem] = []
 
-    # Resolve configured battlemap style-reference images (vault-relative, comma-separated).
-    map_refs = [vault / p.strip()
-                for p in style.get("battlemap_reference_images", "").split(",") if p.strip()]
-    map_refs = [p for p in map_refs if p.exists()]
-    map_style_type = style.get("battlemap_style_type", "REALISTIC")
-
-    # ── Scenes + their battlemaps ──
-    for sc in parse_scenes(body):
+    # ── Scenes ──
+    all_scenes = parse_scenes(body)
+    total = len(all_scenes)
+    for sc in all_scenes:
+        if not sc["read_aloud"]:
+            continue
         slug = kebab(sc["title"])
-        if sc["read_aloud"]:
-            items.append(ArtItem(
-                category="scene", slug=slug, title=sc["title"],
-                aspect=CATEGORY_ASPECT["scene"],
-                prompt=f"{sc['read_aloud']} {style['base_style']}, {style['scene_style']}. {neg}.",
-            ))
-        loc_title = sc["title"]
-        if sc["location"] and sc["location"] in index:
-            lfm, _ = split_frontmatter(index[sc["location"]].read_text(encoding="utf-8"))
-            loc_title = lfm.get("title", sc["title"]).strip('"')
-        # Maps must read as a flat overhead floor plan, so lead hard with top-down
-        # framing and feed the *spatial* blocking (not the cinematic read-aloud, which
-        # is first-person and pulls the model toward a horizon view). Map-only negatives
-        # (no horizon/sky/perspective/figures) stay inline so they don't affect scenes.
-        # Prefer an authored top-down layout brief (zones/edges/focal feature) — that's what
-        # makes maps dynamic. Fall back to derived blocking, stripping a leading "Name — "
-        # label so the proper noun isn't rendered as title text.
-        if sc["layout"]:
-            terrain = sc["layout"]
+        if sc["is_climax"]:
+            why = "climax scene"
+        elif sc["is_last"]:
+            why = f"closing scene ({sc['num']}/{total})"
         else:
-            terrain = location_blocking(sc["location"], sc["title"], index) or sc["read_aloud"]
-            terrain = re.sub(r"^[^—]{0,40}—\s*", "", terrain).strip()
-        map_neg = (f"{neg}, no horizon, no sky, no perspective view, no isometric view, "
-                   f"no 3D angle, no camera tilt, no oblique angle, no vanishing point, "
-                   f"no first-person view, no character figures, no tokens")
-        # Maps do NOT inherit the painterly base_style — battlemap_style is self-contained
-        # and photoreal; a style-reference image (if configured) carries the fidelity. No
-        # proper nouns in the framing clause — naming a place makes the model stamp a title.
+            why = f"scene {sc['num']}/{total}"
         items.append(ArtItem(
-            category="map", slug=slug, title=f"{sc['title']} (map)",
-            aspect=CATEGORY_ASPECT["map"], style_type=map_style_type, style_refs=list(map_refs),
-            prompt=(
-                f"Overhead orthographic top-down tabletop RPG battle map, "
-                f"seen straight down from directly above at 90 degrees, flat floor plan, "
-                f"no perspective and no horizon. Terrain laid out from above: {terrain} "
-                f"{style['battlemap_style']}. {map_neg}."
-            ),
+            category="scene", slug=slug, title=sc["title"], why=why,
+            aspect=CATEGORY_ASPECT["scene"],
+            prompt=f"{sc['read_aloud']} {style['base_style']}, {style['scene_style']}. {neg}.",
+            style_refs=list(char_refs),
         ))
 
-    # ── Characters: on-screen cast (§4) + encounter bank (§6), NEW reveals first ──
+    # ── Characters: cast tonight + encounter bank, reveals first ──
     cast_text = "\n".join(x for x in (
         section(body, r"the cast tonight"),
         section(body, r"encounter bank"),
@@ -323,22 +362,174 @@ def build_plan(prep_path: Path, vault: Path, style: dict[str, str]) -> tuple[str
         lede = first_paragraph(cbody)
         article = "an" if descriptor[:1].lower() in "aeiou" else "a"
         subject = f"{title}, {article} {descriptor}" if descriptor else title
+        new = is_new_entity(path, vault)
+        why = "first reveal tonight — not yet seen by players" if new else "returning NPC"
         chars.append(ArtItem(
-            category="char", slug=slug, title=title,
-            new=is_new_entity(path, vault), aspect=CATEGORY_ASPECT["char"],
-            prompt=(f"Character portrait of {subject}. {lede} "
+            category="char", slug=slug, title=title, why=why,
+            new=new, aspect=CATEGORY_ASPECT["char"],
+            prompt=(f"{subject} caught mid-action. {lede} "
                     f"{style['base_style']}, {style['character_style']}. {neg}."),
+            style_refs=list(char_refs),
         ))
     chars.sort(key=lambda it: (not it.new, it.title.lower()))
 
-    # Order: scenes, characters (reveals first), battlemaps.
-    scenes = [it for it in items if it.category == "scene"]
-    maps = [it for it in items if it.category == "map"]
-    return session_no, scenes + chars + maps
+    return session_no, items + chars
 
 
 # ─────────────────────────────────────────────────────────────────────────────
-# Selection + generation
+# Post-session plan (reads completed session record)
+# ─────────────────────────────────────────────────────────────────────────────
+
+def load_pc_names(vault: Path, slugs: list[str], index: dict[str, Path]) -> dict[str, str]:
+    """Map pc slug -> display name (title frontmatter, or title-cased slug as fallback)."""
+    names: dict[str, str] = {}
+    for slug in slugs:
+        path = index.get(slug)
+        if path:
+            pfm, _ = split_frontmatter(path.read_text(encoding="utf-8"))
+            names[slug] = pfm.get("title", slug).strip('"')
+        else:
+            names[slug] = "-".join(p.capitalize() for p in slug.split("-"))
+    return names
+
+
+def split_into_sections(body: str) -> list[tuple[str, str]]:
+    """Return list of (header_title, section_text). Ungrouped leading text gets title ''."""
+    result: list[tuple[str, str]] = []
+    header_re = re.compile(r"^#{1,3}\s+(.+)$", re.M)
+    positions = [(m.start(), m.group(1).strip(), m.end()) for m in header_re.finditer(body)]
+
+    if not positions:
+        for para in body.split("\n\n"):
+            para = para.strip()
+            if para:
+                result.append(("", para))
+        return result
+
+    if positions[0][0] > 0:
+        lead = body[:positions[0][0]].strip()
+        if lead:
+            result.append(("", lead))
+
+    for i, (start, title, end) in enumerate(positions):
+        next_start = positions[i + 1][0] if i + 1 < len(positions) else len(body)
+        text = body[end:next_start].strip()
+        result.append((title, text))
+
+    return result
+
+
+def score_section(text: str, pc_display_names: list[str]) -> tuple[int, set[str]]:
+    """Score a block for art-worthiness. Returns (score, set of mentioned PC names)."""
+    score = 0
+    mentioned: set[str] = set()
+    text_lower = text.lower()
+
+    for name in pc_display_names:
+        if name.lower() in text_lower:
+            score += 2
+            mentioned.add(name)
+
+    for word in DRAMATIC_WORDS:
+        if word in text_lower:
+            score += 1
+            break  # one dramatic-word bonus per section
+
+    if len(text.split()) > 60:
+        score += 1
+
+    return score, mentioned
+
+
+def build_post_plan(session_path: Path, vault: Path, style: dict[str, str],
+                    char_refs: list[Path]) -> tuple[str, list[ArtItem]]:
+    text = session_path.read_text(encoding="utf-8")
+
+    # Extract pcs_present from raw frontmatter text (split_frontmatter drops list fields)
+    raw_fm_end = text.find("\n---", 3)
+    raw_fm = text[3:raw_fm_end] if raw_fm_end != -1 else ""
+    pc_slugs = frontmatter_list(raw_fm, "pcs_present")
+
+    fm, body = split_frontmatter(text)
+    session_no = str(fm.get("session_number", "000")).zfill(3)
+
+    index = build_index(vault)
+    neg = style["negative"]
+    pc_names_map = load_pc_names(vault, pc_slugs, index)
+    pc_display = list(pc_names_map.values())
+
+    sections = split_into_sections(body)
+
+    scored: list[tuple[int, str, str, set[str]]] = []
+    for title, text_block in sections:
+        if len(text_block.split()) < 20:
+            continue
+        s, mentioned = score_section(text_block, pc_display)
+        if s > 0:
+            scored.append((s, title, text_block, mentioned))
+
+    scored.sort(key=lambda x: -x[0])
+
+    # Pick top moments — cap at 5, try to spread across different PCs
+    chosen: list[tuple[int, str, str, set[str]]] = []
+    used_pcs: set[str] = set()
+    party_pcs: set[str] = set()
+    party_prose: str = ""
+
+    for s, title, text_block, mentioned in scored:
+        if len(chosen) >= 5:
+            break
+        if s >= 4 or not (mentioned & used_pcs) or len(chosen) < 2:
+            chosen.append((s, title, text_block, mentioned))
+            used_pcs |= mentioned
+            if len(mentioned) >= PARTY_THRESHOLD:
+                party_pcs = mentioned
+                party_prose = text_block
+
+    items: list[ArtItem] = []
+
+    for _, title, text_block, mentioned in chosen:
+        slug = kebab(title) if title else f"moment-{len(items) + 1}"
+        display_title = title if title else "Untitled moment"
+
+        snippet = action_snippet(strip_wikilinks(text_block))
+
+        if len(mentioned) == 1:
+            why = f"{next(iter(mentioned))} spotlight moment"
+        elif len(mentioned) >= 2:
+            why = f"shared moment — {', '.join(sorted(mentioned))}"
+        else:
+            why = "key moment"
+
+        items.append(ArtItem(
+            category="scene", slug=slug, title=display_title, why=why,
+            aspect=CATEGORY_ASPECT["scene"],
+            prompt=(f"Action freeze-frame: {snippet} "
+                    f"{style['base_style']}, {style['scene_style']}, "
+                    f"figures caught mid-motion, dynamic pose, poster-worthy framing. {neg}."),
+            style_refs=list(char_refs),
+        ))
+
+    # Party shot — only when a genuine group moment is found
+    if party_pcs:
+        names_str = ", ".join(sorted(party_pcs))
+        party_snippet = action_snippet(strip_wikilinks(party_prose))
+        items.append(ArtItem(
+            category="party", slug="party", title="Party together",
+            why=f"group moment — {names_str}",
+            aspect=CATEGORY_ASPECT["party"],
+            prompt=(f"Action freeze-frame, full group in frame: {party_snippet} "
+                    f"Wide shot, all figures visible and mid-action. "
+                    f"{style['base_style']}, {style['scene_style']}, "
+                    f"dynamic group composition, poster-worthy. {neg}."),
+            style_refs=list(char_refs),
+        ))
+
+    return session_no, items
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Selection + display
 # ─────────────────────────────────────────────────────────────────────────────
 
 def preview(prompt: str, width: int = 88) -> str:
@@ -356,10 +547,10 @@ def print_plan(items: list[ArtItem], session_no: str) -> None:
             last_cat = it.category
         n += 1
         star = " ⭐NEW" if it.new else ""
-        tags = f"  [{it.style_type}]" if it.category == "map" else ""
-        if it.style_refs:
-            tags += f"  [style-ref ×{len(it.style_refs)}]"
-        print(f"    [{n:>2}] {it.filename(session_no)}{star}{tags}")
+        refs = f"  [style-ref ×{len(it.style_refs)}]" if it.style_refs else ""
+        print(f"    [{n:>2}] {it.filename(session_no)}{star}{refs}")
+        if it.why:
+            print(f"         ↳ {it.why}")
         print(f"         {preview(it.prompt)}")
     print()
 
@@ -379,26 +570,19 @@ def choose(items: list[ArtItem], session_no: str) -> list[ArtItem]:
     return [it for n, it in enumerate(items, 1) if n not in skip]
 
 
+# ─────────────────────────────────────────────────────────────────────────────
+# API generation
+# ─────────────────────────────────────────────────────────────────────────────
+
 def generate(item: ArtItem, api_key: str, art_dir: Path, session_no: str,
              speed: str = "QUALITY") -> Path:
-    """POST the prompt to Ideogram, download the result, write the PNG. Returns the path.
-
-    NOTE: this function is the single place that speaks to the Ideogram API. The v3
-    endpoint expects multipart/form-data; the (None, value) tuples make requests send
-    each text field as a form part and set the multipart boundary automatically. Style
-    reference images are repeated `style_reference_images` file parts.
-    """
-    # When a style reference is attached, the API requires style_type AUTO/GENERAL
-    # (the reference drives the look); otherwise use the item's configured style_type.
+    """POST to Ideogram v3, download the result, write to art_dir."""
     style_type = "AUTO" if item.style_refs else item.style_type
-    # List-of-tuples form so a field name (style_reference_images) can repeat.
     parts: list = [
         ("prompt", (None, item.prompt)),
         ("rendering_speed", (None, speed)),
         ("style_type", (None, style_type)),
         ("aspect_ratio", (None, item.aspect)),
-        # OFF = use our prompt verbatim; stops the auto-rewriter from stamping a
-        # "title" onto the image (the stray text that leaks onto battle maps).
         ("magic_prompt", (None, "OFF")),
     ]
     for ref in item.style_refs:
@@ -411,7 +595,6 @@ def generate(item: ArtItem, api_key: str, art_dir: Path, session_no: str,
         try:
             detail = resp.json().get("error") or resp.reason
         except ValueError:
-            # Non-JSON body (e.g. a Cloudflare HTML error page) — don't dump it.
             detail = resp.reason or "non-JSON error response"
         raise RuntimeError(f"HTTP {resp.status_code}: {detail}")
     url = resp.json()["data"][0]["url"]
@@ -427,35 +610,43 @@ def generate(item: ArtItem, api_key: str, art_dir: Path, session_no: str,
 # ─────────────────────────────────────────────────────────────────────────────
 
 def main() -> int:
-    ap = argparse.ArgumentParser(description="Generate Ideogram art from a session prep file.")
-    ap.add_argument("prep", type=Path, help="Path to the session prep markdown file.")
+    ap = argparse.ArgumentParser(description="Generate Ideogram art for a Memir session.")
+    ap.add_argument("file", type=Path,
+                    help="Session prep file (default) or completed session record (--post).")
+    ap.add_argument("--post", action="store_true",
+                    help="Post-session mode: read a completed session-N.md record.")
     ap.add_argument("--scene", metavar="NAME",
                     help="Generate only items whose slug/title contains NAME.")
-    ap.add_argument("--only", choices=["scene", "char", "map"], action="append", default=[],
-                    help="Restrict to one or more categories (repeatable). E.g. --only scene --only char.")
+    ap.add_argument("--only", choices=["scene", "char", "party"], action="append", default=[],
+                    help="Restrict to one or more categories (repeatable).")
     ap.add_argument("--speed", choices=["flash", "turbo", "default", "quality"],
                     default="quality",
                     help="Rendering speed / cost tier (cheap→pricey). Default: quality.")
     ap.add_argument("--style-ref", metavar="PATH", action="append", default=[],
-                    help="Add a style-reference image (look/texture, not layout) to every "
-                         "selected item. Repeatable. Adds to any configured battlemap reference.")
-    ap.add_argument("--yes", action="store_true", help="Skip the de-select menu; generate all.")
+                    help="Add a style-reference image to every selected item. Repeatable.")
+    ap.add_argument("--yes", action="store_true", help="Skip the deselect menu; generate all.")
     ap.add_argument("--dry-run", action="store_true",
                     help="Print the plan and prompts without calling the API.")
     args = ap.parse_args()
 
-    prep_path = args.prep.expanduser().resolve()
-    if not prep_path.is_file():
-        print(f"error: prep file not found: {prep_path}", file=sys.stderr)
+    file_path = args.file.expanduser().resolve()
+    if not file_path.is_file():
+        print(f"error: file not found: {file_path}", file=sys.stderr)
         return 2
 
-    vault = find_vault_root(prep_path)
+    vault = find_vault_root(file_path)
     load_dotenv(vault / ".env")
     style = load_style(vault)
+    char_refs = load_char_refs(vault, style)
 
-    session_no, items = build_plan(prep_path, vault, style)
+    if args.post:
+        session_no, items = build_post_plan(file_path, vault, style, char_refs)
+    else:
+        session_no, items = build_pre_plan(file_path, vault, style, char_refs)
+
     if not items:
-        print("No scenes, characters, or battlemaps found in the prep file.", file=sys.stderr)
+        label = "session record" if args.post else "prep file"
+        print(f"No art candidates found in the {label}.", file=sys.stderr)
         return 1
 
     if args.only:
@@ -496,7 +687,19 @@ def main() -> int:
         print("Nothing selected — exiting.")
         return 0
 
-    art_dir = prep_path.parent / "art"
+    cost_per = COST_ESTIMATE.get(args.speed.upper(), 0.08)
+    print(f"\n{len(selected)} image(s) selected. "
+          f"Estimated cost: ~${cost_per * len(selected):.2f} "
+          f"(~${cost_per:.2f}/image at {args.speed} tier — verify at ideogram.ai/pricing).")
+    try:
+        confirm = input("Generate? [y/N]: ").strip().lower()
+    except EOFError:
+        confirm = "n"
+    if confirm not in ("y", "yes"):
+        print("Cancelled.")
+        return 0
+
+    art_dir = file_path.parent / "art"
     art_dir.mkdir(parents=True, exist_ok=True)
 
     generated: list[Path] = []
