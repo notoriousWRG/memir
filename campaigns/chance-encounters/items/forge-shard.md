@@ -21,11 +21,24 @@ The shard is warm to the touch at all times. In the presence of significant stor
 It does not grant mechanical benefit yet.
 
 %%
-## Resolution Condition
+## Resolution — decided, S21
 
-The shard completes itself through a roleplay act on Ariel's island — not a skill check. When Coriac does something that defines his relationship to Ariel (speaks for her, refuses to bind her, mediates between her and [[edrin-vael]] at cost to himself), the item finishes. What it becomes should reflect the specific act.
+The shard completes at the Reckoning's close as the physical token of the willing bond between [[coriac]] and [[ariel]] — Thor gave the potential and left it unfinished; Ariel is who finishes it. This isn't a rival to Thor's blessing — the retroactive canon already established Thor's domain was a bridge to her, not a wall between them. The shard becoming the bond-token is that bridge made physical.
+
+**Two Storms — how the bond and the blessing interact:**
+
+Coriac now carries two storm relationships that read differently: Thor is reverence and service (the warhammer, the protection rune, structure and duty). Ariel is a personal relationship, chosen and mutual (companionship, not command). They aren't in tension by default — but how Coriac *acts* can strengthen one at the other's expense.
+
+- **Both grow together** when Coriac stands in the storm rather than owning or fleeing it — protecting others at personal risk, acting with both blessing and bond present in the same moment. (Mirrors the lightning-strike act that started this.)
+- **The bond takes strain** if Coriac ever tries to command Ariel rather than ask her — the same failure mode as Edrin, in miniature. Refusing costs the bond, same as it would cost her to refuse him.
+- **The blessing dims** if Coriac hides from the storm out of fear when it matters — Thor doesn't favor retreat.
+
+**Bond tiers** (seed the first at the Reckoning's close; build the rest as it's earned — don't front-load mechanics ahead of play):
+1. *Passive — storm-sense* (unlocked at Reckoning close): feels weather coming the way Ariel does; advantage on checks reading storms/sea; the shard stays warm as a compass toward her.
+2. *Active — communion* (later, earned): once per storm, can ask Ariel a true answer, or ask for a small localized mercy — a calmed patch, a following wind. Natural hook for the new ship's voyages.
+3. *Deep — shared will* (arc close, far off): call weather she shapes, or vice versa. Carries real risk of losing himself in it if pursued the wrong way — the same cliff Edrin fell off.
 
 ## DM Note
 
-Hold this. The anticipation of an unfinished item is its own table energy. Don't rush the resolution. The island arc is where it pays off.
+Don't over-build this at the table tonight. Tier 1 unlocks now. The rest is future material — flesh out as it's earned, same discipline as everything else in this campaign.
 %%

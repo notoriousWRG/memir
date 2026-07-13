@@ -30,3 +30,16 @@ He assumes Coriac will understand the necessity of control. He does not regret c
 The "old captain" the survivors glimpse at the treeline is Edrin — but not in the flesh. It is a **scry-shadow**, his attention carried on the island's air and [[ariel]]'s bound domain: a perceivable presence, a silhouette that holds eye contact and then isn't there. This is why the camp can't agree he's real. His body is inland at the Circled Zone; what watches from the treeline is the reach of a man who binds a storm-spirit and uses her senses as his own.
 
 Approached directly, the image withdraws (he isn't ready). Watched and left alone, it watches back — and he can speak through it, briefly, if he chooses.
+
+## The totem — DM's "oh shit" button, S21
+
+He took something off the mage's body before he escaped: a knotted totem of bone and bark, dark nature magic he never fully understood — he kept it because it was the mage's, not because he could use it. He has not used it before now.
+
+**DM-only, not automatic.** If the Reckoning fight is running fast or Edrin dropping would feel anticlimactic, he doesn't fall. At the moment he'd hit 0 HP: he claws at his collar and the transformation takes him before he decides to let it — a corrupted flavor of wild shape, fur going wrong colors, joints bending slightly off, claws too long.
+
+**Mechanics:** reskinned Werebear (MM p.211) as the stat floor — fresh HP pool, claws/bite as written. He doesn't understand the totem, so he doesn't control it cleanly: each round, DC 13 Wis save — success, he fights with intent (surviving, not killing, still arguing his case if anyone will hear it); failure, animal instinct takes over (frenzied attack, nearest creature, ally or foe, no distinction).
+
+**How it ends:**
+- Killed in bear form → the corruption reads as consuming him. No last word. The totem burns out with him. Uglier and sadder than a clean death — this is the "he dissolves" option, just violent instead of quiet.
+- Talked down mid-transformation (someone names what's happening to him, or a DC check reaches him) → he reverts, human again, and still goes into exile — but shakier than the clean version. He doesn't get the composed *"tell the crew"* line. He just leaves, broken.
+- Otherwise, the transformation is a one-time thing — the totem doesn't come up again after tonight.
