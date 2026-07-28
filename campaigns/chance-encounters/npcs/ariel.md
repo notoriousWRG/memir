@@ -28,6 +28,12 @@ During the storm crossing, [[coriac]] took a lightning strike voluntarily to pro
 
 Receiving the White Gull captain into the frame was her first free act since the bind — not wrath, not compulsion. A tide coming in, patient and certain.
 
+## Freedom — S21
+
+The bind broke as Edrin died. He'd taken the mage's totem and transformed rather than fall clean — a corrupted Werebear. As the fight turned against him, her bonds fell away, and she didn't wait for the party to finish him: she killed him herself with her own lightning, unassisted.
+
+The frame-shatter, the reprise of "the storm follows you," and whatever she is now that she isn't bound — none of that has been played yet. Held for the table.
+
 %%This is a live promise to the table. The next contact should be player-initiated or earned through posture — not handed. When she does speak, it should answer a question Coriac has been carrying, not one he just asked.%%
 
 %%

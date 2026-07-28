@@ -3,8 +3,8 @@ title: "Grimvald"
 type: pc
 player: "Jesse"
 class: "Bard / Warlock"
-level: 6
-xp: 20550
+level: 7
+xp: 23050
 pc_race: "Half-Elf"
 ---
 

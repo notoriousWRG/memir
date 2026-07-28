@@ -9,25 +9,25 @@ description: Living planning document for Chance Encounters. The primary source 
 
 ## Established This Session
 
-- Ollo saw the Stilled. He hasn't written since. He knows what the interior does to people who take.
-- Naming the Stilled was already tried by Önund and Tjorvi. It didn't work.
-- Grimvald confessed the Suggestion at the Circled Zone; the captain accounted without rage — "You knew what I said. 'If the sea resists, I yield.'" He closed the chapter himself.
-- The captain confirmed Venn is alive, gave his goodbye, and walked into the frame on his own terms. Casus tried to stop him; the captain slipped through.
-- Ariel received the captain voluntarily — not wrath, not compulsion. First free act since the bind.
-- Before any clock work or Edrin's arrival, Ariel spoke to Coriac unprompted: **"The storm follows you."** First voluntary speech since the bind.
-- Edrin stepped out after the captain's scene. Coriac drawing Ariel toward him triggered the bind — Edrin pulled it because control was slipping. Freedom clock: 1/4.
-- Casus cast Augury on attacking Ariel directly and received Woe; shared the result with the party.
+- Coriac opened on Edrin with Call Lightning and Channel Divinity; Ariel intercepted the worst of it, still immune to lightning, still bound to shield him.
+- Grimvald hit Ariel directly with Dissonant Whispers, forcing her ninety feet into the air — the first direct attack on Ariel since Casus's Augury named that path Woe.
+- At the edge of dropping, Edrin broke the totem taken from the mage's body and transformed — corrupted Werebear (reskinned MM p.211).
+- Casus was dropped by a lightning strike during the Werebear fight and revived with a healing word; his attempt to grab Edrin's spellbook mid-fight failed — the book's location is unresolved.
+- Coriac's defining act: charged the bear directly, invoked Thor aloud — *"Stormbearer, witness the power of Thor. Let the thunder break your bonds. Witness Mjolnir's fury"* — and landed Inflict Wounds for 29, dropping the creature to 1 HP.
+- As it fell, Ariel's bonds fell with it. She killed the werebear herself, unassisted, with her own lightning. **Freedom Clock: 4/4 — bind broken.**
+- Edrin's ending: killed in bear form. No last word; the totem burned out with him.
+- The table stopped at Edrin's death. The Stilled passing, the walk back to the beach, Elara, and the new ship are **triggered but not yet played** — falling action carried into S22.
 - Obsidian Cypher face-names were improvised at the table (Orm/Eld/Fjall/Natt/Blod/Ris) — not yet reconciled with published canon; do not treat as established.
 
 ---
 
 ## Scene Stakes
 
-They're in it. The Reckoning is live — freedom clock at 1/4, initiative rolled, two players absent who return next session. Ariel attacks under compulsion. Edrin's justification is already cracking; he pulled the bind because Coriac reached Ariel first. The party has Augury (Woe on attacking Ariel directly). The stone frame has AC 17, HP 30, Damage Threshold 20, immune to lightning.
+The Reckoning is over. Edrin is dead — killed in bear form, the totem burned out with him. Ariel's bind broke as he fell; she finished him herself. The party hasn't left the island yet — the fight ended the table, and everything downstream (the Stilled passing, the walk back to the beach, Elara, the new ship) is still owed.
 
-What happens if they push Edrin with combat only: the bind tightens. The clock still advances on roleplay beats. The violence path works but costs proportional to the clock stage at resolution — high clock means cheap; low clock means they earn it harder.
+What's live now: whatever the party finds at the battlefield before they leave it, and how Ariel presents herself now that she's free — neither has been played yet, so don't pre-decide either.
 
-What happens if the clock stalls: fog advances, ground arcs spread, lair pressure increases. The island wants this resolved.
+What happens if S22 opens cold: play the falling action first, in the rough order from the S21 prep (battlefield → beach → Stilled/Tjorvi/Onund → Elara/new ship → Ravencrest), before introducing new pressure.
 
 ---
 
@@ -39,7 +39,7 @@ What happens if the clock stalls: fog advances, ground arcs spread, lair pressur
 | Elara + Wrenn decision | — | 3 / 3 🔴 RESOLVED | Loyal; searching for captain; Elara becomes new captain of the White Gull at Reckoning close. |
 | Ariel's communication | — | RESOLVED | She spoke voluntarily S20: "The storm follows you." |
 | Edrin's scry-shadow / inland descent | — | RESOLVED | He's here in the flesh. The Reckoning is live. |
-| **Freedom Clock (The Reckoning)** | Coriac stands in it / Edrin confronted with voluntary contact / Coriac's defining act | **1 / 4** | Bind breaks. Frame shatters. Ariel speaks. The Stilled pass at peace. Onund and Tjorvi with them. |
+| **Freedom Clock (The Reckoning)** | — | **4 / 4 🔴 RESOLVED** | Bind broke as Edrin died in bear form, S21. Ariel free. Frame-shatter/"storm follows you" reprise, Stilled passing, and Onund/Tjorvi's release are triggered but not yet played — S22 falling action. |
 
 ---
 
@@ -47,8 +47,7 @@ What happens if the clock stalls: fog advances, ground arcs spread, lair pressur
 
 | NPC | Want | Fear | Tell |
 |---|---|---|---|
-| Ariel | Coriac to stand in it fully — not managing, not retreating | Being heard but not understood; being reduced to the storm she's bound in | The air goes still when she recedes; cold breath on the neck when she's present |
-| [[edrin-vael]] | To maintain control of the Reckoning's terms — but the crack is live | That what he called impossible (Coriac, a willing vessel) proves him wrong | He's watching Coriac, not the party; his voice will be steady until it isn't |
+| Ariel | To be understood on her own terms, not managed or reduced — now that the bind is broken | Being expected to just resume normalcy; what she owes/is owed to Coriac still undefined | Killed Edrin herself, unprompted — decisive, not vengeful in how she delivered it |
 | [[dessa]] | For the party to be the reach she's been waiting for against Edrin | Spending what's left of her people on false hope | Finishes the knot before she changes the subject |
 | [[ollo]] | To still be useful — but he's seen the Stilled and been inside the Reckoning now | Being made to look at it again; having no answer | Hasn't written since the back room; present at the Circled Zone; silent |
 | [[onund]] | For the promise to be real; for dignity in the ending | Having performed this whole time for nothing | Still checks Tjorvi's face — but quieter now |
@@ -60,28 +59,24 @@ What happens if the clock stalls: fog advances, ground arcs spread, lair pressur
 
 | If... | Then... |
 |---|---|
-| Someone tries to free the Stilled (beyond naming) | Arc is closed. They pass when Edrin's bind breaks — time catches up, they go at peace. Cannot be freed before that. |
-| Edrin is confronted with the fact that Ariel chose Coriac voluntarily | His justification cracks. He gets there himself if pressed without being attacked. Freedom clock tick. |
-| Freedom clock reaches 4/4 | Bind breaks. Stone frame shatters. Ariel speaks. Simultaneously: the Stilled in the Hollowed Hull pass at peace — time catches up with them. Onund and Tjorvi are with them. |
-| Coriac does the defining act in the Reckoning | Forge Shard completes. What it becomes reflects the specific act. Hold until earned; decide in the moment. |
-| Edrin is dropped in combat | **DM's call:** if the fight is landing fine, bind snaps violently — Ariel surges free uncontrolled for 1 round (Surge, all creatures), then stills. If it's running fast or feels anticlimactic, use the totem instead — see [[edrin-vael]]. |
-| Edrin activates the totem (DM discretion, at the moment he'd drop) | Corrupted wild-shape, reskinned Werebear (MM p.211), fresh HP. DC 13 Wis save each round: success he fights with intent, failure he's frenzied (nearest creature, ally or foe). One-time only. |
-| Edrin is killed in bear form | The corruption consumes him. No last word. The totem burns out with him. |
-| Edrin is talked down mid-transformation | He reverts, human, still goes into exile — but shakier. No composed line. He just leaves, broken. |
-| Edrin is talked down / spared (before transforming) | Exile. His line: *"Tell the crew. Their captain is dead. It's better that they think this."* He walks into the interior and does not come back. |
+| ~~Someone tries to free the Stilled (beyond naming)~~ | **Fired, S21** — bind broke; passing is triggered but not yet played (S22 falling action). |
+| ~~Freedom clock reaches 4/4~~ | **Fired, S21** — bind broke as Edrin died in bear form. Ariel free. Frame-shatter/"storm follows you" reprise and Stilled passing not yet played. |
+| ~~Coriac does the defining act in the Reckoning~~ | **Fired, S21** — charged the bear invoking Thor, Inflict Wounds for 29. Forge Shard completion still to formalize when the deferred bind-break scene plays. |
+| ~~Edrin activates the totem~~ | **Fired, S21** — broke at the edge of dropping, corrupted Werebear. |
+| ~~Edrin is killed in bear form~~ | **Fired, S21** — Ariel killed him herself, unassisted, as her bonds fell. No last word; totem burned out with him. |
 | Casus uses the Ovaltine potion on the island | Ariel interacts with it directly. Reaction proportional to intent. |
 | Artcoth uses the gloves | See [[artcoths-gloves]] — Water Grip / Tide Strike. Mechanics resolved. |
 | Casus investigates the Eld entity further (Cypher) | The entity makes contact. Agenda unknown until it does. Do not predecide — let it surface from play. |
-| Fog level advances to 3/4 (lair) | +15 ft squeeze, CRITICAL. See [[session-020-battlemap]] for mechanic. Lair pressure is the island's patience running out. |
+| Fog level advances to 3/4 (lair) | +15 ft squeeze, CRITICAL. See [[session-020-battlemap]] for mechanic. Lair pressure is the island's patience running out — likely moot now the bind's broken, confirm when the falling action plays. |
 
 ---
 
 ## Encounter Bank
 
-- **[[the-stilled]]** — reskin of Specter (CR 1, run 3–4), Hollowed Hull back room. Still passive. Arc closed; passes when bind breaks.
+- **[[the-stilled]]** — reskin of Specter (CR 1, run 3–4), Hollowed Hull back room. Arc closed S21 (bind broke) — passing triggered, not yet played at the table.
 - **[[storm-draugr]]** — offshore, watching; not in play unless party returns to the water.
-- **[[ariel]]** — in play under compulsion. See [[session-020-battlemap]] sidebar for stone frame stats (AC 17, HP 30, DT 20, immune lightning).
-- **[[edrin-vael]]** — DM backup only, if he'd drop and it feels too fast: totem transformation, reskinned Werebear (MM p.211). See his file for full mechanic. Not guaranteed to trigger.
+- **[[ariel]]** — free as of S21. No longer compelled — how she plays now hasn't been established at the table yet.
+- ~~**[[edrin-vael]]**~~ — RESOLVED, S21. Killed in bear form; arc closed.
 
 ---
 
@@ -89,28 +84,28 @@ What happens if the clock stalls: fog advances, ground arcs spread, lair pressur
 
 | Thread | Status | Notes |
 |---|---|---|
-| The Reckoning | **IN COMBAT — S21** | Freedom clock 1/4; initiative rolled; two players returning |
-| Onund + Tjorvi | Decided — they stay | Cannot leave their mates. Tjorvi: "Someone should know them until the end." Onund doesn't argue. |
-| The Stilled | Closed — passes when bind breaks | When Edrin's bind breaks, time catches up. They pass at peace. Onund and Tjorvi with them. |
+| The Reckoning | **RESOLVED — S21** | Freedom clock 4/4. Edrin killed in bear form; Ariel's bind broke as he died and she finished him herself. |
+| Onund + Tjorvi | Vigil ends — bind broke S21 | Their reason to stay is gone now the Stilled are passing; scene not yet played. Tjorvi asking to come aboard is now live for S22. |
+| The Stilled | Triggered — S21, not yet played | Bind broke; they pass at peace whenever the scene is played (S22 opener candidate). |
 | The cord with sigil | Resolved | See [[knotted-sigil-cord]] — Sailor's Luck (1/day reroll a 1) + Break the Knot (one use, reaction). Tjorvi's gift. |
-| Elara Venn + Wrenn | Decided — Reckoning close | Searching for the captain; tried to ready the ship. **Elara becomes new captain of the White Gull** at Reckoning close. |
+| Elara Venn + Wrenn | Live — Reckoning closed S21, scene not yet played | Searching for the captain; tried to ready the ship. **Elara becomes new captain of the White Gull** once the beach scene plays (S22). |
 | White Gull captain | **RESOLVED** | Walked to the Circled Zone on purpose. Ariel received him. Grimvald's Suggestion surfaced; captain closed the chapter. Arc done. |
-| Ariel's unfinished sentence | Live — partial | She spoke: "The storm follows you." Now the question is whether Coriac stands fully in it (freedom clock trigger 4). |
-| Edrin at the Circled Zone | **IN COMBAT — S21** | Body arrived S20, bind activated when Coriac reached Ariel. Freedom clock at 1/4. His crack is live. |
+| Ariel's unfinished sentence | Live — bind broke S21 | She spoke the line in S20; the freedom clock has since resolved (4/4). Whether there's a further beat here now that she's free hasn't been played. |
+| Edrin at the Circled Zone | **RESOLVED — S21** | Killed in bear form via the totem. No last word; totem burned out with him. |
 | Grimvald's Suggestion | **RESOLVED** | Surfaced and accounted for at the Circled Zone; captain closed the chapter without forgiveness. See [[grimvalds-suggestion]]. |
 | Artcoth's gloves | Resolved | See [[artcoths-gloves]] — Water Grip / Tide Strike. |
 | Casus's Ovaltine potion | Held | High-risk on this island; held |
 | The anchor | Gone | No way off yet — S21 problem |
-| The Forge Shard (Coriac) | Resolves with Reckoning | Completes through Coriac's defining act. What it becomes reflects the specific act. Hold until earned. |
-| Ariel/Coriac bond | Established at Reckoning close | Willing anchor. Mechanic needs design before S21 (urgent). Thematic direction: passive (storm-sense) → active (communion once per storm) → shared will. She can ask; he can refuse; refusing costs the bond. |
-| Ollo's arc | Watch — Reckoning close | Witnessed everything. Does he leave with the party or stay with Dessa and Marek? |
+| The Forge Shard (Coriac) | Defining act landed S21 | Coriac charged the bear invoking Thor, Inflict Wounds for 29 — this is the act. Formal completion (what it becomes) still to play out, likely alongside the deferred bind-break scene. |
+| Ariel/Coriac bond | Live — Reckoning closed S21, bond scene not yet played | Willing anchor. Mechanic designed — see [[forge-shard]]. Thematic direction: passive (storm-sense) → active (communion once per storm) → shared will. She can ask; he can refuse; refusing costs the bond. |
+| Ollo's arc | Watch — Reckoning closed S21, offer not yet played | Witnessed everything. Does he leave with the party or stay with Dessa and Marek? Play as a live offer in S22. |
 | Storm Draugr | Watching offshore | Not in play |
-| Group A survivors | On the beach | Dessa + Marek at camp; Elara's news scene happens here at Reckoning close |
+| Group A survivors | On the beach | Dessa + Marek at camp; Elara's news scene is now live to play, S22 |
 | Gareth / Feanaro | Background | Sword corruption track live |
 | Circle / Coal — Ruby Ring | Background | Party betrayed the job; Circle aware |
 | Shalindra's pact | Background | Never closed; not pressing |
 | Grimhook commission | **She's moved — S21** | Pendant of Stars commission; soulbinding sigil on Artcoth. The Circle's pressure + the party ignoring her summons pushed her to go after the Pendant herself. Manor left warded to look occupied. See [[lady-grimhook]]. |
-| New ship + crew | **Seeded — S21 falling action** | A salvaged wreck Ariel releases from the rocks when the bind breaks — not the White Gull. Crew candidates: Tjorvi (once the Stilled pass, nothing left to keep him on the island), possibly Ollo as navigator. Dessa/Marek stay on-island as a standing contact instead. Kept light — a standing resource for downtime tasks and side quests, not a new subsystem. |
+| New ship + crew | **Triggered — bind broke S21, scene not yet played** | The wreck is free to come loose on the tide whenever the beach scene plays — not the White Gull. Crew candidates: Tjorvi (once the Stilled pass), possibly Ollo as navigator. Dessa/Marek stay on-island as a standing contact instead. Needs a name at the table. Kept light — a standing resource, not a new subsystem. |
 
 ---
 
@@ -127,7 +122,7 @@ What happens if the clock stalls: fog advances, ground arcs spread, lair pressur
 - ~~Do Onund or Tjorvi ask to come with the party?~~ **Answered:** They stay — cannot leave their mates.
 - ~~What does the Forge Shard become?~~ **Answered:** completes as the Coriac/Ariel bond token. See [[forge-shard]] for the "Two Storms" mechanic (Thor's blessing vs. the bond, how they reinforce or strain each other).
 - ~~Ariel/Coriac bond mechanic~~ **Answered:** see [[forge-shard]] — tier 1 (storm-sense) unlocks at Reckoning close; tiers 2–3 built as earned.
-- **Edrin's ending** — now has a designed third path: totem transformation (DM discretion backup if the fight runs short) → killed in bear form (dissolves/consumed) or talked down mid-transformation (shaky exile). Otherwise: dropped clean (violent bind-snap) or talked down clean (composed exile line). See [[edrin-vael]].
+- ~~Edrin's ending~~ **Answered, S21:** totem path fired — killed in bear form. Ariel delivered the final blow herself, unassisted, as her bonds fell.
 - **Ollo after the Reckoning** — leaning toward joining the new crew as navigator/cartographer (see New ship + crew above) rather than staying with Dessa and Marek — play the offer at the table, don't force it.
 - ~~Grimhook~~ **Answered:** not idle — the Circle is pressing her hand on the Pendant, and the party ignoring her summons pushed her to go after it herself rather than send an agent. Manor left warded to look occupied. See [[lady-grimhook]].
 - **Obsidian Cypher reconciliation** — face-names improvised at table (Orm/Eld/Fjall/Natt/Blod/Ris) may contradict published cypher canon. Reconcile before treating as established.
@@ -141,12 +136,11 @@ What happens if the clock stalls: fog advances, ground arcs spread, lair pressur
 
 ### Before Next Session
 
-- **Reconcile Obsidian Cypher faces** — improvised S20 (Orm/Eld/Fjall/Natt/Blod/Ris); check against published cypher canon before S21. *(Still open — low urgency, doesn't block S21.)*
-- ~~Design Ariel/Coriac bond mechanic~~ **Done** — see [[forge-shard]].
-- ~~Decide the Forge Shard resolution~~ **Done** — bond token; see [[forge-shard]].
-- ~~Decide Edrin's ending~~ **Done** — totem backup adds a third path; see [[edrin-vael]].
-- **Ollo's next step** — leaning toward joining the new crew; confirmed as a live table offer, not pre-decided.
-- ~~Decide Grimhook~~ **Done** — she's gone after the Pendant herself; see [[lady-grimhook]].
+- **Reconcile Obsidian Cypher faces** — improvised S20 (Orm/Eld/Fjall/Natt/Blod/Ris); check against published cypher canon. *(Still open — low urgency.)*
+- **Ariel's post-freedom attitude/voice** — held for the table; play it out when the falling action scene runs, don't pre-decide.
+- **Ollo's next step** — leaning toward joining the new crew; still a live table offer, not pre-decided.
+- ~~Edrin's spellbook~~ **Decided** — still on the battlefield, unclaimed. Seed as a find in S22's falling action.
+- ~~Ledger/XP/entity-update calls from S21 wrap~~ **Done** — see [[grimvalds-attack-on-ariel]]; [[edrin-vael]] and [[ariel]] updated; XP applied to all six PCs.
 
 ### Island Climax Design
 *Decided. The Reckoning is designed. This is the record.*
@@ -160,12 +154,16 @@ What happens if the clock stalls: fog advances, ground arcs spread, lair pressur
 
 Two kinds of storm relationship run through the night: Coriac by faith, the captain by trauma. The captain is what the wrong relationship with the storm costs. Coriac's arc is the other path.
 
-**Status:** Captain scene played S20. Edrin stepped forward S20. Reckoning in combat S21, freedom clock 1/4.
+**Status:** Captain scene played S20. Edrin stepped forward S20. Reckoning resolved S21 — freedom clock 4/4, Edrin killed in bear form, Ariel free. Falling action (item 5 above) not yet played — carried into S22.
 
 ### Grimhook — Off-island pressure
 The party left [[lady-grimhook]] waiting on the [[pendant-of-stars]] commission. She has a soulbinding sigil on [[artcoth]]. She is not idle. Decide before S21 prep: has she sent agents to find the party, started pulling on the sigil, or moved on the Watchtower herself?
 
-### Next Session (S21)
-- Where we open: mid-combat at the Circled Zone; Edrin in the flesh, bind active; freedom clock at 1/4; two returning players join at the start of Round 1.
-- Most urgent thread: Forge Shard resolution and Ariel/Coriac bond mechanic — both need decisions before this combat ends.
-- Open question to open from: Did Casus's Augury (Woe) close the direct attack path for the party, or is there still a violence route they haven't committed to?
+### Next Session (S22)
+- Where we open: falling action at the Circled Zone battlefield — the Reckoning is over, Edrin dead, Ariel free. Play the deferred beats before introducing new pressure.
+- Happy path, DM's stated order:
+  1. Falling action at the battlefield — other finds, discussion, insight into Ariel's bond
+  2. Walk back to the beach — Tjorvi and Onund, the new burial site, back to the cook, payoff for having survived with the navigator
+  3. Commissioning the new ship — light passive-income mechanics, passage home
+  4. Ravencrest return — catch up with Ovaltine (what's he been up to, house HQ status), Grimvald breadcrumbs (any omens, any hooks), open the table for their next adventure choice
+- Open question to open from: how does Ariel present herself now that she's free — has she changed, or is she still finding out what freedom means?

@@ -3,8 +3,8 @@ title: "Casus"
 type: pc
 player: "Chris Morrison"
 class: "Wizard"
-level: 6
-xp: 21600
+level: 7
+xp: 24100
 pc_race: "Human"
 ---
 
