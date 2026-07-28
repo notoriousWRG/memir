@@ -6,5 +6,6 @@
   "showFrontmatter": true,
   "userIgnoreFilters": [
     ".claude/"
-  ]
+  ],
+  "promptDelete": false
 }

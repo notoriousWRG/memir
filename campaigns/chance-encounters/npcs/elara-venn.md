@@ -15,3 +15,7 @@ Early friction with [[artcoth]] over his conduct, then earned credit when he mad
 ## Current status
 
 Returned to the White Gull with [[wrenn]] after the party made shore, to assess hull damage and prevent further harm to the crew still aboard. Off-map for now. Loyal, competent, watching how this ends for the captain.
+
+## Becomes captain — S22
+
+Takes command at the Reckoning's close. She grieves — genuinely — but stoic, folded into duty rather than shown. No ceremony, no speeches; she does the job because it's hers now and someone has to. What doesn't survive the night is her trust in this crew: whatever goodwill she built with [[artcoth]] earlier in the arc, she is done being entangled in the party's chaos going forward. This is closing, not a promotion into a recurring ally — she takes the White Gull and steps back.

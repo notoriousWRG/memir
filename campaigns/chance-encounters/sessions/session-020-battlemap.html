@@ -196,8 +196,7 @@ body {
   <div>
     <div class="s-head">Key Positions</div>
     <div class="leg">
-      <div class="sw" style="background:#d4a840;"></div><span>Captain — NW treeline (scene open)</span>
-      <div class="sw" style="background:#c03838;"></div><span>Edrin — NE trees (emerges scene 4)</span>
+      <div class="sw" style="background:#c03838;"></div><span>Edrin — in the clearing, facing Coriac (already emerged)</span>
       <div class="sw" style="background:#4a90b8;"></div><span>Ariel / Stone Frame</span>
       <div class="sw" style="background:#4a7a48;"></div><span>Party entry (south path)</span>
     </div>
@@ -771,6 +770,9 @@ function render(ts) {
 
   requestAnimationFrame(render);
 }
+
+// S20 ended with the freedom clock at 1/4 — start S21 there, not at zero.
+tick(1);
 
 requestAnimationFrame(render);
 </script>

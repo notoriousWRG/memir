@@ -27,3 +27,7 @@ Saw the party's ship hit the beach. Watched who pulled who to safety. Has been d
 ## First contact (session 18)
 
 When the party reached the camp, Marek fed them stew before anyone explained why they'd come — food before anything else, no calculation in it. He was the easy one to talk to. Has not yet said his theory about grief out loud.
+
+## Wants aboard — S22
+
+Wants a place on [[coriac]]'s new ship specifically — not just any way off the island. Won't presume it, though; he'll ask, or wait to be asked, rather than assume he's welcome. Tell: starts quietly sorting galley stores before anyone's actually said yes.

@@ -27,3 +27,7 @@ She thinks the captain of their previous ship made a choice that got people kill
 ## First contact (session 18)
 
 The party met her at the camp and pushed her for answers. She held the line — gave them the patterns of the place and not its truth — and when the pushing continued she finished her knot and retired to bed, leaving the party frustrated. She confirmed two things on the way out: some of their crew walked inland a few weeks ago and never came back, and their old captain has been sighted from the treeline (the camp doesn't agree on whether he's really there). The honest conversation that would open the rest hasn't happened yet.
+
+## Done — S22
+
+The reach she'd been waiting for arrived, worked, and cost what it cost. She's over it now — not bitter, just finished with this island. Wants out plainly, and isn't sentimental about which hull gets her there: she'll take passage with [[elara-venn]] on the White Gull rather than wait on the new wreck's repairs, unless something specific gives her a reason to choose otherwise.

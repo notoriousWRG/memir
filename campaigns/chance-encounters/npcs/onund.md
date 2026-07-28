@@ -27,3 +27,7 @@ Go to the back of the hull. Look directly at what happened to the others. Stop p
 ## Buried in the bluster
 
 Real intel, if the party plays the court instead of breaking it: the warm dead air inland, the stone frame where "the usurper" keeps his power, and the captain who watches from the trees.
+
+## Sobered — S22
+
+Once the "usurper" is actually gone, the crown has nothing left to hold up. By the time the party reaches him, he and [[tjorvi]] have already buried the Stilled — Önund sits apart in silence through the funeral, no decrees, no crown. Sober, chastened, and for the first time all arc genuinely wants a real start: not an audience, actual responsibility. A live candidate for first mate on the new ship, if offered — and if it's offered sincerely rather than indulged, he takes it dead serious.

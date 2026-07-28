@@ -23,3 +23,7 @@ Tjorvi cracks before Önund does. Push the court too hard, mock it, or step towa
 ## What he knows
 
 The clearest account of what actually happened to Group B: who took what, in what order, and how the forest answered. He's been carrying it alone.
+
+## The burial — S22
+
+By the time the vigil ends, he and [[onund]] have already buried the Stilled themselves — the party arrives mid-ceremony, not mid-crisis. Tjorvi sings the funeral, half-remembered work-songs turned into something closer to a chant. It's the first performance all arc that isn't a bit. Gives [[coriac]] one half of a paired bone-and-cord charm at the parting (see [[tjorvis-far-call-token]]) — the same gesture as the [[knotted-sigil-cord]], aimed forward this time instead of back.

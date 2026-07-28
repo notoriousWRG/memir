@@ -42,3 +42,19 @@ Coriac now carries two storm relationships that read differently: Thor is revere
 
 Don't over-build this at the table tonight. Tier 1 unlocks now. The rest is future material — flesh out as it's earned, same discipline as everything else in this campaign.
 %%
+
+## Ariel's Mark — S22
+
+At the falling action following the Reckoning, in front of the frame, Ariel struck the shard with her own lightning. When the light cleared, her name was burned into the metal in a script none of the party recognized. She said nothing else — the mark was the answer. The bond is willing, but it is not a leash on either side: commanding her rather than asking costs it, same as it would cost her to refuse him.
+
+**Passive:** Coriac has resistance to lightning and thunder damage.
+
+**1/long rest — Call the Storm's Word.** Choose one:
+- *Strike* — a bolt leaps from the shard to a point Coriac can see within 60 feet: 4d8 lightning damage, DC = Coriac's spell save DC, half damage on a successful save.
+- *Shelter* — a gust wraps an ally within 30 feet, granting them resistance to one damage type of Coriac's choice until the start of Coriac's next turn.
+
+**1/long rest, separate — Ask.** Coriac can silently ask Ariel a single true answer about present danger or intent nearby — tactical and immediate, not a lore-dump. She answers if she chooses to; she is not compelled.
+
+%%
+This resolves tier 1 concretely — storm-sense plus the active Strike/Shelter/Ask kit above. Tier 2 (communion) and tier 3 (shared will) remain future material, earned later, same discipline as before.
+%%
