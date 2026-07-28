@@ -2,8 +2,8 @@
 title: "Grimvald"
 type: pc
 class: "Bard / Warlock"
-level: 6
-xp: 20550
+level: 7
+xp: 23050
 publish: true
 ---
 
@@ -30,3 +30,7 @@ Grimvald had a moment early in the storm crossing that held the crew together wh
 ## The Spar Field
 
 Went into the fog on his own when the treeline wasn't yielding. Survival 21 — he heard the party, he could hear them. He chose to come back.
+
+## Dissonant Whispers
+
+In the fight to free Ariel, Grimvald hit her directly with Dissonant Whispers — the first direct attack on her since the crossing — and drove her ninety feet into the air. It worked, but for a moment it read less like tactics than betrayal.

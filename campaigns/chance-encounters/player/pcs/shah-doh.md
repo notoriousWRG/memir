@@ -3,7 +3,7 @@ title: "Shah Doh"
 type: pc
 class: "Paladin"
 level: 7
-xp: 23550
+xp: 26050
 publish: true
 ---
 

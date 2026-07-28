@@ -2,8 +2,8 @@
 title: "Casus"
 type: pc
 class: "Wizard"
-level: 6
-xp: 21600
+level: 7
+xp: 24100
 publish: true
 ---
 
@@ -32,3 +32,5 @@ The four frozen crew members: same divine saturation as the rest of the island, 
 ## The Circled Zone
 
 Tried to stop the captain from reaching the stone frame — Misty Stepped in, couldn't hold him, watched him go. Asked the ether afterward whether attacking Ariel directly would serve the party. The answer that came back was ill news. He made sure everyone heard it before anything else happened.
+
+During the fight against the Werebear, Casus went for Edrin's spellbook mid-melee and came up empty-handed. It's still out there, unclaimed.

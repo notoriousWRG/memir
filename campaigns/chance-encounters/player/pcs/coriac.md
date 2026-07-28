@@ -3,7 +3,7 @@ title: "Coriac"
 type: pc
 class: "Cleric (Nature)"
 level: 7
-xp: 23900
+xp: 26400
 publish: true
 ---
 
@@ -20,6 +20,10 @@ During the storm crossing, Coriac took the lightning strike. [[ariel]] pulled hi
 In the Circled Zone, she finally did — unprompted, the first words she's spoken of her own will. *"The storm follows you."* What she means by it isn't settled yet.
 
 Inland, deeper into the island, his Religion check felt her before he named her — the presence beneath the storm, woven into the ground. Not hostile to him. The [[forge-shard]] warmed.
+
+## Breaking the Bind
+
+Coriac reached for Ariel again mid-fight — warmth instead of a threat — but compelled, she struck back anyway. When [[edrin-vael|Edrin]] broke at the edge of dropping and the totem's corruption turned him into a Werebear, Coriac charged him directly, Thor's name aloud: *"Stormbearer, witness the power of Thor. Let the thunder break your bonds. Witness Mjölnir's fury."* Inflict Wounds landed for 29, dropping the creature to a single hit point. Ariel's bonds broke with him. She finished it herself before anyone else could.
 
 ## Dessa
 

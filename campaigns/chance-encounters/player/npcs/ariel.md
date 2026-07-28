@@ -15,3 +15,5 @@ The vision ended before she could finish.
 **She has not finished what she was about to say.**
 
 Inland, her presence is woven into the ground itself — in the directional fog that thins ahead of the party and thickens behind anyone who strays, in the warmth of the [[forge-shard]], in the way the island seems to be ushering them somewhere. Not hostile to Coriac. Watching the rest.
+
+In the Circled Zone, her bonds broke the instant Edrin died. She didn't wait for the party to finish him — she ran her own lightning through what was left of him, unassisted. The stone frame that held her stands empty now. What she is, freed, hasn't been shown yet.

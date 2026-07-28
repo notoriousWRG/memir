@@ -102,3 +102,13 @@ The clearing went still. Then Ariel spoke — for the first time since the cross
 Edrin Vael stepped out from the trees — Coriac's old captain, the one the survivors had glimpsed and doubted for weeks. Not a scry-shadow this time. Present.
 
 Coriac moved to meet him — present, not commanding — and the stone frame shuddered as something in the air pulled taut. The night ended there, on the edge of whatever comes next.
+
+Round one picked up where it left off. Coriac opened with Call Lightning and Channel Divinity, aiming the storm's own weapon at Edrin — Ariel intercepted the worst of it, still bound to shield him, still immune to the lightning she commanded. Coriac reached for her anyway, warmth instead of a threat. She wasn't ready to hear it.
+
+Compelled, Ariel struck back, arcing lightning through Grimvald and the others. Grimvald drove her off with Dissonant Whispers — the first direct hit on Ariel since the crossing — and for a moment it read less like tactics than betrayal.
+
+The party turned on Edrin in earnest. At the edge of dropping, he broke a totem he'd carried since his escape from the mage's cell, and the corruption took him: a Werebear, fur wrong-colored, joints bent off true. The fight ran longer and uglier than the one before it.
+
+It was Coriac who broke it — charging the bear directly, invoking Thor aloud: *"Stormbearer, witness the power of Thor. Let the thunder break your bonds. Witness Mjölnir's fury."* Inflict Wounds landed for 29, dropping the creature to a single hit point. As it fell, Ariel's bonds fell with it. She didn't wait for the party to finish him — she ran her own lightning through what was left of Edrin herself. No totem burning slow, no last word. Just the storm taking back what it had been forced to hold.
+
+The frame stands empty. Whatever Ariel is now that she isn't bound hasn't been played yet.

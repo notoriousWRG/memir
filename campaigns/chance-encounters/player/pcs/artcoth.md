@@ -3,7 +3,7 @@ title: "Artcoth"
 type: pc
 class: "Rogue"
 level: 7
-xp: 23600
+xp: 26100
 publish: true
 ---
 
