@@ -3,13 +3,13 @@ title: "Gareth"
 type: pc
 class: "Warlock"
 level: 7
-xp: 26200
+xp: 26600
 publish: true
 ---
 
 Human warlock. He believes his patron is Odin. He travels with [[artcoth]] — an alliance with history behind it.
 
-**Carries:** [[sword-of-shadow-and-flame|Sword of Shadow and Flame]]
+**Carries:** [[sword-of-shadow-and-flame|Sword of Shadow and Flame]], [[edrins-spellbook|Edrin's Spellbook]]
 
 ## The Patron
 
@@ -32,3 +32,7 @@ In the party's running dynamic, Gareth was responsible for the anchor. The ancho
 ## The Hollowed Hull
 
 Made invisible by Casus before the draugr fight on the beach; carrying a lit sword, currently seen. Went through the sailcloth partition with Artcoth and Casus when Tjorvi said not to.
+
+## Edrin's Spellbook
+
+Gareth carries [[edrins-spellbook|Edrin's spellbook]] now. Dark-touched, druidic-leaning magic in a mix of precise arcane notation and a looser, older hand. Casus has been the one decoding it: so far it's yielded *Bramblebind*, a spell copied into Casus's own book, and notes on how a magical binding is built and held. What else is in it hasn't been cracked yet.

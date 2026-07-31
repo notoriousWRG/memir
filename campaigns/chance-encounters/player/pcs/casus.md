@@ -3,7 +3,7 @@ title: "Casus"
 type: pc
 class: "Wizard"
 level: 7
-xp: 24100
+xp: 24500
 publish: true
 ---
 
@@ -28,6 +28,12 @@ At the Threshold Warden, Casus asked politely and then tried to walk around it. 
 Made his adventuring rope glow faint blue with prestidigitation while Onund watched. Raised a small firebird from the embers with Control Flames. Said *"tradition"* when asked, and meant it as sincerely as anything. When the moment came to present the mission, he knelt and called Coriac forward. Went through the sailcloth partition with Artcoth and Gareth when Tjorvi said not to.
 
 The four frozen crew members: same divine saturation as the rest of the island, but concentrated. Holding them, not killing them. He couldn't tell if they were aware.
+
+## The Witnessing Stone
+
+Casus cast Identify as a ritual on the stone arch that had held Ariel — not a portal, as everyone assumed, but a witnessing stone: ancient, built for oaths sworn and kept completely. What Edrin used it for was never its purpose.
+
+He also spent time with [[edrins-spellbook|Edrin's spellbook]] before it passed to Gareth — decoding enough to copy *Bramblebind*, a cousin to *Spike Growth*, into his own book, along with insight into how bindings are built and countered. He bottled werebear blood in an emptied ink vial while he was at it.
 
 ## The Circled Zone
 

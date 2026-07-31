@@ -7,10 +7,10 @@ Six strangers, assembled by circumstance. Two arcs, an underdark pact, a ship th
 
 ## Where the Party Stands
 
-The party stands over Edrin Vael's body in the Circled Zone — the Werebear he became at the edge of dropping lies dead, and the totem that transformed him burned out with him. [[ariel]] is free. Her bonds broke the instant he died, and she killed him herself, with her own lightning, before the party could land the final blow. The stone frame that held her stands empty. What's owed still waits: the Stilled crew back at the Hollowed Hull, the walk back to the beach, word to Elara, and the shape of a new ship to carry everyone home.
+The party is back at Bellwether House — renovated, and for the first time, truly theirs. They left Ariel's island with a new ship, the *Intimidator*, crewed by four of the island's survivors: [[onund|Önund]] as first mate, [[tjorvi]] as bard, [[ollo]] navigating, [[marek]] in the galley, with [[coriac]] as captain. Coriac closed the ledger on it out loud: they're patrons now, with a standing operation of their own. What they didn't keep: [[elara-venn|Elara]], who saw through their cover story about the captain's death and sailed off on the White Gull with [[dessa]]. That relationship ended, and not well.
 
 ## The Story So Far
 
 The full chronicle: [[party-story|The Party Chronicle]] — from the tunnels beneath the Ironspine to the interior of Ariel's island.
 
-*Most recently:* [[coriac]] drove the Werebear [[edrin-vael|Edrin]] had become to a single hit point invoking Thor's name aloud, and Ariel broke free of her bonds and finished it herself.
+*Most recently:* The party's cover story about the captain's death fell apart in front of [[elara-venn|Elara]], costing them the White Gull for good — but they came back from the island with a ship of their own, new crew, and standing as patrons at Bellwether House.

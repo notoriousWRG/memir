@@ -3,7 +3,7 @@ title: "Coriac"
 type: pc
 class: "Cleric (Nature)"
 level: 7
-xp: 26400
+xp: 26800
 publish: true
 ---
 
@@ -25,9 +25,21 @@ Inland, deeper into the island, his Religion check felt her before he named her 
 
 Coriac reached for Ariel again mid-fight — warmth instead of a threat — but compelled, she struck back anyway. When [[edrin-vael|Edrin]] broke at the edge of dropping and the totem's corruption turned him into a Werebear, Coriac charged him directly, Thor's name aloud: *"Stormbearer, witness the power of Thor. Let the thunder break your bonds. Witness Mjölnir's fury."* Inflict Wounds landed for 29, dropping the creature to a single hit point. Ariel's bonds broke with him. She finished it herself before anyone else could.
 
+## Ariel's Mark
+
+After the fight, in front of the empty frame, Ariel struck the [[forge-shard]] with her own lightning. Her name burned into the metal in a script none of the party recognized — the bond sealed, wordless. It's willing on both sides, but not a leash on either: commanding her instead of asking would cost it, the same as it would cost her to refuse him.
+
+Coriac now has resistance to lightning and thunder damage. Once per long rest he can call the Storm's Word — a lightning strike from the shard, or a sheltering gust for an ally — and, separately, once per long rest, ask Ariel a single true answer about present danger or intent nearby. She isn't compelled to answer.
+
+He tried to use the bond to bend her storm off the horizon as she departed. Nothing happened. She isn't steered — not even by him.
+
 ## Dessa
 
-[[dessa]], one of the survivors camped near the beach, is someone Coriac knew years ago. That reunion has been partial at best — she gave the party patterns and not truth, finished her knot, and went to bed. What she's holding back is unresolved.
+[[dessa]], one of the survivors camped near the beach, is someone Coriac knew years ago. That reunion was partial at best — she gave the party patterns and not truth, finished her knot, and went to bed. She left the island aboard the White Gull with Elara rather than wait on the new wreck's repairs. Whatever she was still holding back, she took it with her. That chapter is closed.
+
+## The Intimidator
+
+Coriac captains the party's new ship, salvaged from the wreck the tide worked loose and crewed by four of the island's survivors. His Mending cantrip shaved a day off repairs on the crossing home.
 
 ## The Bottle
 

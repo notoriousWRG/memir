@@ -3,7 +3,7 @@ title: "Artcoth"
 type: pc
 class: "Rogue"
 level: 7
-xp: 26100
+xp: 26500
 publish: true
 ---
 
@@ -32,3 +32,11 @@ Found in the beach wreckage during the chaos of landfall. See [[artcoths-gloves]
 ## The Hollowed Hull
 
 In the Hollowed Hull, Artcoth worked the room quietly while the others held Onund's attention — found a cord with a knotted sigil in the hoard chest that felt out of place among the junk. Pocketed it. Tjorvi confirmed it was from their ship and handed it back as a gift rather than a claim. When Tjorvi said *"don't go in there"* and looked at him for a fraction of a second, Artcoth went in anyway.
+
+## The Captain Crunch Gambit
+
+Artcoth was part of the failed cover story for Elara about the captain's death. She saw through it before anyone said it outright, and left with the White Gull. Whatever standing the party had with her, that's gone now.
+
+## Bellwether House, Renovated
+
+Back at Bellwether House, a new brass door-knocker with blinking eyes let the party in — but it spoke only to Artcoth first. Why, nobody's said yet.

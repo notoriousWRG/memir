@@ -3,7 +3,7 @@ title: "Grimvald"
 type: pc
 class: "Bard / Warlock"
 level: 7
-xp: 23050
+xp: 23450
 publish: true
 ---
 
@@ -34,3 +34,7 @@ Went into the fog on his own when the treeline wasn't yielding. Survival 21 — 
 ## Dissonant Whispers
 
 In the fight to free Ariel, Grimvald hit her directly with Dissonant Whispers — the first direct attack on her since the crossing — and drove her ninety feet into the air. It worked, but for a moment it read less like tactics than betrayal.
+
+## The Captain Crunch Gambit
+
+Rather than tell [[elara-venn|Elara]] the truth outright, Grimvald posed as the dead captain — "Captain Crunch" — to cover for what had happened to him. She saw through it immediately, reading the truth off the party's faces before anyone said it. He threw Suggestion at her back to make her stay and listen. She made the save clean. She left with [[dessa]] aboard the White Gull. Whatever standing this party had with her and her crew ends here.

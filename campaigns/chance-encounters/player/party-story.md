@@ -112,3 +112,15 @@ The party turned on Edrin in earnest. At the edge of dropping, he broke a totem 
 It was Coriac who broke it — charging the bear directly, invoking Thor aloud: *"Stormbearer, witness the power of Thor. Let the thunder break your bonds. Witness Mjölnir's fury."* Inflict Wounds landed for 29, dropping the creature to a single hit point. As it fell, Ariel's bonds fell with it. She didn't wait for the party to finish him — she ran her own lightning through what was left of Edrin herself. No totem burning slow, no last word. Just the storm taking back what it had been forced to hold.
 
 The frame stands empty. Whatever Ariel is now that she isn't bound hasn't been played yet.
+
+Ariel lingered a moment after the Werebear fell — freed, unmanaged, more play than threat — before sealing her bond to Coriac wordlessly: her lightning struck the [[forge-shard]] and burned her name into it. She did the same to the [[obsidian-cypher]], discharging a cone of lightning through its faces before rising into the clouds. The storm that had sat over the island since the party arrived went with her.
+
+[[casus]] read [[edrin-vael|Edrin]]'s spellbook cold and cast Identify on the stone arch that had held Ariel: not a portal, a witnessing stone, ancient, built for oaths sworn and kept. What Edrin had used it for was never its purpose.
+
+At the Hollowed Hull, [[onund|Önund]] and [[tjorvi]] had already buried the Stilled by the time the party arrived — the vigil finally over. Coriac told Önund the truth: the captain was the Werebear, and he's dead. Önund took it with weight, not anger.
+
+The party brought [[marek]] and [[dessa]] from the beach camp, and together they paddled out to a second wreck the tide had worked loose — salvageable, cargo spoiled, decent bones — where two more recovered shipmates already waited. When [[elara-venn|Elara]] rowed over asking after the captain, the party's cover story — Grimvald posing as the dead captain, "Captain Crunch" — fell apart in front of her before anyone said it outright. She went cold. Grimvald's Suggestion, thrown to make her stay and listen, failed clean. Dessa left with her. The White Gull sailed without them.
+
+The wreck became theirs. Önund, Tjorvi, Marek, and [[ollo]] came aboard for good — Coriac captain, Önund first mate, Tjorvi the ship's bard, Ollo navigating, Marek in the galley. They named her the *Intimidator*.
+
+Bellwether House had changed while they were gone — renovations mostly finished, and a new brass door-knocker with blinking eyes that spoke only to [[artcoth]] before letting the six of them in. Coriac closed the ledger on the new ship out loud: they're patrons now, and the operation has a name. The session closed soft: six people settling into a room that was theirs for the first time.
