@@ -10,8 +10,12 @@ Six strangers, assembled by circumstance. Two arcs, an underdark pact, a ship th
 *Session 22 — July 28*
 
 - Arc 2, "The Storm That Remembers," closes — Ariel is free, and the storm that sat over the island is gone with her.
-- New pages: [[the-intimidator|The Intimidator]] (the party's new ship), [[bellwether-house-boons|Bellwether House's boons]], [[edrins-spellbook|Edrin's Spellbook]], [[tjorvis-far-call-token|Tjorvi's Far-Call Token]].
+- New pages: [[the-intimidator|The Intimidator]] (the party's new ship), [[bellwether-house-hq|Bellwether House HQ]], [[edrins-spellbook|Edrin's Spellbook]], [[tjorvis-far-call-token|Tjorvi's Far-Call Token]].
 - [[elara-venn|Elara]] and [[dessa|Dessa]] are no longer travelling with the party — see [[party-story|the chronicle]] for how that ended.
+
+*Since S22*
+
+- New page: [[bellwether-door-knocker|Bramwell]], the house's talking (and judging) door-knocker.
 
 ## Where the Party Stands
 

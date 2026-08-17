@@ -4,7 +4,7 @@ type: npc
 role: "Ship's cook — Group A survivors"
 voice: "Offers food before anything else. Always. 'You can be angry and hungry at the same time.'"
 attitude: neutral
-location: "ariels-island"
+location: "ravencrest"
 publish: true
 ---
 
@@ -31,3 +31,7 @@ When the party reached the camp, Marek fed them stew before anyone explained why
 ## Wants aboard — S22
 
 Wants a place on [[coriac]]'s new ship specifically — not just any way off the island. Won't presume it, though; he'll ask, or wait to be asked, rather than assume he's welcome. Tell: starts quietly sorting galley stores before anyone's actually said yes.
+
+## Aboard the Intimidator — S22
+
+Got what he wanted: cook aboard [[coriac]]'s new ship, the [[the-intimidator|Intimidator]]. Left the island with the party for good.

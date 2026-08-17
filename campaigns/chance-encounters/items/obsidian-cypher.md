@@ -33,12 +33,14 @@ Six faces, each bound to an imprisoned entity whose life force powers the effect
 
 | Rune | Symbol | Imprisoned Being |
 |---|---|---|
-| Healing | Heart | A radiant dryad from Alfheim — deceived into thinking she was protecting her forest |
-| Protection | Shield | A celestial dwarf, servant of Brokkr's forge — tricked into believing his sacrifice would protect dwarvenkind |
-| Wisdom | Book | The soul of a human mage who sought immortality and received imprisonment instead |
-| Power | Lightning Bolt | A thunder giant from Jotunheim — subdued through cunning |
-| Strength | Fist | A frost giant from Niflheim — captured during a raid |
-| Secrets | Eye | A shadow fey from Alfheim — the circumstances of capture are deliberately obscured |
+| Healing | Heart | **Ris** — a radiant dryad from Alfheim — deceived into thinking she was protecting her forest |
+| Protection | Shield | **Eld** — a celestial dwarf, servant of Brokkr's forge — tricked into believing his sacrifice would protect dwarvenkind |
+| Wisdom | Book | **Blod** — the soul of a human mage who sought immortality and received imprisonment instead |
+| Power | Lightning Bolt | **Orm** — a thunder giant from Jotunheim — subdued through cunning |
+| Strength | Fist | **Fjall** — a frost giant from Niflheim — captured during a raid |
+| Secrets | Eye | **Natt** — a shadow fey from Alfheim — the circumstances of capture are deliberately obscured |
+
+Names are Old Norse (serpent, fire, twigs/brushwood, night, blood, mountain) — matched to each entity S22, table's call, not yet cross-checked against any published Cypher canon.
 
 Each use costs the entity something. Their cries are briefly audible when the door sequence is activated.
 
@@ -74,3 +76,7 @@ Roll d20 on failed sequences. Effects range from arcane backlash (2d6 force to n
 ## DM Note
 
 The Cipher is a ward Casus carries and may or may not fully understand yet. The imprisoned entities are canon — the dryad fading, the celestial dwarf despairing, the mage speaking in riddles. If the party opens the pocket dimension, what they find inside should be treated as a full encounter location, not a treasure room.
+
+## S22 — Power sequence activated
+
+Ariel channeled her own lightning into the cube through Casus, triggering the Power sequence (Lightning Bolt → Fist → Shield) — a 30-ft cone discharged into the trees. That drains **Orm** (thunder giant), **Fjall** (frost giant), and **Eld** (celestial dwarf) simultaneously. Explore the consequence of this before it's forgotten — one or more of the three may register the drain, react, or leave a breadcrumb. Not predecided.

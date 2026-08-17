@@ -1,8 +1,8 @@
 You are closing out a session and updating the campaign record.
 
-Arguments: `$ARGUMENTS` — session number, and optionally an audio file path separated by a space (e.g. `19 /path/to/recording.mp4`). Parse accordingly.
+Arguments: `$ARGUMENTS` — session number, and optionally a path separated by a space (e.g. `19 /path/to/recording.mp4` or `22 ~/Downloads/session22_audio`). Parse accordingly.
 
-**Prerequisite:** Audio transcription requires `whisper` (`pip install openai-whisper`, needs `ffmpeg` for non-wav formats). If the audio path is provided but whisper isn't installed, say so, skip transcription, and continue notes-only.
+**Prerequisite:** Audio transcription runs via `transcribe-session.py` (repo root) in `.venv` (`.venv/bin/pip install faster-whisper`; needs `ffmpeg` on PATH). If the path isn't installed/available, say so, skip transcription, and continue notes-only.
 
 Read these files before starting:
 - `./campaigns/chance-encounters/planning.md` — especially the Raw Notes section
@@ -15,14 +15,21 @@ Work through these steps in order. Pause for DM input at each step before moving
 
 ---
 
-**Step 0 — Transcription** *(skip if no audio file provided)*
+**Step 0 — Transcription** *(skip if no audio path provided)*
 
-Run:
-```
-whisper "<audio-file>" --model medium --language English --output_format txt
-```
+Two cases:
 
-Present a cleaned summary of the transcript — major beats, NPC interactions, decisions made, loot distributed. Do not dump the raw transcript. Ask the DM to flag anything wrong or missing before proceeding. This summary feeds every downstream step alongside the DM's written notes.
+- **Craig multi-track export** (a directory of `[N]-<handle>.flac` files, `info.txt`, etc.) — the normal case. Run:
+  ```
+  .venv/bin/python transcribe-session.py "<craig-export-dir>" --session <N>
+  ```
+  This transcribes each speaker's isolated track separately (VAD-gated, so silence-heavy tracks don't drift or hallucinate — see the script's docstring for why), then merges them into one timestamped, speaker-labeled transcript at `session_audio/session-<N>-transcript.md`. Read that file for Step 1 onward.
+  - If `transcribe-session.py` exits with an unknown-speaker error, a new Discord handle showed up — ask the DM who it is and add the entry to `speakers.json` before re-running.
+  - Do **not** merge the tracks in GarageBand first — that throws away the per-speaker isolation this script relies on.
+  - **If the script wrote `session_audio/session-<N>-transcript-flags.md`**, walk through it with the DM *before* presenting the summary: for each flagged segment, show the timestamp/text and the reason (possible proper-noun mishear, or confidence near the drop threshold), and ask the DM what was actually said. If the mishear is a recurring one (a name), add it to `NAME_CORRECTIONS` in `transcribe-session.py` and re-run. For a one-off fix that isn't a recurring name (semantic garble, a garbled phrase), add a `{"find": "...", "replace": "..."}` entry to `session_audio/session-<N>-overrides.json` instead of hand-editing the transcript directly — the script applies it automatically on every run, so it survives re-runs (a direct hand-edit to `session-<N>-transcript.md`/`.json` does not: any re-run rebuilds both from the raw per-track cache and silently discards it). The automated flag pass only catches proper-noun-similarity and confidence-edge cases — it won't catch semantic garble or short/common-word mishears below the fuzzy-match cutoff, so skim the transcript yourself for anything that reads oddly even if nothing got flagged, and double check any name the flag pass *did* catch against other names it stayed quiet on (a mishear that reads as a plausible new NPC — like a shipmate's name matching an existing NPC's established role — is a signal to check for a collision before creating a stub, not just accept it at face value). Delete the flags file once resolved — it's a to-do list, not part of the record. If there's no flags file, there's nothing automatically flagged, but still worth a skim before presenting the summary.
+- **Single pre-mixed audio file** (legacy path, e.g. an old session or a file from elsewhere) — fall back to plain whisper if `openai-whisper` is available: `whisper "<audio-file>" --model medium --language English --output_format txt`. No speaker attribution in this case.
+
+After any flags are resolved, present a cleaned summary of the transcript — major beats, NPC interactions, decisions made, loot distributed, **and who did what** (the merged transcript has speaker labels — use them). Do not dump the raw transcript. Ask the DM to flag anything wrong or missing before proceeding. This summary feeds every downstream step alongside the DM's written notes.
 
 ---
 
@@ -40,6 +47,8 @@ story: ""
 party: chance-encounters
 pcs_present: []
 ```
+
+If the transcript came from `transcribe-session.py`, `pcs_present` can be read straight off the set of speaker labels in the transcript (minus the DM) rather than inferred from prose.
 
 Body: prose recap. Present the draft. Write only after DM confirms.
 
@@ -66,7 +75,9 @@ For each, propose a frontmatter-only stub matching `schema-reference.md` with a 
 
 **Step 4 — XP suggestion**
 
-Based on encounters resolved, roleplay beats, discoveries, and decisions from the session, suggest a per-player XP award. Break it down briefly: combat XP (monsters overcome) and roleplay/exploration award. Include 2–3 sentences of rationale. DM decides the final number. No file is written — this is advisory only.
+Based on encounters resolved, roleplay beats, discoveries, and decisions from the session, suggest a per-player XP award. Break it down briefly: combat XP (monsters overcome) and roleplay/exploration award. Include 2–3 sentences of rationale. DM decides the final number.
+
+Once confirmed, apply it: add the award to `xp` in each present PC's `./campaigns/chance-encounters/pcs/<pc>.md` (uneven awards are fine if attendance or contribution warranted it — ask if it's not a flat per-PC number), and bump `level` for anyone who crosses a 5e XP threshold. This mirrors established practice (see the S21 wrap commit) — `pcs/*.md` is the source of truth for XP/level, not a separate tracker.
 
 ---
 

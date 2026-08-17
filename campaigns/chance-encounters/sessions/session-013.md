@@ -16,4 +16,6 @@ The party is in [[ravencrest]] between arcs. The decompression session.
 
 [[lady-grimhook]] visits [[ravencrest]] and the arrangement is formalized. A contract is signed — terms that will govern the Pendant mission and the ongoing relationship between Grimhook and the party. The handshake that turns an informal commission into an obligation with specific stakes.
 
-*[Rift specifics, contract terms, and other downtime events to be confirmed from DM notes.]*
+At a dockside pub, Grimvald sang the party's Underdark exploits while the rest of the table challenged the Salt Wreck Four to a drinking contest, wagering a favor against a favor. The party won decisively. Word spread fast — Ravencrest knew the name "Chance Encounters" from that night, long before there was a ship or a headquarters to put behind it. See [[the-salt-wreck-wager]].
+
+*[Rift specifics and contract terms to be confirmed from DM notes.]*

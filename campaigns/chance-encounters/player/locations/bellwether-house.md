@@ -13,4 +13,6 @@ The walls no longer knock. The candlelight that burned in dark windows is quiet 
 
 [[ovaltine-jenkins]] has moved Ovaltine's Oddities into the house. He minds the place while the party is away and operates his shop out of it. He only relaxed once he met Amelia.
 
-Resting here is different from resting anywhere else.
+A brass door-knocker named [[bellwether-door-knocker|Bramwell]] — Ovaltine's proudest piece of work — decides who gets let in. He only speaks to [[artcoth]].
+
+Resting here is different from resting anywhere else — see [[bellwether-house-hq]] for what it actually gets you.

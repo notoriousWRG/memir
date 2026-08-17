@@ -17,6 +17,8 @@ Haunted by a past decision: pressed forward in a storm, lost a crew member. That
 
 ## Arc — CLOSED S20
 
+Known to his crew as **Captain Crunch** — the nickname surfaces in Session 22, when the party finally tells [[elara-venn]] the truth about how he died.
+
 Walked to the Circled Zone on his own terms. Confirmed with [[artcoth]] that [[elara-venn]] was alive; said he was glad the Gull would have a captain. Called for the storm. [[ariel]] received him — not wrath, not compulsion. A tide coming in. He looked back once. The wind took him.
 
 [[casus]] tried to stop him with Misty Step. Failed the Athletics check. The captain slipped through.

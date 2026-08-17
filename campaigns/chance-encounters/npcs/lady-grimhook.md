@@ -27,7 +27,7 @@ She has not been idle while the party was on the island, and she is not waiting 
 
 She's left the manor arranged to look occupied. She'd already quietly dismissed all non-magical staff, so the place reads the same amount of deserted as always — but now it's layered with wards and small enchantments (a light in the right window at the right hour, a warmth in the study, the sense of someone just having stepped out) built to make it seem like she's still there, working. Anyone who actually gets inside will find it empty.
 
-**Why this matters for the party:** she is now in motion on the same artifact they may still be entangled with (pendant), off-screen and ahead of them, not a patient patron waiting on their schedule anymore.
+**Why this matters for the party:** she is now in motion on the same artifact they may still be entangled with (Artcoth's sigil), off-screen and ahead of them, not a patient patron waiting on their schedule anymore.
 
 %%Her Ring of Arcane Insight detects intent to betray. DC 12 Insight reveals she's personally connected to the Watchtower; DC 16 reveals quiet grief behind the sharpness; DC 18 Arcana reveals she was there when the Pendant was lost.%%
 

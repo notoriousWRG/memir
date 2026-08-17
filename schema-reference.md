@@ -21,7 +21,8 @@ hurts, not before.
 ## Entity types
 
 `npc`, `location`, `item`, `monster`, `story`, `session`, `pc`, `ledger-entry`,
-`god`, `race`, `faction`, `history-entry` (last four added during the canon import).
+`god`, `race`, `faction`, `history-entry` (last four added during the canon import),
+`asset` (added S22).
 
 ## Fields by type
 
@@ -70,6 +71,18 @@ First-class entity (BLeeM-influenced) — locations have turns.
 - `level` — integer, current character level
 - `xp` — integer, total earned XP
 - `pc_race` — string (kept separate from npc `race`)
+
+### asset
+Party-owned resources with mechanical weight — ships, headquarters, standing crews, favor
+banks. Distinct from `item` (a single object a PC carries) and `location` (a place with
+narrative voice/tier, not a resource the party controls). Lives in `campaigns/<party>/assets/`.
+If the asset is rooted in an existing `location` (e.g. an HQ), keep the location file as-is for
+its narrative identity and let the asset file cross-reference it — don't migrate the location.
+- `asset_type` — string (`ship`, `hq`, `crew`, `other`)
+- `status` — string, current state (e.g. `active`, `in repair`, `lost`)
+- `mechanic` — string, the crunchy rule text — how this asset actually gets used at the table.
+  Leave blank if nothing's been formalized yet rather than invent one.
+- `crew` — list of npc slugs, optional — who's attached to it, if relevant
 
 ### ledger-entry
 Every field here is load-bearing for the creative-pain mechanic. Do not restructure without

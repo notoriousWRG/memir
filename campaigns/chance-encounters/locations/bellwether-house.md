@@ -21,21 +21,6 @@ The walls no longer knock. The candlelight that burned in dark windows has gone 
 
 That's [[amelia]], the ghost-child who stayed. She keeps the house warm the only ways she knows, watches over those sleeping under its roof, and is grateful, playful, and ever-creepy in equal measure.
 
-## Notable presences
+## Ownership and current status
 
-**[[ovaltine-jenkins]]** has moved **Ovaltine's Oddities** into the house. He's the resident caretaker — minds the place while the party is away, works on custom modifications [[artcoth]] commissioned, and operates his shop out of it. He took some convincing that the hauntings were friendly; he only relaxed once he met Amelia. (His standing arrangement: workshop space and caretaker's rights in exchange for fronting the party's gear.)
-
-**[[amelia]]** — resident spirit. See above.
-
-## Sanctuary — benefits of resting here
-
-Because the house was cleansed rather than bound, sheltering here carries Eleanor's lingering blessing:
-
-- **True Rest.** Once per long rest taken in the house, a PC may regain one additional spell slot of 3rd level or lower.
-- **Warm Walls.** While resting here, PCs are immune to fear effects, and the house grants advantage on the first Wisdom (Insight/Perception) check made to notice something wrong within its walls.
-- **Steeped in Soulwork.** Eleanor's residue and the old ritual lore grant a +1 to Arcana checks made inside the house, especially regarding soulbinding or undeath.
-- **The Bellwether Blessing.** The first time the party returns to the house after a major death or loss, Eleanor's gratitude protects them once: one automatic success on a death save or a resurrection-ritual check. This is a one-time gift — flag it in the ledger if it triggers.
-
-## Threads
-
-Dr. Bellwether's fate is unaccounted for — the ritual consumed him, and what's left of him was never found. The basement ritual chamber is sealed but intact, and a stash of silver soul-jar fragments remains as research material. As an HQ, the house invites renovation: each room cleansed or restored could unlock a new comfort or boon.
+The party's day-to-day use of the house — who lives there, Ovaltine's arrangement, the rest boons, what's currently under renovation — is tracked as a living document at [[bellwether-house-hq]], not here. This file holds the place's history and character; that one holds its present state.

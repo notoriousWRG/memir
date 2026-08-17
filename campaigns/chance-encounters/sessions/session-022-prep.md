@@ -151,7 +151,7 @@ No active clocks. Every clock in the campaign resolved as of S21 — tonight has
 
 **Loaded:** This is the light, homebrew beat — the new ship becomes a standing resource, not a subsystem. Nothing here should turn into bookkeeping.
 
-> **HOMEBREW — Standing Resource: The [Ship Name]**
+> **HOMEBREW — Standing Resource: The Intimidator**
 > Once named, crewed (minimum: one willing NPC aboard — Tjorvi, Marek, Önund, or Ollo, whoever ends up staying with her), and given a destination, the ship can be sent on a downtime task between sessions instead of sailing with the party: a trade run, a cargo escort, a message relayed. At the top of the next relevant session, roll 1d6 + the aboard NPC's best relevant bonus. **4+:** it delivers — modest coin, goods, or information, DM's call on flavor. **1:** a complication surfaces — a hook, not a punishment, for a future session. The result reports back over [[tjorvis-far-call-token]] if Tjorvi's the one aboard — no need to invent a separate delivery mechanism.
 
 **Dig in:**

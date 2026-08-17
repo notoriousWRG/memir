@@ -122,6 +122,14 @@ Not built now. Listed so prep knows what the arc implies, and so the cast stays 
 
 ## Promotion candidates *(after the arc resolves — manual, deliberate)*
 
-- **Ariel** → canon storm-entity (a new kind of bound, aware power; not of the Aesir/Vanir).
-- **Edrin Vael** → canon, if he survives as a recurring force.
-- Whatever the party's *manner of departure* establishes about the island and about coming to terms vs. dominating power.
+- **Ariel** → canon storm-entity (a new kind of bound, aware power; not of the Aesir/Vanir). Arc resolved S21–22 — candidate is live, promotion itself still pending deliberate DM sign-off.
+- ~~**Edrin Vael** → canon, if he survives as a recurring force.~~ **Moot.** He didn't survive — killed in bear form, S21, no last word, no recurring presence. Not a promotion candidate.
+- Whatever the party's *manner of departure* establishes about the island and about coming to terms vs. dominating power. **Answered, S21–22:** it was both, in sequence, not a clean resolution either way — Coriac broke the compulsion by force (Inflict Wounds, killing Edrin in bear form), and only *after* that did the bond with Ariel form on her terms, offered wordlessly and revocable if anyone tries to command rather than ask. Domination ended the bind; the relationship after was earned.
+
+---
+
+## How it actually played out *(S18–22, for any future table reusing this story)*
+
+The captain went to the Circled Zone on his own terms first (S20) — trauma, not faith, calling for the storm; Ariel received him, no wrath. Edrin's Reckoning followed: a freedom clock built on pressing Ariel while working to crack Edrin's justification, until at 4 stages he broke a totem and transformed into a corrupted Werebear rather than let the fight end him. Coriac landed the defining blow — Inflict Wounds for 29, invoking Thor aloud — and Ariel finished him herself as her bind broke, unassisted. No last word for Edrin; the totem burned out with him.
+
+Falling action (S22) resolved everything the fight didn't have room for: the Stilled were laid to rest, Ariel sealed a wordless bond with Coriac (striking his ingot and a second held item with her own lightning) and departed the island for good, and the party left too — burying a chapter, gaining a ship, and burning a bridge with Elara Venn along the way when their cover story about the captain's fate collapsed in front of her. The island let them go. Ariel did not become a leash for anyone, including Coriac.

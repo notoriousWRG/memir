@@ -12,4 +12,4 @@ The party met him the hard way: they tried to steal from him, and his alarm ward
 
 He lowballs his first offer and negotiates up from there, and he has strong opinions about dangerous or soul-touched items. During the party's downtime in Ravencrest, his shop produced a small rift — not sustained, but a threshold crossed, with the party standing right there when it happened.
 
-Since then, he has been enlisted as a partner. He is now at the party's headquarters at the Bellwether estate, setting up shop and working on custom modifications to the house as requested by [[artcoth]].
+Since then, he has been enlisted as a partner. He lives at the party's headquarters at the Bellwether estate now, running his shop out of it and working on custom modifications to the house as requested by [[artcoth]]. The arrangement runs both ways: workshop space and caretaker's rights for him, a standing 10% discount and first look at his newest "edge" magic for the party.
