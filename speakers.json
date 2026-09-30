@@ -1,0 +1,10 @@
+{
+  "_comment": "Maps Craig (Discord recording bot) usernames to PC/player identity for transcribe-session.py. Add new entries when a new player joins; unknown handles cause the script to stop rather than guess.",
+  "notoriouswrg": { "pc": null, "player": "WR", "label": "DM (WR)" },
+  "thechrismorrison": { "pc": "Casus", "player": "Chris", "label": "Casus (Chris)" },
+  "jsmithoti": { "pc": "Coriac", "player": "Josh", "label": "Coriac (Josh)" },
+  "zsmith48": { "pc": "Gareth", "player": "Zack", "label": "Gareth (Zack)" },
+  "jessewelch_": { "pc": "Grimvald", "player": "Jesse", "label": "Grimvald (Jesse)" },
+  "cas3439": { "pc": "Artcoth", "player": "Craig", "label": "Artcoth (Craig)" },
+  "itsthepickler": { "pc": "Shah Doh", "player": "Corey", "label": "Shah Doh (Corey)" }
+}
