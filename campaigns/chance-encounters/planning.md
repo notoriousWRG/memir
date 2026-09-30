@@ -7,7 +7,18 @@ description: Living planning document for Chance Encounters. The primary source 
 
 ---
 
-## Established This Session
+## Established S23
+
+- Bellwether House is home again. Ovaltine's quill-and-ledger secretary (the Ledger Room) sends the LLC's marketing out the window and logs incoming mail. Under the old ritual chamber floor he is uncovering the start of a teleportation circle, beneath Bellwether's layered rituals. See [[bellwether-house-hq]].
+- The party is throwing a success-tour gala at the house, roughly a fortnight out. They invited Grimhook and Lord Thorne.
+- Coal's letter to Artcoth carried a watermark matching the tattoo worn by the group that ambushed the party outside the Ironspine pass. First thread tying Coal to that ambush.
+- Grimhook's daily check-ins stopped about a week before S23. The table noticed and chose not to act.
+- The party replied to Lord Thorne directly and called Tansy his "daughter," not his ward. Nobody caught it. He has read it. (DM call, S24 prep: the slip was only a slip.)
+- Casus drank the Ovaltine potion: failed the Con save, then the Arcana check. Two failures, 2 levels of Exhaustion, no successes. The failure cost was reworked from a collapse cap to Exhaustion. See [[ovaltine-potion]].
+- Casus tried Book, Eye, Lightning on the Obsidian Cypher. Wrong combination; natural 20 on the follow-up meant gravity failed in the room for about a minute. Ovaltine then confirmed the Healing sequence (Heart, Shield, Fist) live, and it closed Gareth's lingering psychic wound from Bramwell's roast.
+- Lady Grimhook's manor now carries the Hostess's Eye and the Guest-Right. See [[lady-grimhook]] and [[the-guest-right]].
+
+## Established S22
 
 - Ariel formed the Coriac bond wordlessly — struck the Forge Shard and the Obsidian Cypher with her own lightning, then departed into the clouds. She does not linger on the island and isn't reliably reachable there; Coriac tried to redirect her storm through the shard and couldn't.
 - The Stilled are buried (three graves, Hollowed Hull); Önund and Tjorvi's vigil is over and they left the island for good, aboard the party's new ship.
@@ -35,7 +46,9 @@ What's live now: Grimhook is off-page, already in motion on the Pendant of Stars
 | Ariel's communication | — | RESOLVED | She spoke voluntarily S20: "The storm follows you." Bond sealed wordlessly S22 (Forge Shard + Obsidian Cypher); she has not spoken since and may not need to. |
 | Edrin's scry-shadow / inland descent | — | RESOLVED | He's here in the flesh. The Reckoning is live. |
 | **Freedom Clock (The Reckoning)** | — | **4 / 4 🔴 RESOLVED** | Bind broke as Edrin died in bear form, S21. Ariel free. Falling action fully played S22 — Stilled buried, Ariel's bond sealed and she's departed, Önund and Tjorvi off the island for good. Arc fully closed. |
-| **Grimhook's Pendant Pursuit** | Time passing, whether or not the party investigates | **2 / 4** 🟡 | She's already been gone a week when S23 opens. At 4/4: she's resolved the Pendant one way or another — claimed it, lost it, or paid for it — before the party can weigh in. Changes the terms of her whole commission. See [[lady-grimhook]], seeded in `session-023-prep.md`. |
+| **Grimhook's Pendant Pursuit** | Time passing, whether or not the party investigates | **2 / 4** 🟡 | She's already been gone a week when S23 opens. At 4/4: she's resolved the Pendant one way or another — claimed it, lost it, or paid for it — before the party can weigh in. Changes the terms of her whole commission. See [[lady-grimhook]], seeded in `session-023-prep.md`. **Held at 2/4 through S24** (DM call) even with a two-week time skip. |
+| **Unmoored** *(S24)* | Each scene change; Casus using Out of Step | 0 / 4 | Casus displaced in time, gone by the end of S24. Not dead. Homebrew; see [[session-024-prep]]. |
+| **The Search** *(S24)* | Starts at the shatter on the green; +1 every 2 rounds nobody is inside watching | 0 / 4 | The Circle copies the ledger's Grimhook pages and turns the house over. At 4/4 they know where she went. |
 
 ---
 
@@ -103,6 +116,12 @@ What's live now: Grimhook is off-page, already in motion on the Pendant of Stars
 | Edrin's spellbook | **Partially resolved — S22** | Casus decoded it (21): Mark's binding theories (insight bonus on future binding/warding checks) + the Bramblebind spell copied into his own book. Physical book now in Casus's possession — further passages remain future material, see [[edrins-spellbook]]. |
 | Bellwether House door-knocker | **RESOLVED — S23 prep** | Named **Bramwell** — vain, chatty, only speaks to Artcoth. Ward: sees through disguise/illusion/shapechange on anyone at the door, no check, refuses entry. See [[bellwether-door-knocker]]. |
 | Salt Wreck Four's 4th member | **Needs lookup — S22** | Ron, Tide Tongue, and Quickhand are confirmed. A fourth name came up at the table but didn't survive clearly (turned out to be a mishearing of Marek, who isn't a Salt Wreck member). The DM believes the real 4th member was already established previously — needs to be dug up, not invented. |
+| Casus leaving the party (S24) | **Planned** | Chris retires the character; the potion's failures unlock latent time-displacement. He leaves three things behind. Door left open: a tether if anchored, or he masters the jump himself (Number Five style). Who holds the Obsidian Cypher is settled at the table. |
+| Grimhook was Circle | **DM-only, S24 prep** | Left because they found her too distracted and she found them too single-minded. Serpent tattoo is the Circle's mark. Hidden in [[lady-grimhook]]. |
+| Tansy Thorne | **Open** | Thorne asks for help at the gala. See [[tansy-thorne]]. |
+| Odin's ravens | **New, S24** | Hugi and Minna book Grimvald for a hall in the north; look at Gareth's sword. See [[hugi-and-minna]]. |
+| Baldr's temple | **New, S24** | Brother Sölvi and Dame Hervor want to meet Shah. See [[brother-solvi]], [[dame-hervor]]. |
+| Coal | **Face to face, S24** | Meets Artcoth at the gala. See [[coal]]. |
 
 ---
 
@@ -147,6 +166,10 @@ Two kinds of storm relationship run through the night: Coriac by faith, the capt
 
 ### Grimhook — Off-island pressure
 ~~Decide before S21 prep: has she sent agents to find the party, started pulling on the sigil, or moved on the Watchtower herself?~~ **Answered:** she's gone after the Pendant herself. See [[lady-grimhook]] for the full hook set and the manor-visit plan.
+
+### Next Session (S24) Seed — see `session-024-prep.md`
+
+Time skip to the gala at Bellwether House, about two weeks after S23. Curated visits (Thorne, Odin's ravens, Baldr's temple, Coal), Casus's slow exit, and a staged shatter and scream on the front green to draw everyone out while the Circle searches the house for leads on Grimhook.
 
 ### Next Session (S23) Seed — superseded by `session-023-prep.md`
 

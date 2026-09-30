@@ -35,6 +35,8 @@ She's left the manor arranged to look occupied. She'd already quietly dismissed 
 ## Secrets
 
 Possesses the Cloak of Starry Veil (Frostveil artifact). The Ring of Arcane Insight she wields was taken from Eamon the Seer. Her connection to the Watchtower is not purely strategic — there is grief in it.
+
+**She was Circle once.** The serpent tattoo on her ring finger is the Circle's mark. She left because they found her too distracted, and she found them too single-minded. The Circle still wants her Liriel items. Established S24 prep (DM call); no one at the table knows yet.
 %%
 
 A serpent tattoo coils around her ring finger. "Old loyalties, like old tattoos, fade — but never disappear."
