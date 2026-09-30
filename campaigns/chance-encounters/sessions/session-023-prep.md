@@ -92,13 +92,11 @@ Lady Grimhook, Coal, and Lord Thorne's household are **not** physically present 
 1. **"Cold Cargo."** A merchant needs a shipment of frost-amber moved through waters the [[storm-draugr]] survivors still haunt. Framed as an Escort-lane job for [[the-intimidator]] — the direct, low-friction way to put the ship's mission mechanic in front of the table tonight. Can also be taken personally if they want the fight instead.
 
 2. **A sealed letter, signed.** Coal's mark — the same operative who ran Artcoth's tier during the ring job.
-   > *Chance Encounters. Better than I expected, if I'm honest — Jimmy always said you had more in you than the job showed. Rare that he was right about anything.*
-   > *I'm not here to relitigate old business. What's done is done, and you did it clean enough that I've kept my distance since. That's not nothing, coming from me.*
-   > *One question, professional to professional: have you asked yourselves what she's actually doing right now? Not what she told you — what she's doing. I already know. You should find out too, for your own sake.*
-   > *I'm not offering you a job. I'm offering you a reason to ask better questions before you're too far in to like the answers.*
+   > *Chance Encounters. Better than I expected, if I'm honest — Jimmy tried to tell me we were underestimating you. Rare that he was right about anything.*
+   > *I'm not here to relitigate old business. What's done is done, and you did it clean enough that I've kept my distance since. 
+   > *One question, professional to professional: have you asked yourselves what she's actually doing right now? What you've already accomplished for her? Not what she told you — what she's doing. I already know. You should find out too, for your own sake.*
    > *— C.*
 
-   No ask, no threat — Coal reading as composed and genuinely respectful of their work, angling to turn suspicion toward Grimhook rather than recruit them outright. Not a job offer; a gambit.
 
 3. **A stiff, formal letter, unsigned by its subject.**
    > *On behalf of Lord Thorne's household — and, I stress, at his direction, difficult as I imagine that is for you to picture — I am writing regarding his ward, Tansy, who has not been seen in six days. Discretion is paramount. His lordship would prefer this handled quietly, and would prefer even more that you not mention this letter to anyone who might repeat it. Compensation is generous. Details available on request.*
@@ -121,9 +119,9 @@ Lady Grimhook, Coal, and Lord Thorne's household are **not** physically present 
 
 **Read-aloud:** The right window glows at the right hour, same as every night this week — but the street around it is too quiet for a house that's supposedly occupied.
 
-**Loaded / Dig in / Triggers:** Fully staged already in [[lady-grimhook]]'s "If the party visits the manor" section — the wards, the locked study with the itinerary, the grief keepsake, no sign of the Pendant. Reusing wholesale rather than duplicating here. This is a **discovery scene, not a combat or trap room** — she's already gone, and the manor confirms it.
+**Loaded / Dig in / Triggers:** Fully staged already in [[lady-grimhook]]'s "If the party visits the manor" section — the occupancy wards, the locked study with the itinerary, the grief keepsake, no sign of the Pendant. **New this session:** the Hostess's Eye — a scrying ward on the front hall that fires the moment they're fully inside, unsealing a parlor with six labeled gifts (the [[the-guest-right]]) and a prepared image of Grimhook addressing them directly. Reusing wholesale rather than duplicating here. Still a **discovery scene, not a combat or trap room** — nothing here can hurt them; the tension is entirely in whether they trust six suspiciously well-aimed gifts.
 
-**Leads to:** Confirms Grimhook's Pendant Pursuit clock is real and moving — a concrete reason to consider chasing her to the Watchtower, whenever the table's ready for that.
+**Leads to:** Confirms Grimhook's Pendant Pursuit clock is real and moving — a concrete reason to consider chasing her to the Watchtower, whenever the table's ready for that. If any gifts are taken, flag who took what at wrap — that's a live thread for a future session, not resolved tonight.
 
 ---
 
@@ -162,6 +160,7 @@ Combat is unlikely tonight — this is a hub session. The only scenario that ris
 | Established fact | Where | What tonight could step on |
 |---|---|---|
 | Grimhook is not physically anywhere in Ravencrest | S21, [[lady-grimhook]] | If the party goes looking for her in town rather than the manor, she's not findable — she left |
+| The Hostess's Eye is a scrying ward, not her presence | This session, [[lady-grimhook]] | She isn't watching live or talking back — the Guest-Right's image is a message she prepared before leaving. Don't play it as a live conversation; she can't answer questions in the moment |
 | Casus's potion is unused | [[ovaltine-potion]], planning.md | Ovaltine can ask about it; nothing forces Casus to drink it |
 | Obsidian Cypher already drained Orm, Fjall, Eld | S22, [[obsidian-cypher]] | Ovaltine's ask surfaces this — it doesn't retcon or undo it |
 | Lord Thorne is hostile to the party (gala/Rod humiliation) | [[lord-thorne]] | The household's ask should read as reluctant/quiet, not warm — his attitude toward them hasn't softened |

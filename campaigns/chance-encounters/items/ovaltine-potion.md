@@ -23,17 +23,9 @@ When consumed, the drinker enters Magical Resonance for up to 1 hour. During tha
 
 Each check alternates between Constitution saving throw and Arcana check (DC 14, increasing by 1 after each success).
 
-**3 successes before 3 failures → Controlled Awakening**
+**3 successes → Controlled Awakening.** No failure cap — Resonance Collapse is not a thing. Instead, each failed check inflicts one level of Exhaustion (5e track): this is a bodily toll, not a scripted punishment. The real risk of pushing through a bad Resonance is Exhaustion climbing toward dangerous, potentially lethal levels (6 = death), not a fixed number of failures. Once Controlled Awakening locks in, all accumulated Exhaustion clears — the toll fades as the body adapts.
 
-**3 failures before 3 successes → Resonance Collapse**
-
-## Failure Track — Resonance Collapse
-
-For 1d4 days, the drinker loses access to any class features tied to predictive or fate-based magic.
-
-For Casus specifically: he loses Portent rolls for 1d4 days.
-
-Describe it as: *"The threads go quiet."* Do not tell him it's temporary.
+*Established S23: Casus failed his first two checks (Con save, then Arcana) trying to nurse the resonance — he's sitting at 2 levels of Exhaustion, still short of his first success.*
 
 ## Success Track — Controlled Awakening (Casus-Specific)
 

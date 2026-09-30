@@ -31,14 +31,14 @@ Three records uncovered in the library near where the Cypher was originally foun
 
 Six faces, each bound to an imprisoned entity whose life force powers the effect:
 
-| Rune | Symbol | Imprisoned Being |
-|---|---|---|
-| Healing | Heart | **Ris** — a radiant dryad from Alfheim — deceived into thinking she was protecting her forest |
-| Protection | Shield | **Eld** — a celestial dwarf, servant of Brokkr's forge — tricked into believing his sacrifice would protect dwarvenkind |
-| Wisdom | Book | **Blod** — the soul of a human mage who sought immortality and received imprisonment instead |
-| Power | Lightning Bolt | **Orm** — a thunder giant from Jotunheim — subdued through cunning |
-| Strength | Fist | **Fjall** — a frost giant from Niflheim — captured during a raid |
-| Secrets | Eye | **Natt** — a shadow fey from Alfheim — the circumstances of capture are deliberately obscured |
+| Rune       | Symbol         | Imprisoned Being                                                                                                        |
+| ---------- | -------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| Healing    | Heart          | **Ris** — a radiant dryad from Alfheim — deceived into thinking she was protecting her forest                           |
+| Protection | Shield         | **Eld** — a celestial dwarf, servant of Brokkr's forge — tricked into believing his sacrifice would protect dwarvenkind |
+| Wisdom     | Book           | **Blod** — the soul of a human mage who sought immortality and received imprisonment instead                            |
+| Power      | Lightning Bolt | **Orm** — a thunder giant from Jotunheim — subdued through cunning                                                      |
+| Strength   | Fist           | **Fjall** — a frost giant from Niflheim — captured during a raid                                                        |
+| Secrets    | Eye            | **Natt** — a shadow fey from Alfheim — the circumstances of capture are deliberately obscured                           |
 
 Names are Old Norse (serpent, fire, twigs/brushwood, night, blood, mountain) — matched to each entity S22, table's call, not yet cross-checked against any published Cypher canon.
 

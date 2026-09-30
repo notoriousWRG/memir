@@ -98,7 +98,7 @@ What's live now: Grimhook is off-page, already in motion on the Pendant of Stars
 | Gareth / Feanaro | Background | Sword corruption track live |
 | Circle / Coal — Ruby Ring | Background | Party betrayed the job; Circle aware |
 | Shalindra's pact | Background | Never closed; not pressing |
-| Grimhook commission | **She's moved — S21** | Pendant of Stars commission; soulbinding sigil on Artcoth. The Circle's pressure + the party ignoring her summons pushed her to go after the Pendant herself. Manor left warded to look occupied. See [[lady-grimhook]] for the full base hook set and a concrete plan for what's discoverable if the party visits the manor. **Live seed for S23.** |
+| Grimhook commission | **She's moved — S21** | Pendant of Stars commission; soulbinding sigil on Artcoth. The Circle's pressure + the party ignoring her summons pushed her to go after the Pendant herself. Manor left warded to look occupied — and, new this session, rigged with a scrying trigger (the Hostess's Eye) that releases six tailored, charmed gifts if the party gets inside. See [[lady-grimhook]] and [[the-guest-right]] for the full hook set. **Live seed for S23.** |
 | The Intimidator (new ship + crew) | **RESOLVED — S22** | Named, crewed (Önund, Tjorvi, Ollo, Marek), based in Ravencrest. See [[the-intimidator]] for the downtime-task mechanic. Comms via [[tjorvis-far-call-token]]. |
 | Edrin's spellbook | **Partially resolved — S22** | Casus decoded it (21): Mark's binding theories (insight bonus on future binding/warding checks) + the Bramblebind spell copied into his own book. Physical book now in Casus's possession — further passages remain future material, see [[edrins-spellbook]]. |
 | Bellwether House door-knocker | **RESOLVED — S23 prep** | Named **Bramwell** — vain, chatty, only speaks to Artcoth. Ward: sees through disguise/illusion/shapechange on anyone at the door, no check, refuses entry. See [[bellwether-door-knocker]]. |
@@ -125,6 +125,7 @@ What's live now: Grimhook is off-page, already in motion on the Pendant of Stars
 - **Obsidian Cypher consequence (S22)** — Ariel's Power-sequence use drained Orm, Fjall, and Eld simultaneously. Explore the fallout before it's forgotten — see the item's S22 note.
 - **Salt Wreck Four's 4th member** — dig up the name established previously; don't invent one. (Ron, Tide Tongue, and Quickhand are confirmed.)
 - ~~**Flesh out Grimhook's current move**~~ **Done, S23 prep** — see the new Pendant Pursuit clock above.
+- ~~**Grimhook manor trap**~~ **Done — added after S23 prep** — the Hostess's Eye (a scrying ward on the front hall) and the Guest-Right (six charmed gifts, one per PC). Replaces the old "nothing hostile, no traps" framing for this visit. See [[lady-grimhook]] and [[the-guest-right]].
 - ~~**A few more hooks for Ravencrest**~~ **Done, S23 prep** — Cold Cargo (Escort job), Coal's letter (gambit re: Grimhook), and the Tansy Thorne missing-persons case, all in `session-023-prep.md`.
 - ~~**Ovaltine's shop inventory**~~ **Done, S23 prep** — restocked list is in `session-023-prep.md`, Section 7.
 - **Entity stubs still needing prose** — `ron.md`, no urgency. (New minimal stub `tansy-thorne.md` added S23 prep — deliberately sparse, fate undecided.)
