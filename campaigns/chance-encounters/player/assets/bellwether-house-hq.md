@@ -9,6 +9,10 @@ publish: true
 
 All six of the party call it home now, each with a room of their own — not a base they visit between jobs, but where they actually live. [[ovaltine-jenkins]] lives there too, running Ovaltine's Oddities out of the house, and [[amelia]] and [[bellwether-door-knocker|Bramwell]] round out the household.
 
+**Ovaltine's secretary:** the edge magic he'd been building is an enchanted quill and ledger that writes the house's marketing copy, sends it out the window to town, and logs incoming mail in a ledger weighed down with sea glass. It's already surfaced a Bold escort job and two letters worth reading.
+
+**Under the floor:** Ovaltine is prying up the old ritual chamber layer by layer. Grimvald's Arcana caught what he's uncovering now: the start of a teleportation circle, buried under everything Bellwether stacked on top.
+
 **The deal with Ovaltine:** workshop space and caretaker's rights, in exchange for fronting the party's gear — and in return, the party gets a standing 10% discount at Ovaltine's Oddities, plus first look at whatever "edge" magic he's tinkering with before it ever reaches the shop floor.
 
 ## Resting here

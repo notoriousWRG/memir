@@ -37,3 +37,9 @@ The cube is believed to have belonged to Thalgrin Deepforge, an exiled dwarven a
 > "Legends claim he defied death itself, sealing his soul within his greatest creation. Whether it is truth or mere dwarven boasts, none can say. Yet Thalgrin's name remains whispered where the air grows cold, and the dark presses close."
 
 > "His runes are said to be the key — to what, only fools and the doomed still search."
+
+## Tried in practice (S23)
+
+- **Heart → Shield → Fist** is confirmed real: green light closed a psychic wound on Gareth.
+- **Book → Eye → Lightning** was a wrong sequence. The runes lit, shorted out, and gravity gave out in the room for about a minute, with Casus, Coriac and the furniture all floating until it snapped back.
+- Casus now handles it with tongs and a wedge.

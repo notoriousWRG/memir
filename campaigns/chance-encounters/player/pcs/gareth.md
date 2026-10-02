@@ -33,6 +33,10 @@ In the party's running dynamic, Gareth was responsible for the anchor. The ancho
 
 Made invisible by Casus before the draugr fight on the beach; carrying a lit sword, currently seen. Went through the sailcloth partition with Artcoth and Casus when Tjorvi said not to.
 
+## The Cypher's Healing
+
+A psychic wound from Bramwell's roast was closed by the Cypher's Healing sequence in S23.
+
 ## Edrin's Spellbook
 
 Gareth carries [[edrins-spellbook|Edrin's spellbook]] now. Dark-touched, druidic-leaning magic in a mix of precise arcane notation and a looser, older hand. Casus has been the one decoding it: so far it's yielded *Bramblebind*, a spell copied into Casus's own book, and notes on how a magical binding is built and held. What else is in it hasn't been cracked yet.

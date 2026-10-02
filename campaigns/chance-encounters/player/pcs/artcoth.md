@@ -37,6 +37,10 @@ In the Hollowed Hull, Artcoth worked the room quietly while the others held Onun
 
 Artcoth was part of the failed cover story for Elara about the captain's death. She saw through it before anyone said it outright, and left with the White Gull. Whatever standing the party had with her, that's gone now.
 
+## The Letter Signed "C"
+
+In S23 a letter arrived addressed to him personally, signed with the same flourished "C" as the original Grimhook commission. His investigation (26) found a watermark under the signature matching the tattoo on the group that ambushed the party at the mountain pass.
+
 ## Bellwether House, Renovated
 
 Back at Bellwether House, a new brass door-knocker with blinking eyes let the party in — but it spoke only to Artcoth first. Why, nobody's said yet.

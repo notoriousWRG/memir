@@ -9,15 +9,15 @@ publish: true
 
 Human wizard. Curious, tactically minded, increasingly entangled in magical legacies he didn't go looking for. He arrived in the duergar city's library during the Frostveil arc — having reached that point by a route that was never fully accounted for — and has been with the party since.
 
-**Carries:** [[obsidian-cypher|The Obsidian Cypher]], [[ovaltine-potion|Resonant Catalyst]]
+**Carries:** [[obsidian-cypher|The Obsidian Cypher]]
 
 ## The Obsidian Cypher
 
-Casus carries the [[obsidian-cypher]] — a small black cube with six rune faces, connected to the work of an exiled dwarven archmage. It does things that ordinary objects don't do. Its full nature is still becoming clear.
+Casus carries the [[obsidian-cypher]] — a small black cube with six rune faces, connected to the work of an exiled dwarven archmage. It does things that ordinary objects don't do. Its full nature is still becoming clear. After a wrong sequence dropped gravity out of the room in S23, he handles it with tongs and a wedge.
 
 ## Ovaltine's Potion
 
-He also carries an experimental latent-magic potion made by [[ovaltine-jenkins]]. The island is saturated with Ariel's presence. Using it here would react to her specifically. It's been held.
+He drank the experimental latent-magic potion [[ovaltine-jenkins]] made for him ([[ovaltine-potion|Resonant Catalyst]]) in S23, after failing to pass off an empty vial as a spent dose. He blacked out, came to disoriented, and has two levels of exhaustion with no success yet. The potion's fine print changed to match what actually happened.
 
 ## The Spar Field
 

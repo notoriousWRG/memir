@@ -124,3 +124,11 @@ The party brought [[marek]] and [[dessa]] from the beach camp, and together they
 The wreck became theirs. Önund, Tjorvi, Marek, and [[ollo]] came aboard for good — Coriac captain, Önund first mate, Tjorvi the ship's bard, Ollo navigating, Marek in the galley. They named her the *Intimidator*.
 
 Bellwether House had changed while they were gone — renovations mostly finished, and a new brass door-knocker with blinking eyes that spoke only to [[artcoth]] before letting the six of them in. Coriac closed the ledger on the new ship out loud: they're patrons now, and the operation has a name. The session closed soft: six people settling into a room that was theirs for the first time.
+
+---
+
+## Arc 3 — The Gala
+
+Home again, the party turned Bellwether House into a business. Casus pitched a success-tour gala, and [[ovaltine-jenkins|Ovaltine]]'s edge magic finally paid off: an enchanted quill-and-ledger secretary that writes the marketing copy, sends it into town, and logs everything that comes back. What came back was a Bold escort job through the draugr-haunted waters, a letter from [[lord-thorne|Thorne]]'s household, and a note to [[artcoth]] signed with the same flourished "C" as the original Grimhook commission. Under that signature was a watermark matching the tattoo on the group that ambushed them at the mountain pass. Grimhook's check-ins had gone quiet a week earlier, but the party let it sit, and they wrote back to Thorne directly.
+
+Casus spent the afternoon failing against Ovaltine's potion: he drank it, blacked out, and came to short of breath and two levels of exhaustion deep. Then he tried a Cypher sequence nobody had tried before, and gravity gave out in the room for the better part of a minute. When the floor came back, Ovaltine confirmed the cube's Healing sequence live, and it closed the psychic wound Gareth had been carrying since Bramwell's roast.

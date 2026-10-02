@@ -4,7 +4,7 @@ type: asset
 asset_type: ship
 status: active
 mechanic: "Once crewed, she can be sent on a mission between sessions — pick the kind of job and how much to risk, put a crew specialist on point, and roll to see how it goes. See below for the full system."
-crew: [onund, tjorvi, ollo, marek]
+crew: [onund, tjorvi, ollo, marek, ron, tide-tongue, grull, hesper-vane, brask-ironhand, sella-wrack]
 publish: true
 ---
 
@@ -29,8 +29,14 @@ Each hand aboard has a specialty, a bonus, and usually a catch. This is who's on
 | [[tjorvi\|Tjorvi]] | Support — boosts whoever's running the mission | +1 to them | No bonus of his own; never runs a mission himself |
 | [[ollo\|Ollo]] | Weather — storm-adjacent, dangerous routes | +3 | Still green — his bonus is halved on the riskier jobs until he's proven himself a few times over |
 | [[marek\|Marek]] | Trade — deals, contracts, cargo | +2 | His galley contacts shave a bit off the cost of Trade jobs |
+| [[ron]] | Escort — muscle, protection runs | +3 | Working off the wager, so he's cheap until it's repaid, then his wage goes up |
+| [[tide-tongue\|Tide Tongue]] | Weather — storm-adjacent, dangerous routes | +2 on safer jobs, +4 on the risky ones | Reads omens best when they're real, and is weak when everything's calm |
+| Grull | Escort — muscle, protection runs | +4, the best in his specialty | Risky: if a job he's running goes bad, the trouble that follows is worse |
+| Hesper Vane | Weather — storm-adjacent, dangerous routes | +2 | Won't sail the riskiest jobs unless Tide Tongue is aboard; she trusts Tide Tongue's nerve over her own |
+| Brask Ironhand | Salvage — repair, recovery, patch-jobs | +3 | Takes no wage; what a job he runs earns goes into a ship-upgrade fund instead of the party's purse |
+| Sella Wrack | Intel — information, discretion, smuggling | +2 | A generalist: helps a little in any specialty if nobody better is aboard, but only truly shines in Intel |
 
-**Wages** (gp per tenday, paid whether or not a mission lands): Önund 2, Tjorvi 1, Ollo 1, Marek 1.
+**Wages** (gp per tenday, paid whether or not a mission lands): Önund 2, Tjorvi 1, Ollo 1, Marek 1, Ron 1, Tide Tongue 1, Grull 1, Hesper 2, Sella 1. Brask takes none. That's 11 gp a tenday, and the ship now has a full crew of 10.
 
 ## Mission Mechanic
 
