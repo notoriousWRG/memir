@@ -4,7 +4,7 @@ type: pc
 player: "Craig Smith"
 class: "Rogue"
 level: 7
-xp: 26500
+xp: 26750
 pc_race: "Half-Elf"
 ---
 

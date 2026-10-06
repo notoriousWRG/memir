@@ -4,7 +4,7 @@ type: pc
 player: "Jesse"
 class: "Bard / Warlock"
 level: 7
-xp: 23450
+xp: 23700
 pc_race: "Half-Elf"
 ---
 

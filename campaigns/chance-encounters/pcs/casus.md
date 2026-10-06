@@ -4,7 +4,7 @@ type: pc
 player: "Chris Morrison"
 class: "Wizard"
 level: 7
-xp: 24500
+xp: 24750
 pc_race: "Human"
 ---
 

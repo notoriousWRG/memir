@@ -4,7 +4,7 @@ type: pc
 player: "Josh Smith"
 class: "Cleric (Nature)"
 level: 7
-xp: 26800
+xp: 27050
 pc_race: "Elf"
 ---
 

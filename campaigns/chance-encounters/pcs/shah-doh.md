@@ -4,7 +4,7 @@ type: pc
 player: "Corey"
 class: "Paladin"
 level: 7
-xp: 26450
+xp: 26700
 pc_race: "Half-Orc"
 ---
 
