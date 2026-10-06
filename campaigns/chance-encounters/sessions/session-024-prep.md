@@ -62,6 +62,10 @@ Background, if you want them: Bramwell announcing guests (loudly, only to Artcot
 
 ---
 
+Set up:
+2 weeks have passed - gala is today
+- Casus you feel terrible its been an exhausting week, sickness, shakiness - ovaltine is note taking and helping treat - seems to get more grave as the time goes on
+- 
 ## 5 — Scenes
 
 ### Scene 1 — Doors Open
@@ -209,6 +213,7 @@ Background, if you want them: Bramwell announcing guests (loudly, only to Artcot
 - **4:** She's out the back window and gone.
 
 **If it comes to a fight:** [[serpent-brood]] *(new stub)*: a brood-spawn of Jormungandr, hauled up out of the sea. Reskinned **Hydra** (MM). Full stat line in Section 6. Tactic: it spreads its heads across as many targets as it can and goes for guests when nobody's engaging it. The loud elf slips out the gate in the confusion.
+*Tuned for 6 x level 7: the flood also spits out one **Water Elemental** (tide-spawn, animated seawater with a primitive will). Planned as a long fight, a distraction long enough for the Search clock to run. **If it's too trivial, a second elemental rises from the pool** (Low becomes Moderate). Dials and numbers in [[serpent-brood]].*
 
 **Triggers:**
 - *If a PC goes back inside* → the Search freezes. Hellen fights only to get away (Scout stats). She knows Artcoth's face from the Ironspine road.

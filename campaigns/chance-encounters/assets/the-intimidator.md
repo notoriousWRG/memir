@@ -4,7 +4,7 @@ type: asset
 asset_type: ship
 status: active
 mechanic: "Once crewed, the Intimidator can be sent on a mission between sessions: pick a Lane (the kind of job) and a Tier (how much is staked), assign a crew specialist to run point, and roll 1d20 + their bonus against the tier's DC. See Mission Mechanic below for the full system."
-crew: [onund, tjorvi, ollo, marek]
+crew: [onund, tjorvi, ollo, marek, ron, tide-tongue, grull, hesper-vane, brask-ironhand, sella-wrack]
 ---
 ## Ship Specs
 
@@ -37,6 +37,14 @@ Each crew member is a specialist card: a Lane, a bonus, a quirk, and a wage (gp/
 | [[tjorvi\|Tjorvi]] | Support (any lane) | +1 to whoever's running point | No bonus of his own — pure multiplier, never runs point himself | 1 |
 | [[ollo\|Ollo]] | Weather | +3 | Still learning — bonus halves (round down) on Bold/Reckless jobs until he's logged 3 successful runs | 1 |
 | [[marek\|Marek]] | Trade | +2 | Galley contacts shave 10% off the stake on Trade jobs | 1 |
+| [[ron]] | Escort | +3 | Discount while working off [[the-salt-wreck-wager\|the wager]]; wage jumps once it's repaid | 1 |
+| [[tide-tongue\|Tide Tongue]] | Weather | +2 (Milk/Standard), +4 (Bold/Reckless) | Reads omens best when it's real, weak when it's safe | 1 |
+| Grull | Escort | +4 (best in Lane) | High-risk: a Bust with him running point bumps the complication up a step | 1 |
+| Hesper Vane | Weather | +2 | Won't sail a Reckless job unless Wynne or Tide Tongue is also aboard; trusts their nerve over her own | 2 |
+| Brask Ironhand | Salvage | +3 | Takes no wage; the payout from any job he runs point on goes into a ship-upgrade fund, not gp in hand | — |
+| Sella Wrack | Intel | +2 | Generalist: grants +1 in any Lane if no specialist's aboard, never full bonus outside Intel | 1 |
+
+Crew now stands at 10, a full ship. **Wages: 11 gp/tenday** (Önund 2, Tjorvi 1, Ollo 1, Marek 1, Ron 1, Tide Tongue 1, Grull 1, Hesper 2, Sella 1; Brask none). Hesper's Reckless condition is met while Tide Tongue is aboard. Sella's fallback rarely fires with this roster, since Escort, Weather, Trade, Intel and Salvage all have a specialist. Fenn Cutter, Quickhand, Old Pell, Wynne Farrow and Coy weren't hired.
 
 The payoff isn't immediate. A well-crewed ship with the right specialist in the right Lane clears success more often, and missions are the only way the Intimidator earns anything back — so a properly staffed crew should, over several runs, cover its own wages and then some. But that's a bet, not a guarantee: running a job with no one aboard whose bonus fits the Lane, or reaching for Bold/Reckless before the crew can back it up, raises the odds of a Bust — and a Bust doesn't just cost the stake, it seeds a complication that follows the party into a later session.
 ## Mission Mechanic
