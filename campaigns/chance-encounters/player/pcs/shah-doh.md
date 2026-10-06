@@ -3,7 +3,7 @@ title: "Shah Doh"
 type: pc
 class: "Paladin"
 level: 7
-xp: 26450
+xp: 26700
 publish: true
 ---
 
@@ -22,3 +22,7 @@ The figure who appeared in Shah Doh's dream on his nameday has not been explaine
 ## Quiet Heroism
 
 Shah Doh doesn't announce what he does under pressure — he just does it. He caught himself on rigging. He hauled Grimvald back from overboard during the grounding. He lit a torch as a secondary beacon in the fog so people could find each other. The list is longer than the people around him realize.
+
+## The Shining Order
+
+At the gala, [[brother-solvi|Brother Sölvi]] came looking for him. He touched the hem of the [[baldrs-gleaming-chain|Gleaming Chain]] and it glimmered for him, as it does for Shah. The armor was left at the temple, Sölvi said, by one of the Dawnbound's highest knights, who said only that someone would need it one day. [[dame-hervor|Dame Hervor]] was hostile and asked what he wouldn't do even for his friends. Shah answered that he wouldn't betray the brethren. She wasn't satisfied, and Sölvi pulled her away. He has still never received an origin for the armor.

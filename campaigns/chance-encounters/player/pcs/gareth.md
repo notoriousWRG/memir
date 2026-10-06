@@ -3,7 +3,7 @@ title: "Gareth"
 type: pc
 class: "Warlock"
 level: 7
-xp: 26600
+xp: 26850
 publish: true
 ---
 
@@ -40,3 +40,7 @@ A psychic wound from Bramwell's roast was closed by the Cypher's Healing sequenc
 ## Edrin's Spellbook
 
 Gareth carries [[edrins-spellbook|Edrin's spellbook]] now. Dark-touched, druidic-leaning magic in a mix of precise arcane notation and a looser, older hand. Casus has been the one decoding it: so far it's yielded *Bramblebind*, a spell copied into Casus's own book, and notes on how a magical binding is built and held. What else is in it hasn't been cracked yet.
+
+## The Gala
+
+Gareth spent the party in the shadows, sampling the food, with his room enchanted by Ovaltine against snoopers. Leaving, [[hugi-and-minna|the two in black]] stopped at his sword and said it wasn't theirs: *"That's not ours." "It was, once."* He sat in on the conversation with [[coal]], and his sharp eyes caught the serpent on Coal's wrist. When the fountain erupted he pointed the guests toward the back door.

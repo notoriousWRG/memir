@@ -3,7 +3,7 @@ title: "Casus"
 type: pc
 class: "Wizard"
 level: 7
-xp: 24500
+xp: 24750
 publish: true
 ---
 
@@ -40,3 +40,7 @@ He also spent time with [[edrins-spellbook|Edrin's spellbook]] before it passed 
 Tried to stop the captain from reaching the stone frame — Misty Stepped in, couldn't hold him, watched him go. Asked the ether afterward whether attacking Ariel directly would serve the party. The answer that came back was ill news. He made sure everyone heard it before anything else happened.
 
 During the fight against the Werebear, Casus went for Edrin's spellbook mid-melee and came up empty-handed. It's still out there, unclaimed.
+
+## The Gala
+
+A week after S23, Casus spent the days before the gala shaky and exhausted, waking unrested and walking the house like a ghost. At the party he slipped through time three times: Bellwether as it once was, with [[eleanor-bellwether|Eleanor]] and [[amelia]] at a table and smoke rising from the open ritual chamber floor; the forest where Artcoth's arrow found Jimmy; and the front green knee-deep in seawater with a scaled tail passing. No one else saw any of it. [[ovaltine-jenkins|Ovaltine]] told Artcoth that the potion doesn't give anything, it provokes what's already there, and took Casus upstairs.

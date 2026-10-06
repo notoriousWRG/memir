@@ -3,7 +3,7 @@ title: "Grimvald"
 type: pc
 class: "Bard / Warlock"
 level: 7
-xp: 23450
+xp: 23700
 publish: true
 ---
 
@@ -13,7 +13,7 @@ Then the duergar took him.
 
 The party cut the ritual short and pulled him out alive. That's how he got here.
 
-**Carries:** nothing currently identified
+**Carries:** [[ravens-black-feather|A black feather]] etched with a place and a date
 
 ## The Patron
 
@@ -42,3 +42,7 @@ His songs are circulating in the dockside taverns, some of them lifted into Oval
 ## The Captain Crunch Gambit
 
 Rather than tell [[elara-venn|Elara]] the truth outright, Grimvald posed as the dead captain — "Captain Crunch" — to cover for what had happened to him. She saw through it immediately, reading the truth off the party's faces before anyone said it. He threw Suggestion at her back to make her stay and listen. She made the save clean. She left with [[dessa]] aboard the White Gull. Whatever standing this party had with her and her crew ends here.
+
+## The Two in Black
+
+At the gala, [[hugi-and-minna|two guests nobody announced]] asked him for a verse and he sang a piece of the party's adventures. They weren't listening to the words. *"It is him,"* the woman said quietly, and the man dropped a black feather into Grimvald's hand: *"Everyone sings for him eventually."* The feather is etched with a place in the far north he's never heard of and a date about a month away. His theory, from a Religion check: Odin's ravens, Huginn and Muninn. The voices from the barrel are still an open question.

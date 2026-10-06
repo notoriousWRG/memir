@@ -3,7 +3,7 @@ title: "Artcoth"
 type: pc
 class: "Rogue"
 level: 7
-xp: 26500
+xp: 26750
 publish: true
 ---
 
@@ -15,7 +15,7 @@ He travels with [[gareth]], an alliance with the weight of shared history behind
 
 ## The Circle
 
-Artcoth's connection to the Circle — the organization that runs thieves' guilds under legitimate trading fronts as cover for artifact collection — is old and complicated. In Ravencrest, they tested him again: a man named Cole hired the party to steal a ruby ring from [[lady-grimhook]]. The party worked the job, then sided with Grimhook instead.
+Artcoth's connection to the Circle — the organization that runs thieves' guilds under legitimate trading fronts as cover for artifact collection — is old and complicated. In Ravencrest, they tested him again: a man named [[coal|Coal]] hired the party to steal a ruby ring from [[lady-grimhook]]. The party worked the job, then sided with Grimhook instead.
 
 [[jimmy-quickhands]] came to collect on the Ironspine road. He had two others with him and wanted the ring. Artcoth gave the signal. The fight ended with Jimmy dead at 140 feet. An encrypted note on his body pointed to Coal, the Circle's coordinator, by name — and the message was clear: the Circle knew the party hadn't delivered and had run out of patience.
 
@@ -44,3 +44,9 @@ In S23 a letter arrived addressed to him personally, signed with the same flouri
 ## Bellwether House, Renovated
 
 Back at Bellwether House, a new brass door-knocker with blinking eyes let the party in — but it spoke only to Artcoth first. Why, nobody's said yet.
+
+## The Gala
+
+At the gala he greeted guests in the foyer and put Bramwell on notice: speak up only if something is a danger. Taking [[lord-thorne|Thorne]] upstairs, he heard the ask (Tansy, missing two weeks) and pressed when he sensed Thorne was holding something back; Thorne took offense and left. Artcoth promised to visit his staff within the week.
+
+Then [[coal]] sat down across from him, put a card in his hand, and showed the serpent tattoo: *"Grimhook had this mark once as well."* Artcoth told him not tonight, make an appointment or knock. Earlier he'd recalled Grimhook's manor as eerily vacant, only two lamps lit and nobody passing the windows. He means to check it after the gala.

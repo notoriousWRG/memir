@@ -3,7 +3,7 @@ title: "Coriac"
 type: pc
 class: "Cleric (Nature)"
 level: 7
-xp: 26800
+xp: 27050
 publish: true
 ---
 
@@ -52,3 +52,7 @@ Tjorvi sat down on the floor and held out his hand. Coriac gave it back. *"You c
 *"When a bottle shows up in Ravencrest with my name on it, I've got my duty to follow it to my crew. You call, we answer."*
 
 He cast Cure Wounds on Tjorvi. The infected eye cleared.
+
+## The Gala
+
+At the gala he welcomed [[brother-solvi|Brother Sölvi]] and [[dame-hervor|Dame Hervor]], who recognized the marks on his hammer and armor, and then watched the music room as [[hugi-and-minna|two guests nobody announced]] came to Grimvald. He sensed a human form wasn't their own, stopped the taller one reaching into his cloak, and picked up two plain feathers where they flew. When the fountain erupted, a natural 20 spotted shards of black pottery in the water; he told the guests to run, but not too far.
