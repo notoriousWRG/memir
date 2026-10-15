@@ -4,11 +4,11 @@ type: item
 rarity: legendary
 attunement: false
 item_type: "wondrous"
-current_holder: casus
+current_holder: ""
 publish: true
 ---
 
-A small black cube, palm-sized, carved with archaic dwarven runes on each face. Heavy for its size, cold to the touch even in a warm room. Six faces, six runes — and pressing them in the right sequences does things a box this small has no business doing. **Currently carried by [[casus]].**
+A small black cube, palm-sized, carved with archaic dwarven runes on each face. Heavy for its size, cold to the touch even in a warm room. Six faces, six runes — and pressing them in the right sequences does things a box this small has no business doing. **Left on the stairs when [[casus]] vanished (S25).**
 
 ## What the party knows
 

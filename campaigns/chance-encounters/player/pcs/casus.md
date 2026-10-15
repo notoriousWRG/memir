@@ -3,7 +3,7 @@ title: "Casus"
 type: pc
 class: "Wizard"
 level: 7
-xp: 24750
+xp: 26000
 publish: true
 ---
 
@@ -44,3 +44,7 @@ During the fight against the Werebear, Casus went for Edrin's spellbook mid-mele
 ## The Gala
 
 A week after S23, Casus spent the days before the gala shaky and exhausted, waking unrested and walking the house like a ghost. At the party he slipped through time three times: Bellwether as it once was, with [[eleanor-bellwether|Eleanor]] and [[amelia]] at a table and smoke rising from the open ritual chamber floor; the forest where Artcoth's arrow found Jimmy; and the front green knee-deep in seawater with a scaled tail passing. No one else saw any of it. [[ovaltine-jenkins|Ovaltine]] told Artcoth that the potion doesn't give anything, it provokes what's already there, and took Casus upstairs.
+
+## Gone
+
+Sprinting down the staircase with a handful of Ovaltine's vials, he fell for half a second through a green field and landed on the stairs. Then something snapped. He asked [[ovaltine-jenkins|Ovaltine]] for anything that would keep him here, got no answer, and emptied his pockets at their feet: the [[obsidian-cypher|Obsidian Cypher]], [[edrins-bear-blood|a vial of bear blood]], and [[casus-sealed-letter|a letter sealed in black wax]]. Then he was gone.

@@ -3,7 +3,7 @@ title: "Gareth"
 type: pc
 class: "Warlock"
 level: 7
-xp: 26850
+xp: 27850
 publish: true
 ---
 

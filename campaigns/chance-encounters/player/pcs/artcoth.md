@@ -3,7 +3,7 @@ title: "Artcoth"
 type: pc
 class: "Rogue"
 level: 7
-xp: 26750
+xp: 27750
 publish: true
 ---
 
@@ -50,3 +50,5 @@ Back at Bellwether House, a new brass door-knocker with blinking eyes let the pa
 At the gala he greeted guests in the foyer and put Bramwell on notice: speak up only if something is a danger. Taking [[lord-thorne|Thorne]] upstairs, he heard the ask (Tansy, missing two weeks) and pressed when he sensed Thorne was holding something back; Thorne took offense and left. Artcoth promised to visit his staff within the week.
 
 Then [[coal]] sat down across from him, put a card in his hand, and showed the serpent tattoo: *"Grimhook had this mark once as well."* Artcoth told him not tonight, make an appointment or knock. Earlier he'd recalled Grimhook's manor as eerily vacant, only two lamps lit and nobody passing the windows. He means to check it after the gala.
+
+When the green went wrong, he told Coal to come with him and was refused, then ran for [[brother-solvi|Sölvi]] and asked him and his dame to help. Upstairs he sneaked a stab into one of the Circle's thugs and chased their halfling scout, losing her by two points. He read her seal as a match for the black amphora, and her visit as a distraction for what was happening on the green.

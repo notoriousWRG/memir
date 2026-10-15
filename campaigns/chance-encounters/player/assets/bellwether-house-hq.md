@@ -31,3 +31,5 @@ A long rest at Bellwether House leaves you steadier for it — the cleansing tha
 - **Focused Insight** — advantage on the first check made with one skill or tool proficiency of your choice, before your next long rest.
 
 Word travels fast in a house with staff — servants, locals, and contacts already know your names.
+
+The front-green fountain was wrecked in the S25 fight, and the pool has not quite drained.

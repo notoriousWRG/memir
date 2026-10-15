@@ -3,7 +3,7 @@ title: "Coriac"
 type: pc
 class: "Cleric (Nature)"
 level: 7
-xp: 27050
+xp: 28050
 publish: true
 ---
 
@@ -56,3 +56,5 @@ He cast Cure Wounds on Tjorvi. The infected eye cleared.
 ## The Gala
 
 At the gala he welcomed [[brother-solvi|Brother Sölvi]] and [[dame-hervor|Dame Hervor]], who recognized the marks on his hammer and armor, and then watched the music room as [[hugi-and-minna|two guests nobody announced]] came to Grimvald. He sensed a human form wasn't their own, stopped the taller one reaching into his cloak, and picked up two plain feathers where they flew. When the fountain erupted, a natural 20 spotted shards of black pottery in the water; he told the guests to run, but not too far.
+
+When the thing in the fountain rose, he called lightning with Channel Divinity and blew two of its heads off. The flash of knowing that came with it told him what it was: a child of Jörmungandr, and it knew whose servant he was. Later, when the water dragged [[brother-solvi|Sölvi]] under, Coriac parted it around him and kept him breathing until the fight was won.

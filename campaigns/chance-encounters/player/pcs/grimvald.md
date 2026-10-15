@@ -3,7 +3,7 @@ title: "Grimvald"
 type: pc
 class: "Bard / Warlock"
 level: 7
-xp: 23700
+xp: 24700
 publish: true
 ---
 

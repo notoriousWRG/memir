@@ -7,19 +7,19 @@ Six strangers, assembled by circumstance. Two arcs, an underdark pact, a ship th
 
 ## Latest Updates
 
-*Session 24 — October 1*
+*Session 25 — October 13*
 
-- The gala at Bellwether House is underway, and it has gone wrong: something many-headed has risen from the front fountain, with the fight still to come. Along the way the party met [[brother-solvi|Brother Sölvi]] and [[dame-hervor|Dame Hervor]], who came to see who now wears [[baldrs-gleaming-chain|the Gleaming Chain]], and [[coal|Coal]] himself.
-- Two uninvited guests who book performers asked [[grimvald]] for a verse and left him a black feather etched with a place and date. New pages: [[hugi-and-minna|The Two in Black]], [[ravens-black-feather|Raven's Black Feather]].
-- [[lord-thorne|Lord Thorne]] asked for help finding Tansy, and the party promised to talk to his staff within the week.
-- [[casus]] slipped through time three times in one night.
+- The many-headed thing from the Bellwether fountain is dead, killed on the front green with help from [[brother-solvi|Brother Sölvi]] and [[dame-hervor|Dame Hervor]]. The water is draining away, though the pool did not give Sölvi up easily and may not have given up everything else.
+- [[casus]] is gone. He vanished from the stairs, leaving a black cube, a vial of blood, and a sealed letter. New pages: [[edrins-bear-blood|Edrin's Bear Blood]], [[casus-sealed-letter|Casus's Sealed Letter]].
+- [[coal|Coal]] walked out as the fight began. Three Circle intruders slipped into the house; [[artcoth]] ran them off, and the scout's seal matches the black amphora.
+- [[lord-thorne|Thorne]] is still waiting on his staff interviews.
 
 ## Where the Party Stands
 
-The party is mid-gala at Bellwether House in Ravencrest, a week after their last session, with the guests fleeing a creature of many heads that has risen from the front fountain. The house is still full of people who came to see what Chance Encounters looks like up close. Casus is upstairs with Ovaltine, still slipping through time, and nobody has settled how to fix it. Artcoth has just turned Coal away for the night. Grimvald holds a black feather from two guests who looked far too much like Odin's ravens, and Thorne is waiting for someone to visit his household about Tansy. Lady Grimhook did not come to the gala and has not been in touch.
+The party is at Bellwether House in Ravencrest, the night after the gala, with the front green trampled, the fountain wrecked, and a pool of seawater that has not quite drained. Casus is gone, and the things he left behind lie where he dropped them: the Obsidian Cypher, a vial of Edrin's bear blood, and a letter sealed in black wax. [[ovaltine-jenkins|Ovaltine]] is shaken and beaten up. Coal has walked out of the house and is loose in Ravencrest, and the Circle knows the house and the party's faces. Grimvald's black feather points at a hall in the far north a month out. Thorne is waiting for someone to visit his household about Tansy, and Artcoth means to look in on Grimhook's manor.
 
 ## The Story So Far
 
-The full chronicle: [[party-story|The Party Chronicle]] — from the tunnels beneath the Ironspine to the interior of Ariel's island.
+The full chronicle: [[party-story|The Party Chronicle]] — from the tunnels beneath the Ironspine to the gala at Bellwether House.
 
-*Most recently:* The gala filled Bellwether House with guests, visitors and old enemies, then a crash and a scream from the green brought everyone out to something rising from the fountain.
+*Most recently:* The party killed the brood on the green, and Casus vanished from the stairs upstairs.

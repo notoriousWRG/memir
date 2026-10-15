@@ -3,7 +3,7 @@ title: "Shah Doh"
 type: pc
 class: "Paladin"
 level: 7
-xp: 26700
+xp: 27700
 publish: true
 ---
 
@@ -26,3 +26,5 @@ Shah Doh doesn't announce what he does under pressure — he just does it. He ca
 ## The Shining Order
 
 At the gala, [[brother-solvi|Brother Sölvi]] came looking for him. He touched the hem of the [[baldrs-gleaming-chain|Gleaming Chain]] and it glimmered for him, as it does for Shah. The armor was left at the temple, Sölvi said, by one of the Dawnbound's highest knights, who said only that someone would need it one day. [[dame-hervor|Dame Hervor]] was hostile and asked what he wouldn't do even for his friends. Shah answered that he wouldn't betray the brethren. She wasn't satisfied, and Sölvi pulled her away. He has still never received an origin for the armor.
+
+Against the creature on the green, he crossed the flooded fountain with a Misty Step and put his Divine Smite into it. The light withered the severed heads so they could not return, and [[dame-hervor|Hervor]]'s blade took on the same glow. He took the last head. She smirked at him afterward, and he asked the table whether they were best friends now.
