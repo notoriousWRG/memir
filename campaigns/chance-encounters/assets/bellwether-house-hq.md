@@ -40,3 +40,7 @@ Subtle side effect: servants, locals, and contacts in Ravencrest already know th
 ## Threads / Renovations
 
 A renovation is in motion, commissioned by [[artcoth]] — see the current session prep for what's actively underway. Dr. Bellwether's fate is still unaccounted for; the sealed ritual chamber and its soul-jar fragments remain unresolved research material. As an HQ, the house keeps inviting renovation — each room cleansed or restored is a candidate for a new comfort or boon.
+
+## S25
+
+The front-green fountain is wrecked, and the surviving tide-spawn water elemental withdrew to it. The gala's second floor saw a Circle break-in (Ledger Room entered, nothing taken). Casus is gone from the household.

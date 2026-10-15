@@ -25,3 +25,7 @@ Ovaltine has been enlisted as a partner and is setting up shop at the party's he
 ## Approach to the party
 
 Lowballs purchases first (40–60% of value), then negotiates upward. Has strong opinions about dangerous or soul-touched items. For Frostveil-adjacent artifacts, will redirect to "someone he knows" rather than buy outright — which foreshadows connections to [[lady-grimhook]] or rivals.
+
+## S25
+
+Drank an invisibility potion and fought three Circle intruders alone upstairs; he was beaten up and healed himself with a potion. When Casus asked if any of his vials could anchor him, he had no answer. He is carrying the guilt.

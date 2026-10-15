@@ -4,7 +4,7 @@ type: pc
 player: "Zack Smith"
 class: "Warlock"
 level: 7
-xp: 26850
+xp: 27850
 pc_race: "Human"
 ---
 

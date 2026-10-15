@@ -7,12 +7,21 @@ description: Living planning document for Chance Encounters. The primary source 
 
 ---
 
+## Established S25
+
+- The brood died on the green to Shah's last blow. **Only radiant stops its regrowth**: Shah's Divine Smite, Dame Hervor's blade, and Sölvi's sunlit strike on the brood itself, which turned incoming damage radiant. The fountain is wrecked. The **tide-spawn water elemental survived**, released Sölvi, and withdrew to the fountain; the water is receding but not gone. See [[serpent-brood]].
+- Coriac learned through Channel Divinity that the brood descends from Jörmungandr. It now knows he serves Thor.
+- Coal walked out at the start of the fight ("this is your business, friend, not mine"). Artcoth tried to pull him in and failed. No exit device was shown.
+- Hellen and two thugs came through an upstairs window. Ovaltine, invisible, fought them and was beaten up. Artcoth ran off the thugs and chased Hellen. **Hellen got nothing** (and may have dropped something, undecided), and both thugs escaped. Her seal matches the amphora shards.
+- Casus is **gone** (Unmoored 4/4). He asked Ovaltine for an anchor and got none. He left the **Obsidian Cypher, a vial of Edrin's bear blood, and a sealed letter** on the stairs and vanished without an afterimage. See [[casus-leaves-three-things]].
+- Gareth's mental alarm from Ovaltine was a one-night measure, not a fixture. Hervor and Shah traded smirks; Sölvi owes Coriac for Part Water. Sölvi, Hervor, and Shah all serve Baldr; Coriac alone serves Thor.
+
 ## Established S24
 
 - The gala was one week after S23 (retconned from two). Casus slipped through time three times: the old house (Amelia and Eleanor at a table, smoke from the open ritual chamber floor), Jimmy's death from the forest, and knee-deep in water outside with a scaled tail passing. Out of Step was never used. Ovaltine: "a man who looks at time sideways." Casus ended the night upstairs with Ovaltine.
 - Thorne asked quietly for Tansy (gone two weeks): latch opened from inside, nights with the Draconic-speaking skull, boots gone and purse left. He left offended after Artcoth pushed him; the party promised to interview his staff within the week. No pay discussed.
 - Huginn and Muninn gave Grimvald a black feather with a far-north place and a date a month out ("It is him." "Everyone sings for him eventually."), and told Gareth's sword "That's not ours" / "It was, once." Coriac holds two plain ones. See [[ravens-black-feather]], [[hugi-and-minna]].
-- Brother Sölvi (cleric of Thor, learned of Shah via [[brother-ogle]] at Baldr's temple) and Dame Hervor met Shah: the chain was left by a Dawnbound knight who said "someone would need it." Hervor is hostile; Shah said he wouldn't betray the brethren.
+- Brother Sölvi (priest of Baldr, learned of Shah via [[brother-ogle]] at Baldr's temple) and Dame Hervor met Shah: the chain was left by a Dawnbound knight who said "someone would need it." Hervor is hostile; Shah said he wouldn't betray the brethren.
 - Coal met Artcoth and Gareth, showed the serpent tattoo, and said "Grimhook had this mark once as well." Artcoth sent him off: not tonight, make an appointment or knock. Coal on the fountain: "You have no idea." Grimhook still hasn't reached out and wasn't there.
 - Something rose from the Bellwether fountain (black pottery shards in the water) as the crowd fled. Gareth and Shah got most guests to the back door. **Combat has not started.** S25 opens on the green.
 
@@ -40,9 +49,7 @@ description: Living planning document for Chance Encounters. The primary source 
 
 ## Scene Stakes
 
-The island is behind them. S25 opens mid-incident at Bellwether House: the gala guests are scattered, something has risen from the fountain on the front green, and the fight hasn't started. Casus and Ovaltine are upstairs, where the Circle's searchers will come. Artcoth is still across from Coal, who won't be pinned down.
-
-What's live now: the creature at the fountain, the Search, Casus's slow exit, Grimvald's feather ticking toward a date a month out, and two errands waiting after the night: Thorne's staff and Grimhook's manor (Artcoth said he'd check it after the gala, probably handled offline unless the rest of the party wants to tag along). Grimhook is still off-page, in motion on the Pendant of Stars, and the soulbinding sigil on Artcoth is unresolved.
+The gala is over and the green is a wreck. Casus is gone and the party has his three things. The Circle's search got nothing, but they know the house and the faces. Coal is loose in Ravencrest. Two errands wait: Grimhook's manor (Artcoth said he'd check it after the gala) and Thorne's staff (promised within the week). Grimvald's feather still ticks toward a date a month out from S24. Grimhook is still off-page, in motion on the Pendant of Stars, and the soulbinding sigil on Artcoth is unresolved.
 
 ---
 
@@ -55,25 +62,26 @@ What's live now: the creature at the fountain, the Search, Casus's slow exit, Gr
 | Ariel's communication | — | RESOLVED | She spoke voluntarily S20: "The storm follows you." Bond sealed wordlessly S22 (Forge Shard + Obsidian Cypher); she has not spoken since and may not need to. |
 | Edrin's scry-shadow / inland descent | — | RESOLVED | He's here in the flesh. The Reckoning is live. |
 | **Freedom Clock (The Reckoning)** | — | **4 / 4 🔴 RESOLVED** | Bind broke as Edrin died in bear form, S21. Ariel free. Falling action fully played S22 — Stilled buried, Ariel's bond sealed and she's departed, Önund and Tjorvi off the island for good. Arc fully closed. |
-| **Grimhook's Pendant Pursuit** | Time passing, whether or not the party investigates | **2 / 4** 🟡 | She's already been gone a week when S23 opens. At 4/4: she's resolved the Pendant one way or another — claimed it, lost it, or paid for it — before the party can weigh in. Changes the terms of her whole commission. See [[lady-grimhook]], seeded in `session-023-prep.md`. **Held at 2/4 through S24** (DM call) even with a two-week time skip. |
-| **Unmoored** *(S24)* | Each scene change; Casus using Out of Step | **2 / 4** 🟡 | Three slips in S24 (the old house, Jimmy's death, the water on the green) with a blur or two; Out of Step unused. Casus displaced in time, gone by the end of the gala arc, not dead. Homebrew; see [[session-024-prep]]. |
-| **The Search** *(S24)* | **Starts when the fight at the fountain begins.** The Circle comes upstairs, where Casus and Ovaltine are; it ticks only while they fail to hold the searchers. Ovaltine's upstairs wards and alarms are on, Gareth's room is enchanted. | 0 / 4 | The Circle copies the ledger's Grimhook pages and turns the house over. At 4/4 they know where she went. Casus's last stand (if any) changes what they get away with. |
-| **Tansy's Trail** *(S24, approved)* | Each week nobody actively works the case | **2 / 4** 🟡 | Whatever happened to Tansy finishes happening without them. Doesn't predecide the outcome. The party promised to interview Thorne's staff within the week. |
+| **Grimhook's Pendant Pursuit** | Time passing, whether or not the party investigates | **2 / 4** 🟡 | She's already been gone a week when S23 opens. At 4/4: she's resolved the Pendant one way or another — claimed it, lost it, or paid for it — before the party can weigh in. Changes the terms of her whole commission. See [[lady-grimhook]], seeded in `session-023-prep.md`. **Held at 2/4 through S24 and S25** (DM call): the manor hasn't been visited, and the Search didn't reach 2. |
+| **Unmoored** *(S24)* | — | **4 / 4 🔴 RESOLVED** | Casus is gone, S25: no anchor, no tether, no afterimage. He left the Cypher, bear blood, and a sealed letter. Any return is a jump he masters himself. |
+| **The Search** *(S24)* | — | **RESOLVED, stalled at 1** | Hellen entered the Ledger Room and was interrupted; nothing copied. The Circle does not know where Grimhook went. |
+| **Tansy's Trail** *(S24, approved)* | Each week nobody actively works the case | **2 / 4** 🟡 | Whatever happened to Tansy finishes happening without them. Doesn't predecide the outcome. The party promised to interview Thorne's staff within the week, and that week is now nearly spent. |
 
 ---
 
 ## NPC Wants
 
-*S24's cast, from `session-024-prep.md`, updated for what played:*
+*S25's cast, updated for what played:*
 
 | NPC | Want | Fear | Tell |
 |---|---|---|---|
-| Coal ([[coal]]) | Keep Artcoth talking and plant doubt about Grimhook; get clear when it matters. Has shown the tattoo and said "You have no idea." | Being surprised | Utterly still, soft-spoken, professorial; glances at the window; orders another drink when pushed. Won't be pinned down. |
+| Coal ([[coal]]) | Walked away. Wants to see whether the party goes for Grimhook's manor or the Watchtower. Has shown the tattoo and said "You have no idea." | Being surprised | Utterly still, soft-spoken, professorial; glances at the window; orders another drink when pushed. Won't be pinned down. |
+| Hellen ([[hellen]]) | Report to the Circle, empty-handed and afraid. May have dropped something (TBD). | Amelia, and Artcoth's face | Small, quiet, fast. Leaves windows as she found them. |
 | Lord Thorne ([[lord-thorne]]) | Tansy found, quietly | Being seen asking | Left offended; staff "at your disposal." Reaches for his cane when something lands. |
 | Hugi and Minna ([[hugi-and-minna]]) | Booked Grimvald; looked at Gareth's sword | Being named out loud | Never blink at the same time; finish each other's sentences |
-| Brother Sölvi / Dame Hervor ([[brother-solvi]], [[dame-hervor]]) | Meet the man the chain chose; Hervor wants to know if he's worthy | That the chain went to someone who doesn't know what it is | Sölvi touches his sun-disc; Hervor stays at attention and won't sit |
-| Ovaltine Jenkins | Track what's happening to Casus; save him if it can be done | That his potion is killing a friend | Chatter stops; slow, serious register; scribbles notes on anything at hand |
-| Amelia | A house full of laughter. Keep Casus. | Being left behind again | Frost-words on glass; can see Casus when others can't |
+| Brother Sölvi / Dame Hervor ([[brother-solvi]], [[dame-hervor]]) | Warm to Shah, wary of the chain; Hervor wants to know if he's worthy. Sölvi owes Coriac. | That the chain went to someone who doesn't know what it is | Sölvi touches his sun-disc; Hervor stays at attention and won't sit |
+| Ovaltine Jenkins | Know whether his potion killed Casus, and whether a tether can still be built | That his potion killed a friend | Chatter gone; slow, serious register; writes on walls when he runs out of napkins |
+| Amelia | Get Casus back | Being left behind again | Frost-words on glass in his room; can see Casus when others can't |
 
 ---
 
@@ -86,11 +94,13 @@ What's live now: the creature at the fountain, the Search, Casus's slow exit, Gr
 | ~~Coriac does the defining act in the Reckoning~~ | **Fired, S21, played S22** — Forge Shard completed when Ariel struck it with her own lightning; Ariel's Mark active. |
 | ~~Edrin activates the totem~~ | **Fired, S21** — broke at the edge of dropping, corrupted Werebear. |
 | ~~Edrin is killed in bear form~~ | **Fired, S21** — Ariel killed him herself, unassisted, as her bonds fell. No last word; totem burned out with him. |
-| Casus uses the Ovaltine potion | Ariel interacts with it directly, proportional to intent — no longer island-bound, so this can fire anywhere she'd plausibly notice. Still held, not yet used. |
+| ~~Casus uses the Ovaltine potion~~ | **Fired, S23** — see [[ovaltine-potion]]; Unmoored followed. |
 | Casus investigates the Eld entity further (Cypher) | The entity makes contact. Agenda unknown until it does. Do not predecide — let it surface from play. |
 | Anyone asks about Grimhook, the Pendant of Stars, or visits her manor | She's not there — already in motion on the Pendant herself. See [[lady-grimhook]] for the discoverable hook set. |
-| The fight at the fountain begins | The Search clock starts: the Circle comes upstairs, where Casus and Ovaltine are. |
-| Coriac tries to identify the creature | Advantage (offspring of his Patron's nemesis). Reveal waits for S25. |
+| ~~The fight at the fountain begins~~ | **Fired, S25** — the Search started and stalled at stage 1. |
+| ~~Coriac tries to identify the creature~~ | **Fired, S25** — Channel Divinity showed it as Jörmungandr's brood, and it knows he serves Thor. |
+| Someone breaks the seal on Casus's sealed letter | Help arrives. This is Chris's planned PC, held for S26. |
+| The party stays away from the fountain | The tide-spawn pool keeps pooling. Decide the next beat. |
 | Anyone burns a raven feather | Odin hears the question or the memory. See [[ravens-black-feather]]. |
 | The party visits Thorne's staff | A Tansy clue. Doesn't predecide her fate. |
 | Gareth draws or ignites the sword | Feanoro answers in the flame (calm, warm, reassuring). Not yet played. |
@@ -103,7 +113,7 @@ What's live now: the creature at the fountain, the Search, Casus's slow exit, Gr
 - **[[storm-draugr]]** — offshore, watching; not in play unless party returns to the water.
 - **[[ariel]]** — free since S21; bond with Coriac sealed S22 (Forge Shard + Obsidian Cypher), then departed. Wild, mostly silent, unsteerable — established in play when Coriac's prayer through the shard didn't move her.
 - ~~**[[edrin-vael]]**~~ — RESOLVED, S21. Killed in bear form; arc closed.
-- **[[serpent-brood]]** — live at the Bellwether fountain. Rose in S24; combat starts S25.
+- ~~**[[serpent-brood]]**~~ — brood killed, S25. The **tide-spawn water elemental survives** at the fountain; the pool is receding.
 
 ---
 
@@ -136,14 +146,16 @@ What's live now: the creature at the fountain, the Search, Casus's slow exit, Gr
 | Edrin's spellbook | **Partially resolved — S22** | Casus decoded it (21): Mark's binding theories (insight bonus on future binding/warding checks) + the Bramblebind spell copied into his own book. Physical book now in Casus's possession — further passages remain future material, see [[edrins-spellbook]]. |
 | Bellwether House door-knocker | **RESOLVED — S23 prep** | Named **Bramwell** — vain, chatty, only speaks to Artcoth. Ward: sees through disguise/illusion/shapechange on anyone at the door, no check, refuses entry. See [[bellwether-door-knocker]]. |
 | Salt Wreck Four's 4th member | **Needs lookup — S22** | Ron, Tide Tongue, and Quickhand are confirmed. A fourth name came up at the table but didn't survive clearly (turned out to be a mishearing of Marek, who isn't a Salt Wreck member). The DM believes the real 4th member was already established previously — needs to be dug up, not invented. |
-| Casus leaving the party (S24) | **In progress — S24** | Three slips in S24; Unmoored at 2/4. He ends the night upstairs with Ovaltine, where the Circle searchers will come. The goodbye (three things left behind) hasn't been played. Door left open: a tether if anchored, or he masters the jump himself (Number Five style). Who holds the Obsidian Cypher is settled at the table. |
+| Casus leaving the party | **RESOLVED — S25** | Gone at Unmoored 4/4. No anchor, no goodbye; he left the Cypher, bear blood, and a sealed letter on the stairs. Any return is a jump he masters himself. See [[casus-leaves-three-things]]. |
 | Grimhook was Circle | **Partly out, S24** | Coal told the party "Grimhook had this mark once as well" and showed the serpent tattoo. The rest (she left because they found her too distracted and she found them too single-minded) stays DM-only in [[lady-grimhook]]. |
 | Tansy Thorne | **Open — S24** | Thorne asked at the gala (latch opened from inside, nights with the skull, boots gone, purse left) and left offended. The party promised to visit his staff within the week. Tansy's Trail clock at 2/4. See [[tansy-thorne]]. |
 | Odin's ravens | **Live — S24** | Hugi and Minna gave Grimvald a feather with a far-north place and a date a month out, and told Gareth's sword "That's not ours" / "It was, once." See [[hugi-and-minna]], [[ravens-black-feather]]. |
-| Baldr's temple | **Live — S24** | Sölvi (cleric of Thor) and Hervor met Shah; the chain was left by a Dawnbound knight who said "someone would need it." Hervor is hostile. [[brother-ogle]] told them about Shah. See [[brother-solvi]], [[dame-hervor]]. |
-| Coal | **Face to face — S24** | Met Artcoth and Gareth at the gala, showed the tattoo, left with "You have no idea." See [[coal]]. |
-| The creature at the fountain | **Live — S24** | Rose from the Bellwether fountain; black pottery shards in the water. Combat starts S25. See [[serpent-brood]]. |
-| The Search | **Armed — S24** | Starts when the fight begins. The Circle comes upstairs, where Casus and Ovaltine are. |
+| Baldr's temple | **Live — S25** | Sölvi (priest of Baldr) and Hervor fought beside the party; Hervor and Shah traded smirks; Sölvi owes Coriac. The chain was left by a Dawnbound knight who said "someone would need it." See [[brother-solvi]], [[dame-hervor]]. |
+| Coal | **Walked out — S25** | Left at the start of the fight; Artcoth couldn't pin him. Invitation (make an appointment or knock) stands. See [[coal]], [[artcoth-lets-coal-walk]]. |
+| The creature at the fountain | **RESOLVED — S25** | Brood killed. The tide-spawn water elemental survives at the fountain. See [[serpent-brood]]. |
+| The Search | **RESOLVED — S25** | Stalled at stage 1; Hellen got nothing. The Circle knows the house and faces but not where Grimhook went. See [[artcoth-chases-the-scout]]. |
+| Casus's three things | **New — S25** | [[edrins-bear-blood]] (a running joke, maybe something later), [[casus-sealed-letter]] (a promise of aid if the seal is broken; Chris's planned PC), and the [[obsidian-cypher]] (holder TBD). |
+| Ovaltine after Casus | **New — S25** | Guilt, silence, and the unfinished teleportation circle under the ritual-chamber floor. |
 | Grimvald's feather | **Ticking — S24** | A far-north place and a date about a month out. The place and date are still to be decided. |
 | The Intimidator's first mission | **Done — S24** | Success; Grull took point, Tjorvi helped, 450 gp paid out. |
 
@@ -154,14 +166,14 @@ What's live now: the creature at the fountain, the Search, Casus's slow exit, Gr
 - **Obsidian Cypher canon check** — the six imprisoned entities now have names (Orm/Eld/Blod/Fjall/Natt/Ris, see [[obsidian-cypher]]), matched to entities and Old Norse meanings this session. Not yet checked against any published Cypher canon material. Low urgency.
 - **Obsidian Cypher consequence (S22)** — Ariel's Power-sequence use through Casus drained Orm, Fjall, and Eld simultaneously. See [[obsidian-cypher]]'s S22 note — explore the consequence before it's forgotten.
 - **Salt Wreck Four's 4th member** — still genuinely unnamed (see Active Threads).
-- **Casus's last stand (S25)** — Casus and Ovaltine are upstairs, where the Circle will come to search. How do you play it? Probably use the encounter to push his condition and put him past his limit, but he might get a "last stand" to ward the invaders off, and what he manages to stop changes what they get away with. This changes a lot of the Search clock's dynamic.
-- **Coal's exit (S25)** — Artcoth is rightfully skeptical and trying to pin him down. Coal can't be pinned; he'd have a Moriarty-style set of plans to disentangle himself. How does it play out?
 - **The feather's place and date** — Grimvald's feather has a far-north place and a date about a month out. Both still to be decided.
-- **Who holds the Obsidian Cypher** — not settled at the table in S24.
+- **What did Hellen drop?** Undecided.
+- **Who holds the Obsidian Cypher?** Casus left it on the stairs; Artcoth and Ovaltine were there.
+- **The tide-spawn elemental** at the fountain: what does it do next?
+- **Chris's new PC (S26):** the sealed letter is the hook.
+- **The loud elf's name** — he didn't appear in S24 or S25; still unnamed.
 - **Thorne's pay** — not discussed.
 - **Sölvi's knowledge of the Dawnbound knight** — name, or only a line in the rolls?
-- **The loud elf's name** — he didn't appear in S24; still unnamed.
-- **Is Hellen in the house?** — the Search starts with the fight, but she hasn't appeared yet.
 
 ---
 
@@ -171,31 +183,33 @@ What's live now: the creature at the fountain, the Search, Casus's slow exit, Gr
 
 ### Before Next Session
 
-**Decide before S25 prep**
-- **Casus's last stand.** He and Ovaltine are upstairs where the Circle will search. Does the encounter push him past his limit, and does a last stand let him ward the invaders off? What he stops sets what they escape with. (This reshapes the Search clock.)
-- **Coal's exit.** Artcoth is pinning him down and he can't be pinned. What's his Moriarty-style way out?
-- **Grimvald's feather: the place and date.** A far-north place, a date about a month out.
-- **Who holds the Obsidian Cypher.** Not settled in S24.
-- **Chris's new PC.** Does he appear in S25 or later?
+**Decide before S26 prep**
+- **Who holds the Obsidian Cypher.** Casus left it on the stairs; Artcoth and Ovaltine were there.
+- **What Hellen dropped** (undecided).
+- **What the tide-spawn elemental does at the fountain.** Standing hazard, or does it go quiet?
+- **Chris's new PC.** The sealed letter is the hook. Does the PC arrive in S26 by the seal being broken, or some other route?
+- **Grimvald's feather: the place and date.** A far-north place, a month out from S24.
+- **Thorne's pay, and how much Sölvi knows about the Dawnbound knight.**
+
+**Homebrew left unresolved**
+- **Hold the Hour** and **Out of Step** were never used. Retire them or hand them to the new PC?
+- **The Last Move** (Coal's rook) was never shown. Hold it as Coal's exit for the next meeting.
+- **Ovaltine's vials and Last Bottle** were not used as written (he drank invisibility and fought with a letter-opener). Decide whether he gets a real arc beat for his guilt.
 
 **Fix and flesh out**
-- **Update [[serpent-brood]].** Only radiant damage stops the heads regrowing (drop fire). It's the brood of Loki / Jörmungandr, not a hydra; Coriac gets advantage to identify it. Reveal waits for S25.
-- **Stubs still needing prose:** [[gary]], [[brother-ogle]], [[grull]], [[ravens-black-feather]] (addressed-feather detail), plus `ron.md` from before.
-- **Check the game log** for Coriac's persuasion roll at the fountain (recorded as a 14; the DM thinks it was higher), and for Casus's Insight/Arcana result in the setup.
-
-**Open questions that must be answered before prep**
-- Thorne's pay.
-- How much Sölvi knows about the Dawnbound knight.
-- The loud elf's name, and whether Hellen is in the house.
+- **Stubs still needing prose:** [[gary]], [[brother-ogle]], [[grull]], [[ravens-black-feather]], `ron.md`; plus [[edrins-bear-blood]] (a running joke, maybe something later) and [[casus-sealed-letter]] (seal only).
+- **Update [[serpent-brood]]:** the tide-spawn survives, Dissonant Whispers worked on the hydra (Wisdom save, no Int requirement), and Sunlit Strike was run as a radiant aura on the brood.
+- **Check the game log** for Coriac's persuasion roll at the fountain (S24) and Casus's Insight/Arcana result from the setup.
 
 **Player follow-up**
 - Artcoth's visit to Thorne's staff within the week (and who he brings).
-- Artcoth's check of Grimhook's manor: probably offline, unless the others want to tag along.
+- Artcoth's check of Grimhook's manor, probably offline.
 - Crew and mission results from the Discord rolls.
+- Sölvi owes Coriac. Ovaltine's quiet needs a conversation.
 
-**Carried over, still open**
+**Carried over**
 - Obsidian Cypher consequence (S22): Orm, Fjall and Eld drained at once.
-- Salt Wreck Four's 4th member: dig up the name, don't invent it.
+- Salt Wreck Four's 4th member: dig it up, don't invent it.
 - Obsidian Cypher canon check (low urgency).
 
 ### Island Climax Design
@@ -215,7 +229,15 @@ Two kinds of storm relationship run through the night: Coriac by faith, the capt
 ### Grimhook — Off-island pressure
 ~~Decide before S21 prep: has she sent agents to find the party, started pulling on the sigil, or moved on the Watchtower herself?~~ **Answered:** she's gone after the Pendant herself. See [[lady-grimhook]] for the full hook set and the manor-visit plan.
 
-### Next Session (S25) Seed
+### Next Session (S26) Seed
+
+**Where we left off:** Casus vanished from the stairs at Bellwether House, leaving a black cube, a vial of bear blood, and a sealed letter at Artcoth's and Ovaltine's feet.
+
+**Most urgent active thread:** Grimhook. The Circle's search failed, but they know the house now, Coal is loose in Ravencrest, and Artcoth's errands (her manor, Thorne's staff) are due this week.
+
+**Open question to open from:** Who takes the Cypher, and does anyone break the seal on the letter?
+
+### Next Session (S25) Seed — superseded by `session-025.md`
 
 **Where we left off:** the gala crowd is fleeing and something has risen from the Bellwether fountain, with Casus and Ovaltine upstairs and Coal still across from Artcoth.
 

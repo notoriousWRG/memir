@@ -4,7 +4,7 @@ type: pc
 player: "Chris Morrison"
 class: "Wizard"
 level: 7
-xp: 24750
+xp: 26000
 pc_race: "Human"
 ---
 
@@ -21,3 +21,7 @@ Fell into adventuring unexpectedly — not a typical career path. Curious, tacti
 **Ovaltine's potion.** Casus carries an experimental latent-magic potion made by [[ovaltine-jenkins]]. See [[ovaltine-potion]] for full mechanics. The island is saturated with Ariel's presence — using it here could have significant and personalized effects. Held for now.
 
 **Tactical role.** Arcane tactician. In the current fight, he cast Invisibility on himself and Gareth simultaneously — a tactical choice that creates a creative-pain problem: staying hidden preserves their advantage but leaves the others exposed.
+
+## S25 — gone
+
+Vanished from the stairs at Bellwether House with no afterimage and no anchor. He left the Obsidian Cypher, a vial of Edrin's bear blood, and a sealed letter behind. See [[casus-leaves-three-things]].

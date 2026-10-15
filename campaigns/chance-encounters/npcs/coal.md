@@ -17,3 +17,7 @@ Wants tonight: keep Artcoth talking while his people search the house for leads 
 Fear: being surprised.
 
 See [[session-024-prep]], [[jimmy-quickhands]], [[the-circle]].
+
+## S25
+
+Walked out at the start of the fight ("this is your business, friend, not mine") when Artcoth asked him to come along. No exit device was shown, and the party has no leverage over him. He is loose in Ravencrest. See [[artcoth-lets-coal-walk]].

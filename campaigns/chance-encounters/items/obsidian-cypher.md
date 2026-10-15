@@ -80,3 +80,7 @@ The Cipher is a ward Casus carries and may or may not fully understand yet. The 
 ## S22 — Power sequence activated
 
 Ariel channeled her own lightning into the cube through Casus, triggering the Power sequence (Lightning Bolt → Fist → Shield) — a 30-ft cone discharged into the trees. That drains **Orm** (thunder giant), **Fjall** (frost giant), and **Eld** (celestial dwarf) simultaneously. Explore the consequence of this before it's forgotten — one or more of the three may register the drain, react, or leave a breadcrumb. Not predecided.
+
+## S25 — Casus leaves it behind
+
+Casus emptied his pockets on the stairs before vanishing and left the Cypher at Artcoth's and Ovaltine's feet. Who holds it now is unsettled. See [[casus-leaves-three-things]].
