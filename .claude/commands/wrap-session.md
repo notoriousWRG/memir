@@ -1,8 +1,8 @@
 You are closing out a session and updating the campaign record.
 
-Arguments: `$ARGUMENTS` — session number, and optionally a path separated by a space (e.g. `19 /path/to/recording.mp4` or `22 ~/Downloads/session22_audio`). Parse accordingly.
+Arguments: `$ARGUMENTS` — session number, and optionally a path separated by a space (e.g. `19 /path/to/recording.mp4` or `22 ~/Downloads/session22_audio`). Parse accordingly. **If no path is given, default to `~/Downloads/session<N>_audio`** (the Craig export folder is almost always there; check it before asking).
 
-**Prerequisite:** Audio transcription runs via `transcribe-session.py` (repo root) in `.venv` (`.venv/bin/pip install faster-whisper`; needs `ffmpeg` on PATH). If the path isn't installed/available, say so, skip transcription, and continue notes-only.
+**Prerequisite:** Audio transcription runs via `transcribe-session.py` (repo root) in `.venv` (`.venv/bin/pip install faster-whisper` on macOS/Linux, `.venv\Scripts\pip` on Windows; needs `ffmpeg` on PATH). If the path isn't installed/available, say so, skip transcription, and continue notes-only.
 
 Read these files before starting:
 - `./campaigns/chance-encounters/planning.md` — especially the Raw Notes section
@@ -23,6 +23,7 @@ Two cases:
   ```
   .venv/bin/python transcribe-session.py "<craig-export-dir>" --session <N>
   ```
+  (On Windows use `.venv\Scripts\python.exe` instead of `.venv/bin/python`.)
   This transcribes each speaker's isolated track separately (VAD-gated, so silence-heavy tracks don't drift or hallucinate — see the script's docstring for why), then merges them into one timestamped, speaker-labeled transcript at `session_audio/session-<N>-transcript.md`. Read that file for Step 1 onward.
   - If `transcribe-session.py` exits with an unknown-speaker error, a new Discord handle showed up — ask the DM who it is and add the entry to `speakers.json` before re-running.
   - Do **not** merge the tracks in GarageBand first — that throws away the per-speaker isolation this script relies on.

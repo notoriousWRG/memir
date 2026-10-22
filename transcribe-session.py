@@ -61,6 +61,8 @@ PROPER_NOUNS = [
     "Jimmy Quickhands", "Lady Grimhook", "Liriel Baenre", "Lord Thorne", "Marek",
     "Ollo", "Önund", "Ovaltine Jenkins", "Shalindra", "Tide-Tongue", "Tjorvi",
     "Tom Rell", "Wrenn", "Zal Goroth", "Charlie Bones",
+    "Coal", "Bramwell", "Brother Sölvi", "Dame Hervor", "Hugi", "Minna", "Huginn",
+    "Muninn", "Grull", "Hellen", "Tansy",
     # locations
     "Ravencrest", "Ariel's Island", "Bellwether House", "Starlight Watchtower",
     # pantheon
@@ -110,6 +112,35 @@ NAME_CORRECTIONS = {
     "oval team": "Ovaltine",
     "oval old teen": "Ovaltine",
     "oval teen": "Ovaltine",
+    # S24
+    "koryak": "Coriac",
+    "koreac": "Coriac",
+    "cole": "Coal",
+    "bromwell": "Bramwell",
+    "brummel": "Bramwell",
+    "solveig": "Sölvi",
+    "solvey": "Sölvi",
+    "solvi": "Sölvi",
+    "herver": "Hervor",
+    "herborn": "Hervor",
+    "hunan": "Huginn",
+    "munan": "Muninn",
+    "moonan": "Muninn",
+    "warthorne": "Thorne",
+    "lord thorn": "Lord Thorne",
+    "grimdahl": "Grimvald",
+    "grimble": "Grimvald",
+    "garrus": "Gareth",
+    "farquaad": "Gareth",
+    "shaw": "Shah",
+    "shawn": "Shah",
+    "grohl": "Grull",
+    "casas": "Casus",
+    "art koth": "Artcoth",
+    "art goth": "Artcoth",
+    "artkoth": "Artcoth",
+    "arkoth": "Artcoth",
+    "arthroth": "Artcoth",
 }
 
 NO_SPEECH_PROB_MAX = 0.6
@@ -431,6 +462,26 @@ def write_outputs(segments: list[Segment], outdir: Path, session_id: str):
     return md_path, json_path, (flags_path if flag_lines else None)
 
 
+def load_model(name: str):
+    """Load Whisper on CUDA when available (pip-installed nvidia-cublas/cudnn wheels
+    are made visible to the loader on Windows), else fall back to CPU int8."""
+    import os
+    from faster_whisper import WhisperModel
+
+    if sys.platform == "win32":
+        for site in map(Path, sys.path):
+            for bindir in (site / "nvidia").glob("*/bin") if site.is_dir() else []:
+                os.add_dll_directory(str(bindir))
+                os.environ["PATH"] = str(bindir) + os.pathsep + os.environ["PATH"]
+    try:
+        model = WhisperModel(name, device="cuda", compute_type="float16")
+        print("Device: cuda (float16)")
+        return model
+    except Exception as e:
+        print(f"CUDA unavailable ({e}); falling back to CPU int8", file=sys.stderr)
+        return WhisperModel(name, device="cpu", compute_type="int8")
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("craig_dir", type=Path, help="Directory containing Craig's exported [N]-<handle>.flac tracks")
@@ -470,7 +521,7 @@ def main():
 
     from faster_whisper import WhisperModel
     print(f"Loading {args.model}...")
-    model = WhisperModel(args.model, device="cpu", compute_type="int8")
+    model = load_model(args.model)
 
     cache_dir = args.outdir / "raw" / session_id
     tmp_dir = args.outdir / "raw" / session_id / "_pilot_slices"
